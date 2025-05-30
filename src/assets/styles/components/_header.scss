@@ -1,0 +1,220 @@
+@use "../base/mixins" as *;
+
+.mds-header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: var(--white);
+    @include transition-base;
+    &-brand {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--sm) 0;
+        &-link {
+            line-height: var(--md);
+        }
+        &-logo {
+            width: torem(184);
+            height: torem(30);
+            &-sm {
+                width: torem(40);
+            }
+        }
+        &-actions {
+            display: flex;
+            align-items: center;
+            gap: var(--4xl);
+            &-lang {
+                font-size: var(--md-2);
+                font-weight: var(--fw-500);
+            }
+            a {
+                font-size: var(--md-2);
+                font-weight: var(--fw-500);
+                color: var(--text);
+                @include underline-effect;
+                &:after {
+                    bottom: torem(-19);
+                }
+                &:hover {
+                    font-weight: var(--fw-600);
+                }
+            }
+            .mds-button {
+                height: torem(38);
+                width: var(--4xl);
+                padding: initial;
+            }
+        }
+    }
+    &-nav {
+        background: var(--primary);
+        position: relative;
+        @include transition-base;
+        .mds-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .mds {
+                &-primary-nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 0;
+                    @include transition-base;
+                }
+                &-header-brand-link {
+                    @include transition-base;
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 0;
+                }
+            }
+        }
+        &-list {
+            display: flex;
+            align-items: center;
+            gap: var(--4xl);
+            position: relative;
+        }
+        &-item {
+            height: torem(72);
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .mds-button-nav {
+                color: var(--white);
+                font-size: var(--base);
+                font-weight: var(--fw-600);
+                display: flex;
+                align-items: center;
+                gap: var(--sm);
+                cursor: pointer;
+                border: none;
+                height: auto;
+                @include transition-base;
+            }
+            @include underline-effect;
+            i {
+                font-size: var(--md);
+                position: relative;
+                top: 0.125rem;
+                @include transition-base;
+                transform: rotate(0);
+            }
+            &:hover {
+                .mds-button-nav {
+                    color: var(--secondary);
+                }
+                i {
+                    transform: rotate(180deg);
+                }
+                .mds-navitem-wrapper {
+                    display: block;
+                }
+            }
+        }
+    }
+    &-fixed {
+        top: torem(-55);
+        .mds-header-nav {
+            background: var(--white);
+            .mds-container {
+                .mds {
+                    &-primary-nav {
+                        gap: var(--5xl);
+                    }
+                    &-header-brand-link {
+                        width: auto;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            &-list {
+                li {
+                    .mds-button-nav {
+                        color: var(--primary);
+                        background: transparent;
+                    }
+                    &:after {
+                        background: var(--text);
+                    }
+                    .mds-navitem-wrapper {
+                        top: torem(71);
+                    }
+                }
+            }
+        }
+    }
+}
+.mds-navlist {
+    &-container {
+        position: absolute;
+        z-index: 99;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: calc(100vh - torem(126));
+    }
+}
+.mds-navitem {
+    &-wrapper {
+        position: fixed;
+        top: torem(126);
+        left: 0;
+        right: 0;
+        width: var(--max-container);
+        margin: 0 auto;
+        display: none;
+        @include transition-base;
+    }
+    &-container {
+        display: grid;
+        grid-template-columns: torem(290) 1fr;
+        width: 100%;
+        filter: drop-shadow(0 4px 44px rgba(0, 0, 0, 0.15));
+        border: 2px solid var(--white);
+        background: var(--white);
+        border-radius: var(--base);
+        max-height: calc(100dvh - 13.4rem);
+        overflow: auto;
+    }
+    &-sidenav {
+        padding: var(--3xl);
+        background-image: var(--nav-bg);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--xl);
+        border-radius: var(--base) 0 0 var(--base);
+    }
+    &-options {
+        gap: var(--xl);
+        padding: var(--base);
+        border-radius: 0 var(--base) 0 var(--base);
+    }
+    &-option {
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-start;
+        color: var(--text);
+        gap: var(--xl);
+        padding: var(--base);
+        border: torem(1) solid transparent;
+        border-radius: var(--sm);
+        @include transition-base;
+        .route-img {
+            width: torem(30);
+            height: torem(30);
+        }
+        &:hover {
+            border-color: var(--text);
+            color: var(--text);
+        }
+    }
+}

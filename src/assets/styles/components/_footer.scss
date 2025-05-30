@@ -1,0 +1,31 @@
+.app-footer {
+    background: var(--primary);
+    color: var(--white);
+    .mds-container{
+        padding: 6rem 0;
+        .footer-logo{
+            svg{
+                height: 2rem;
+            }
+        }
+        .footer-social-links{
+            color: var(--secondary);
+        }
+        .footer-links{
+            p{
+                color: #d8d8d8;
+            }
+            ul{
+                li{
+                    margin-bottom: var(--base);
+                    font-size: var(--base);
+                }
+            }
+        }
+        .footer-copyright{
+            ul{
+              grid-auto-flow:column;
+            }
+        }
+    }
+}

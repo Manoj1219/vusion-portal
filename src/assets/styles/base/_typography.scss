@@ -1,0 +1,92 @@
+@use "../base/mixins" as *;
+
+// Font Sizes
+@mixin mds-font-size($size, $value) {
+    .mds-font-size-#{$size} {
+        font-size: $value;
+    }
+}
+
+@include mds-font-size(xs, var(--xs)); // 4
+@include mds-font-size(sm, var(--sm)); // 8px
+@include mds-font-size(md, var(--md)); // 12px
+@include mds-font-size(md-2, var(--md-2)); // 14px
+@include mds-font-size(base, var(--base)); // 16px
+@include mds-font-size(base-2, var(--base-2)); // 16px
+@include mds-font-size(lg, var(--lg)); // 20px
+@include mds-font-size(xl, var(--xl)); // 24px
+@include mds-font-size(2xl, var(--2xl)); // 28px
+@include mds-font-size(3xl, var(--3xl)); // 32px
+@include mds-font-size(4xl, var(--4xl)); // 48px
+@include mds-font-size(5xl, var(--5xl)); // 56px
+
+// Font Weights
+@mixin mds-font-weight($weight, $value) {
+    .mds-font-weight-#{$weight} {
+        font-weight: $value;
+    }
+}
+
+@include mds-font-weight(100, 100);
+@include mds-font-weight(300, 300);
+@include mds-font-weight(400, 400);
+@include mds-font-weight(500, 500);
+@include mds-font-weight(600, 600);
+@include mds-font-weight(700, 700);
+@include mds-font-weight(800, 800);
+@include mds-font-weight(900, 900);
+
+// Text Alignment
+@mixin mds-text-align($align) {
+    .mds-text-align-#{$align} {
+        text-align: $align;
+    }
+}
+
+@include mds-text-align(left);
+@include mds-text-align(center);
+@include mds-text-align(right);
+@include mds-text-align(justify);
+
+// Text Transform
+@mixin mds-text-transform($transform) {
+    .mds-text-transform-#{$transform} {
+        text-transform: $transform;
+    }
+}
+
+@include mds-text-transform(uppercase);
+@include mds-text-transform(lowercase);
+@include mds-text-transform(capitalize);
+
+// Line Height
+@mixin mds-line-height($size, $value) {
+    .mds-line-height-#{$size} {
+        line-height: $value;
+    }
+}
+
+@include mds-line-height(base, torem(22));
+@include mds-line-height(md, torem(24));
+@include mds-line-height(lg, torem(26));
+@include mds-line-height(xl, torem(28));
+@include mds-line-height(2xl, torem(34));
+@include mds-line-height(3xl, torem(40));
+
+// Text Colors
+@mixin mds-text-color($color, $value) {
+    .mds-text-color-#{$color} {
+        color: $value;
+    }
+}
+
+@include mds-text-color(primary, var(--primary));
+@include mds-text-color(secondary, var(--secondary));
+@include mds-text-color(success, var(--success));
+@include mds-text-color(danger, var(--danger));
+@include mds-text-color(warning, var(--warning));
+@include mds-text-color(info, var(--info));
+@include mds-text-color(light, var(--light));
+@include mds-text-color(dark, var(--dark));
+@include mds-text-color(muted, var(--muted));
+@include mds-text-color('white', var(--white));

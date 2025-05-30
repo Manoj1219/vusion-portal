@@ -1,0 +1,496 @@
+{
+  "homepage": {
+    "intro": {
+      "header": "Technologies for Positive Commerce",
+      "description": "We reimagine retail. By inventing our own technologies that put business first, drive sustainability, and focus on people and performance, we're creating a new way to manage and experience commerce.",
+      "link": "/contact",
+      "image": "https://www.vusion.com/wp-content/uploads/2025/04/Template-HomePage.png"
+    },
+    "aboutVusionSolutions": {
+      "label": "About Vusion Solutions",
+      "header": "Transform your physical stores into digital assets",
+      "description": "Vusion technology digitalizes your store from floor to ceiling to create a sustainable, hybrid model that's driven by data. Provide a better commerce experience — for consumers and associates — while enhancing profitability.",
+      "link": "/solutions",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Homepage_About_Solutions_IMG@2x-1540x1020-c-default.png",
+      "clientsCount": "350",
+      "electronicShelfCount": "500M+",
+      "teamMembersCount": "950",
+      "sustainabilityrating": "PLATINUM"
+    },
+    "opportunities": {
+      "label": "Oppurtunities",
+      "header": "Commerce issues are unique and complex — we're here to help",
+      "list": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/shutterstock_2219876609-scaled-800x532-c-default.jpg",
+          "title": "Enabling low-carbon e-Commerce",
+          "description": "Turn physical stores into ultra-efficient local fulfilment centers of online orders. Identify the right store and product availability in real-time, for every online order to delivery time & reduced carbon emissions."
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Stocksy_txpa108b1dee3r300_OriginalDelivery_5093245-scaled-800x532-c-default.jpg",
+          "title": "Gaining full-store visibility",
+          "description": "Our technologies allow you to control costs and improve inventory turnover with real-time visibility and actionable insights. Maximize on-shelf availability, using automatic monitoring, alerts and re-orders."
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Stocksy_txp2ca12c25Y3r300_OriginalDelivery_4632422-1-e1704797385937-800x532-c-default.jpg",
+          "title": "Improving store performance",
+          "description": "A smart, connected infrastructure runs your store seamlessly — from pricing, to inventory management, merchandising, and more — freeing you to focus on what's next for your business and your customers."
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/10/website2-800x532-c-default.png",
+          "title": "Increasing employee satisfaction",
+          "description": "Automate time-consuming processes like pricing and promotions to effectively eliminate errors and free employees to focus on tasks that are more fulfilling and add more value — like engaging with customers."
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/10/website1-800x532-c-default.png",
+          "title": "Accounting for market trends",
+          "description": "Be prepared for shifts in the economy and the flow of market trends. Tackle excess inventory, higher costs, and lower margins with retail analytics and IoT solutions that provide actionable insights."
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/Stocksy_txpe6dcc77eWGk300_OriginalDelivery_3035098-scaled-800x532-c-default.jpg",
+          "title": "Improving shopper experience",
+          "description": "Enhance brand experiences and improve in-store shopping for your customers with creative digital signage, brand content, dynamic promotions, and accurate pricing at the shelf."
+        }
+      ]
+    },
+    "products": {
+      "label": "Products",
+      "header": "Sustainable, human solutions for a better commerce experience",
+      "description": "Improve overall store efficiency and business performance with connected technologies that digitize your physical store to create a smarter, more efficient shopping experience for customers, retailers, and brands.",
+      "sliderItems": [
+        {
+          "id": 1,
+          "title": "VusionCloud"
+        },
+        {
+          "id": 2,
+          "title": "SESImagotag"
+        },
+        {
+          "id": 3,
+          "title": "Captana"
+        },
+        {
+          "id": 4,
+          "title": "Memory"
+        },
+        {
+          "id": 5,
+          "title": "Engage"
+        },
+        {
+          "id": 6,
+          "title": "PDigital"
+        }
+      ],
+      "carousalItems": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/slider_live.png",
+          "header": "Streamline operations at minimal cost",
+          "description": "Digitalize your physical store operations from end-to-end with a sustainable, secure, scalable solution. Improve day-to-day employee experience with high-performance IoT and retail analytics.",
+          "link": "products/vusion-cloud",
+          "background": "mds-background-blue-light",
+          "features": [
+            {
+              "title": "IoT Asset Management",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/live_star.svg"
+            },
+            {
+              "title": "Pricing Automation",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/live_percent.svg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-1.png",
+          "header": "Boost sales and improve overall store efficiency",
+          "description": "Leverage the highest-quality IoT price automation platform to remove manual pricing steps and eliminate errors, freeing your team to focus on customers.",
+          "link": "products/sesimagotag",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "title": "Electronic Shelf Labels",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-2-25x25-c-default.png"
+            },
+            {
+              "title": "Access Points",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/percent-25x25-c-default.png"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG.png",
+          "header": "Gain real-time shelf visibility with our wireless mini camera system",
+          "description": "Maximize on-shelf availability and optimize inventory management with automatic monitoring and alerts, and re-orders predefined by you.",
+          "link": "products/captana",
+          "background": "mds-background-purple-light",
+          "features": [
+            {
+              "title": "Shelf Edge Analytics",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-25x25-c-default.png"
+            },
+            {
+              "title": "Replenishment Optimization",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-1-25x25-c-default.png"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-4.png",
+          "header": "Improve inventory turnover — down to the individual SKU",
+          "description": "Harness the power of your data by applying A.I. to your existing data collections to deliver actionable insights that improve workflows and customer experience.",
+          "link": "products/memory",
+          "background": "mds-background-red-light",
+          "features": [
+            {
+              "title": "Store Optimization",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-3-25x25-c-default.png"
+            },
+            {
+              "title": "Promotion and Campaign Measurement",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-4-25x25-c-default.png"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/slider_engage.png",
+          "header": "Run successful digital display campaigns in your store",
+          "description": "Run digital campaigns instantly, monetize your foot traffic and partner with brands to connect with shoppers at the shelf and improve inventory turnover.",
+          "link": "products/engage",
+          "background": "mds-background-orange-light",
+          "features": [
+            {
+              "title": "Retail Media",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/engage_star.svg"
+            },
+            {
+              "title": "In-Store Digital Campaigns",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-4-25x25-c-default.png"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-5.png",
+          "header": "Share the right information in the right place at the right time",
+          "description": "Leverage high-quality digital signage displays to get your message out when it's most relevant to the customer.",
+          "link": "products/pdigital",
+          "background": "mds-background-magenta-light",
+          "features": [
+            {
+              "title": "Inventory Management",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-5-25x25-c-default.png"
+            },
+            {
+              "title": "Picking Performance ",
+              "imgUrl": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-6-25x25-c-default.png"
+            }
+          ]
+        }
+      ]
+    },
+    "positiveCommerce": {
+      "label": "Positive Commerce",
+      "header": "We're committed to positive impact",
+      "description": "The digitalization of physical commerce is an economic, social, and environmental imperative. Our mission is to transform stores through our Vusion technologies into intelligent, connected, and long-lasting digital environments to enable a sustainable, positive and human-centered commerce business model.",
+      "link": "positive-commerce",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Positive_Commerce_IMG-1440x1440-c-default.png"
+    },
+    "testimonials": {
+      "label": "Testimonials",
+      "header": "From our clients",
+      "list": [
+        {
+          "id": 1,
+          "name": "Dave Fleming",
+          "designation": "Area Manager at Lee’s Discount Liquor",
+          "logo": "",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/04/Image2-780x780-c-default.jpg",
+          "description": "We're given back time to our employees that they can utilize to actually get on the floor, talk to customers, actually do that customer service engagement properly rather than putting up tags."
+        },
+        {
+          "id": 2,
+          "name": "Tom Buckley",
+          "designation": "General Manager - Pricewatch",
+          "logo": "",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/04/Pricewatch-780x780-c-default.jpg",
+          "description": "We have never had so much visibility over our stores. We had ideas of what was working and what wasn't, but everything was anecdotal. Now everything is data-driven. The stores love it too, some of the managers are addicted!"
+        },
+        {
+          "id": 3,
+          "name": "Bala Prasanna",
+          "designation": "Vice President, Walmart U.S.",
+          "logo": "https://www.vusion.com/wp-content/uploads/2024/01/walmart-logo-0x80-c-default.png",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/04/Image2-780x780-c-default.jpg",
+          "description": "We’ve been testing digital solutions that will help us manage price changes electronically, allowing associates more time to do what matters most — help our customers."
+        },
+        {
+          "id": 4,
+          "name": "Noel Kavanagh Jnr",
+          "designation": "Store and Managing Director of Kavanagh Group",
+          "logo": "",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Imagotag-Belsize_001.00_27_06_13.Still002-1024x576-1-780x780-c-default.png",
+          "description": "The 360 store delivers capabilities that allow us to get timely insights and visibility on shelf stock availability, promotion execution, “proof of play” and more accurate and efficient restocking."
+        },
+        {
+          "id": 6,
+          "name": "Caleb Ropp",
+          "designation": "VP Operations & HR of Homes Pets Alive",
+          "logo": "https://www.vusion.com/wp-content/uploads/2024/01/Homes-Alive-V3-0x80-c-default.png",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/SES_Edm_387_92723_CCPV-scaled-780x780-c-default.jpg",
+          "description": "Homes Alive Pets has almost an immediate impact with the Captana cameras. We improved our shelf availability +3% after two months of implementation and it’s fundamentally changed how we operate as a company."
+        },
+        {
+          "id": 7,
+          "name": "Massimo Masoni",
+          "designation": "Conad Sorbolo Superstore owner",
+          "logo": "",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/05/ConadSorbolo-780x780-c-default.png",
+          "description": "With Captana I can check on a weekly basis if out of stocks are caused by logistical disservices or incorrect reorders and then, determine which operations require more attention in the store."
+        }
+      ],
+      "logos": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Walmart-VF-0x80-c-default.png",
+          "alt": "Walmart VF"
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/edeka-VF-0x80-c-default.png",
+          "alt": "edeka VF"
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Jula-VF-0x80-c-default.png",
+          "alt": "Jula Logo"
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Homes-Alive-Pet-VF-0x80-c-default.png",
+          "alt": "Homes Alive Pets x VusionGroup 2"
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Salling-Group-VF-0x80-c-default.png",
+          "alt": "Salling Group"
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Monoprix-VF-0x80-c-default.png",
+          "alt": "logo Monoprix"
+        },
+        {
+          "id": 7,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/DELHAIZE-VF-0x80-c-default.png",
+          "alt": "DELHAIZE VF"
+        },
+        {
+          "id": 8,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Euronics-VF-0x80-c-default.png",
+          "alt": "Euronics logo"
+        },
+        {
+          "id": 9,
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Rema-1000-VF-0x80-c-default.png",
+          "alt": "Rema 1000 VF"
+        }
+      ]
+    },
+    "upcomingEvents": {
+      "label": "Upcoming Events",
+      "header": "Be on the lookout",
+      "description": "Join us at our next events!",
+      "link": "/upcoming-events"
+    },
+    "careers": {
+      "label": "Careers",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Human-Centered-0x55-c-default.png",
+      "logo": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-164156-1440x1440-c-default.png",
+      "header": "Ready for whatever comes next",
+      "description": "Join our talented, multidisciplinary, multicultural team and help build the future of retail IoT.",
+      "link": "/careers"
+    }
+  },
+  "partners": {
+    "intro": {
+      "label": "Partner first",
+      "header": "Partner with us",
+      "description": "We empower partners to achieve outstanding growth.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/Stocksy_txpa108b1dee3r300_OriginalDelivery_4013357-scaled-1440x1440-c-default.jpg",
+      "link": "/contact"
+    },
+    "partnersPrinciples": {
+      "label": "Our partner principles",
+      "header": "United around principles",
+      "principles": [
+        {
+          "id": 1,
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SES-Customer-Portal-Pictograms-9-170x170-c-default.png",
+          "header": "Complementary",
+          "description": "Together we create excellence for our customers. Our partners are strongly committed to developing retail IoT business and have capabilities to cover activities in sales, installation, integration, and support."
+        },
+        {
+          "id": 2,
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SES-Customer-Portal-Pictograms-7-170x170-c-default.png",
+          "header": "Shared values",
+          "description": "Loyalty, innovation, ethics, and environmental responsibility are values that we wish to share, promote, and develop with our partners."
+        },
+        {
+          "id": 3,
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SES-Customer-Portal-Pictograms-8-170x170-c-default.png",
+          "header": "High level of service",
+          "description": "Customer satisfaction is at the heart of our promise. To respond to each customer’s needs — immediately and everywhere — we elect and push for partners who deliver the highest level of service."
+        }
+      ]
+    },
+    "howWePartners": {
+      "label": "How we partner",
+      "header": "Partners can differentiate their business and market with VusionGroup, whether they are a technology or service partner, and sell their skill sets through our Partner First Program.",
+      "list": [
+        {
+          "id": 1,
+          "header": "Strategic technology ally",
+          "description": "STA: Global technical leaders who work closely with VusionGroup to build and deliver standards-based, integrated solutions to mutual customers."
+        },
+        {
+          "id": 2,
+          "header": "Value-added reseller",
+          "description": "VAR: Those who offer add-ons and additional services to our solutions. They customize offers with hardware and software by developing add-on features and ensuring all components work together properly."
+        },
+        {
+          "id": 3,
+          "header": "Managed services provider",
+          "description": "MSP: Offers specialized and high-value added services in the field of network, WiFi management, security, and installation."
+        },
+        {
+          "id": 4,
+          "header": "Independent software vendor",
+          "description": "ISV: Engaged in the development of their own software applications and partnering through our software APIs."
+        }
+      ]
+    },
+    "benefits": {
+      "label": "Benefits",
+      "header": "Partner First Program benefits",
+      "description": "We offer collaborative and scaled resources for partners to help sell to customers and grow their business faster. As partners move up in level, they receive additional benefits.",
+      "list": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Co-Sell-170x170-c-default.png",
+          "header": "Co-selling",
+          "items": [
+            {
+              "id": 1,
+              "description": "Sales Manager access — CoSell Lead transmission"
+            },
+            {
+              "id": 2,
+              "description": "Preferred price lists (silver, gold)"
+            },
+            {
+              "id": 3,
+              "description": "Special care for leads management"
+            },
+            {
+              "id": 4,
+              "description": "Access to our innovations"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Technique-170x170-c-default.png",
+          "header": "Technique",
+          "items": [
+            {
+              "id": 1,
+              "description": "Project Manager access"
+            },
+            {
+              "id": 2,
+              "description": "Special price on Professional Services"
+            },
+            {
+              "id": 3,
+              "description": "Webinars & Training access"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Marketing-170x170-c-default.png",
+          "header": "Marketing",
+          "items": [
+            {
+              "id": 1,
+              "description": "Lead Gen (50K+ followers on LinkedIn)"
+            },
+            {
+              "id": 2,
+              "description": "Business cases promotions/stories"
+            },
+            {
+              "id": 3,
+              "description": "Sales & trade shows assistance"
+            },
+            {
+              "id": 4,
+              "description": "Access to special marketing resources and funds"
+            },
+            {
+              "id": 5,
+              "description": "Special enhanced presence on website"
+            }
+          ]
+        }
+      ]
+    },
+    "insights": {
+      "label": "Insights",
+      "header": "Learn more about our Partnerships"
+    },
+    "becomePartner": {
+      "label": "Become a Partner",
+      "header": "Building positive commerce together",
+      "description": "Our common mission: helping physical retailers and brands to achieve their digital revolution and turn physical stores into high-value digital assets — more automated, data-driven, and connected to consumers and suppliers. We enable better service and information, for frictionless, ubiquitous, and personalized shopping experiences, while ensuring utmost data integrity and personal data privacy.",
+      "image": "https://www.vusion.com/wp-content/uploads/2024/01/Sans-titre-2-1440x1440-c-default.png",
+      "link": "/careers"
+    }
+  },
+  "positiveCommerce": {
+    "intro": {
+      "label": "Overview | Positive Commerce",
+      "header": "Technologies for positive commerce",
+      "description": "We’re committed to making a positive impact through our sustainable, human-centered commerce technologies.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/GettyImages-1009309276-1-1440x1440-c-default.png"
+    },
+    "ourMission": {
+      "label": "Our Mission",
+      "header": "Our mission is to support physical stores with intelligent, connected, and long-lasting digital ecosystems to enable sustainable business models.",
+      "list": [
+        {
+          "id": 1,
+          "header": "Human-centered solutions",
+          "description": "We imagine, design, and deliver solutions that provide a better commerce experience for customers and associates through versatile, efficient technologies that make a positive impact."
+        },
+        {
+          "id": 2,
+          "header": "Sustainable commerce technologies",
+          "description": "Through better data, IoT, and automations solutions, we are improving efficiency and inventory management in physical stores, while reducing waste and avoiding GHG emissions."
+        }
+      ]
+    }
+  }
+}

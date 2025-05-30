@@ -1,0 +1,137 @@
+@use "../base/mixins" as *;
+
+.mds-button {
+    border: torem(1) solid var(--text);
+    color: var(--white);
+    background: transparent;
+    padding: var(--md-2) var(--lg);
+    cursor: pointer;
+    @include transition-base;
+    font-weight: var(--fw-500);
+    height: var(--4xl);
+    font-size: var(--base);
+    border-radius: var(--md);
+    line-height: torem(22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    &:focus-visible,
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    &-animate {
+        .pi {
+            position: relative;
+            @include transition-base;
+            left: 0;
+        }
+        &:hover {
+            .pi {
+                left: var(--xs);
+            }
+        }
+    }
+    &-primary {
+        border: torem(1) solid var(--primary);
+        color: var(--white);
+        background: var(--primary);
+        &:hover,
+        &:focus {
+            border: torem(1) solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+        }
+        &_outline {
+            border: torem(1) solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            &:hover,
+            &:focus {
+                border: torem(1) solid var(--primary);
+                color: var(--white);
+                background: var(--primary);
+            }
+        }
+    }
+    &-secondary {
+        border: torem(1) solid var(--secondary);
+        color: var(--primary);
+        background: var(--secondary);
+        &:hover,
+        &:focus {
+            border: torem(1) solid var(--secondary-light);
+            background: var(--secondary-light);
+            color: var(--primary);
+        }
+        &_outline {
+            border: torem(1) solid var(--secondary);
+            background: transparent;
+            color: var(--secondary);
+            &:hover,
+            &:focus {
+                border: torem(1) solid var(--secondary);
+                color: var(--white);
+                background: var(--secondary);
+            }
+        }
+    }
+    &-nav {
+        display: flex;
+        align-items: center;
+        gap: var(--sm);
+        padding: 0;
+    }
+    &-slider-link {
+        border: none;
+        background: transparent;
+        color: var(--primary);
+        padding: 0;
+        height: auto;
+        font-weight: 400;
+        font-size: var(--base);
+        position: relative;
+        letter-spacing: torem(1);
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: torem(-2);
+            left: 0;
+            width: 0;
+            height: torem(2);
+            background: var(--dark);
+            @include transition-base;
+        }
+        @include transition-base;
+        &:hover,
+        &:focus,
+        &.is-active {
+            font-weight: 600;
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+    &-group-carousel {
+        display: flex;
+        align-items: center;
+        .mds-button {
+            height: torem(65);
+            width: torem(65);
+            &:first-child {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border-right: none;
+            }
+            &:last-child {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+}

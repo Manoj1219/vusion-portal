@@ -1,0 +1,22 @@
+@use "./base/fonts";
+@use "./base/variables";
+@use "./base/spacings";
+@use "./base/grid";
+@use "./base/typography";
+@use "./base/buttons";
+@use "./base/inputs";
+@use "./base/global";
+@use "./base/utils";
+@use "./base/layout";
+@use "./base/badges";
+@use "./base/cards";
+@use "./base/carousal";
+
+@use "./components/common";
+@use "./components/header";
+@use "./components/footer";
+@use "./components/home";
+@use "./components/product";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300,400,500,600,700,800,900&display=swap');
+@import 'primeicons/primeicons.css';

@@ -1,0 +1,108 @@
+.product-overview-hero{
+    .hero-section-content{
+        padding: 10rem 0;
+        p{
+            font-size: torem(18);
+            line-height: 1.65;
+        }
+    }
+}
+.ecosystem-section,.soultions-section{
+    padding: 6rem 0;
+    h2{
+        font-size: 2.625rem;
+    }
+}
+.product-card {
+    border: 1px solid #C8CDCE;
+    padding: 2rem;
+    border-radius: 1rem;
+    &-heading{
+        img{
+            width: 45%;
+        }
+        &.product-image-size-52{
+            img{
+                width: 52%;
+            }
+        }
+        &.product-image-size-40{
+            img{
+                width: 40%;
+            }
+        }
+    }
+    &-body{
+        p{
+            font-size: var(--base);
+            line-height: 1.65;
+        }
+        a{
+            svg{
+                width: var(--base);
+                height: var(--base);
+            }
+            &:hover{
+                svg{
+                    --tw-translate-x: 0.4rem;
+                    transform: translate(4px,0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                }
+            }
+        }
+    }
+}
+.product-insights-section{
+    .insights-headline{
+        line-height: 1.25;
+        -webkit-line-clamp: 3;
+        hyphens: auto;
+        display: -webkit-box;
+        text-wrap-style: balance;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+.product-hero-section,.product-retail,.work-section,.why-section{
+    padding: 8rem 0;
+    .product-hero-section-content {
+		h1 {
+			font-size: 4rem;
+		}
+	}
+}
+.product-retail{
+    .mds-card {
+        box-shadow: -5px -10px 75px 0 rgba(0,94,147,.15);
+        border-radius: var(--base);
+    }
+    .product-retail-image{
+        border-radius: 0 var(--base) var(--base) 0;
+        img{
+            height: 100%;
+        }
+    }
+    .product-retail-content {
+        padding: 5rem;
+    }
+}
+.work-section{
+    background:linear-gradient(180deg,#fff 42.59%,#F3F5F5 100%);
+    .work-card{
+        .work-card-image{
+            img{
+                width:60px;
+            }
+        }
+    }
+    &.why-section{
+        background: transparent;  
+        .work-card-image{
+            img{
+                width:120px;
+            }
+        }
+        a{
+            color: var(--primary);
+        }
+    }
+}

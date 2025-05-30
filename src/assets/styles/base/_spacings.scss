@@ -1,0 +1,86 @@
+$spacing-map: (
+    none: 0,
+    xs: var(--xs),
+    sm: var(--sm),
+    md: var(--md),
+    base: var(--base),
+    lg: var(--lg),
+    xl: var(--xl),
+    2xl: var(--2xl),
+    3xl: var(--3xl),
+    4xl: var(--4xl),
+    5xl: var(--5xl),
+    6xl: var(--6xl),
+    7xl: var(--7xl),
+);
+
+.mds {
+    /*************** Margin ***************/
+    @each $size, $value in $spacing-map {
+        &-m-top-#{$size} {
+            margin-top: #{$value} !important;
+        }
+        &-m-left-#{$size} {
+            margin-left: #{$value} !important;
+        }
+        &-m-bottom-#{$size} {
+            margin-bottom: #{$value} !important;
+        }
+        &-m-right-#{$size} {
+            margin-right: #{$value} !important;
+        }
+        &-m-horizontal-#{$size} {
+            margin-left: #{$value} !important;
+            margin-right: #{$value} !important;
+        }
+        &-m-vertical-#{$size} {
+            margin-top: #{$value} !important;
+            margin-bottom: #{$value} !important;
+        }
+        &-m-around-#{$size} {
+            margin: #{$value} !important;
+        }
+    }
+
+    /*************** Padding ***************/
+    @each $size, $value in $spacing-map {
+        &-p-top-#{$size} {
+            padding-top: #{$value} !important;
+        }
+        &-p-left-#{$size} {
+            padding-left: #{$value} !important;
+        }
+        &-p-bottom-#{$size} {
+            padding-bottom: #{$value} !important;
+        }
+        &-p-right-#{$size} {
+            padding-right: #{$value} !important;
+        }
+        &-p-horizontal-#{$size} {
+            padding-left: #{$value} !important;
+            padding-right: #{$value} !important;
+        }
+        &-p-vertical-#{$size} {
+            padding-top: #{$value} !important;
+            padding-bottom: #{$value} !important;
+        }
+        &-p-around-#{$size} {
+            padding: #{$value} !important;
+        }
+    }
+
+    /*************** Gaps ***************/
+    &-gap {
+        @each $size, $value in $spacing-map {
+            &-row-#{$size} {
+                row-gap: #{$value} !important;
+            }
+            &-column-#{$size} {
+                column-gap: #{$value} !important;
+            }
+            &-around-#{$size} {
+                gap: #{$value} !important;
+            }
+        }
+    }
+}

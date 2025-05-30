@@ -1,0 +1,28 @@
+@use "../base/mixins" as *;
+
+.footer-secondary {
+    background: var(--text);
+    .mds-container {
+        border-bottom: torem(1) solid var(--border);
+        padding: 7rem 0 var(--7xl);
+    }
+}
+.mds-section {
+    &-content {
+        padding: 7rem 0;
+        align-self: center;
+    }
+}
+.mds-team-image {
+    width: torem(160);
+    height: torem(250);
+    object-fit: cover;
+}
+.mds-alternate-border-list {
+    &-item {
+        border-bottom: torem(1) solid var(--border);
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

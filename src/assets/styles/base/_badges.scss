@@ -1,0 +1,21 @@
+@use "../base/mixins" as *;
+
+.mds-badge {
+    padding: var(--sm) var(--md) ;
+    border-radius: var(--md-2);
+    font-size: var(--md-2);
+    font-weight: var(--fw-500);
+    &-rounded {
+        height: torem(60);
+        width: torem(60);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--white);
+    }
+    &-large {
+        height: torem(80);
+        width: torem(80);
+    }
+}

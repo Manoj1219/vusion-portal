@@ -1,0 +1,14 @@
+@use "../base/mixins" as *;
+
+.mds {
+    // Main Section
+    &-main-section {
+        padding-top: torem(126);
+    }
+    // Container
+    &-container {
+        width: 90%;
+        max-width: var(--max-container);
+        margin: 0 auto;
+    }
+}
