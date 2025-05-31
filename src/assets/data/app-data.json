@@ -492,5 +492,44 @@
         }
       ]
     }
+  },
+  "allProducts": {
+    "productsOverviewTabs": [
+      {
+        "id": "1",
+        "title": "Intelligent Pricing and Promotions",
+        "description": "Improve responsiveness, precision, and quality in pricing automatically with connected IoT electronic shelf labels. Get actionable insights to optimize promotions and keep up with changing markets.",
+        "href": "/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Solutions_Explore_FPO@2x-1440x771-c-default.png"
+      },
+      {
+        "id": "2",
+        "title": "Real-Time Shelf Monitoring",
+        "description": "Maximize on-shelf availability with mini wireless cameras that connect to insights dashboards to provide real-time data and analysis.",
+        "href": "/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-163941-1440x771-c-default.png"
+      },
+      {
+        "id": "3",
+        "title": "Real-Time Store and Consumer Data",
+        "description": "Know exactly what’s on your shelves at all times and monetize customer foot traffic with AI-powered insights that help improve inventory turnover down to the individual SKU.",
+        "link": "/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Real-time-store-and-consumer-data-1440x771-c-default.png"
+      },
+      {
+        "id": "4",
+        "title": "In-Store Digital Advertising",
+        "description": "Run digital campaigns instantly, monitor performance in real time and connect with AI insights to optimize sales and promotions.",
+        "link": "/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/In-store-digital-advertising-1440x771-c-default.png"
+      },
+      {
+        "id": "5",
+        "title": "Industry Inventory Management",
+        "description": "Leverage high-quality digital signage displays to get your message out when it’s most relevant to the customer — throughout your store and the shelf.",
+        "link": "/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Industry-inventory-management-1440x771-c-default.png"
+      }
+    ]
   }
 }
