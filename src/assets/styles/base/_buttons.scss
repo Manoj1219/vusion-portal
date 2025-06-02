@@ -59,6 +59,18 @@
                 background: var(--primary);
             }
         }
+        &_outlineDark {
+            border: torem(1) solid var(--primary);
+            background: var(--primary) !important;
+            color: var(--white);
+            width: max-content;
+            &:hover,
+            &:focus {
+                border: torem(1) solid var(--primary);
+                background: transparent;
+                color: var(--primary);
+            }
+        }
     }
     &-secondary {
         border: torem(1) solid var(--secondary);

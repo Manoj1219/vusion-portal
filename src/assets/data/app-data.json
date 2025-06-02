@@ -530,6 +530,412 @@
         "link": "/",
         "image": "https://www.vusion.com/wp-content/uploads/2023/10/Industry-inventory-management-1440x771-c-default.png"
       }
-    ]
+    ],
+    "vusionLive": {
+      "intro": {
+        "subImg": "https://www.vusion.com/wp-content/uploads/2025/01/Vusion-Live_Horizontal_-Black@2x.png.webp",
+        "header": "Connect In-Store Operations with Data-Augmented Intelligence",
+        "description": "VusionLive transforms in-store operations by connecting advanced IoT and data analytics with real-time activities in the aisles, delivering actionable insights that inform everyday processes, drive better operational efficiency, enhance store performance, and accelerate sales growth.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Memory_Hero@2x.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "High-performance retail analytics",
+        "header": "Transforming Retail Operations with Data and AI",
+        "description": "VusionLive is a comprehensive retail intelligence platform that uniquely integrates real-time IoT data — capturing precise in-store conditions — with sales figures, loyalty programs, and third-party intelligence. It provides actionable recommendations for optimizing pricing, assortment, and merchandising, while supporting their execution through integrated campaign management and operational tools.",
+        "link": "https://player.vimeo.com/progressive_redirect/playback/919090035/rendition/720p/file.mp4?loc=external&log_user=0&signature=db9df5c3a834fe8562f55c8bc93dcf2402c576e1fdd8da2091746d188389b631",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/SES-01-1440x1440-c-default.jpg"
+      },
+      "howVusionWorks": {
+        "header": "How VusionLive works in-store",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Unified Store Management",
+            "description": "Consolidates store activities into a single platform, enabling associates to efficientlty prioritize tasks, manage ESLs, and share data in real time.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Displays-Tags-1.svg"
+          },
+          {
+            "id": "2",
+            "title": "Centralized Campaign Execution",
+            "description": "Simplifies in-store campaigns, enabling store teams to execute centrally planned promotions while driving shopper engagement.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Growth-2.svg"
+          },
+          {
+            "id": "3",
+            "title": "Data-Driven Pricing Intelligence",
+            "description": " Ensures stores are price-compliant and competitive through actionable insights from real-time data and IoT feedback.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Sell-2.svg"
+          },
+          {
+            "id": "4",
+            "title": " Connected Inventory Management",
+            "description": " Leverages real-time data to inform and prioritize inventory decisions for stores, minimizing stockouts.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/View-in-Ar-2.svg"
+          },
+          {
+            "id": "5",
+            "title": "Optimized Offering Insights",
+            "description": "  Uncovers offering gaps and provides local stores with tailored recommendations to boost sales performance.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Trending-Up-2.svg"
+          },
+          {
+            "id": "6",
+            "title": "Compliant Merchandising & Assortment",
+            "description": "Enables stores to execute compliant planograms and assortments,improving visibility and driving in-store sales growth.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Shelves-2.svg"
+          },
+          {
+            "id": "7",
+            "title": " Collaborative HQ-Store Workflow",
+            "description": "Ensures smooth collaboration between HQ and stores, empowering store teams to execute on strategies consistently and efficiently.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Sync-Alt-1.svg"
+          }
+        ]
+      },
+      "nextGenBlock": {
+        "header": "Why VusionLive?",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Unified Store Management",
+            "descriptionBefore": "Leverage real-time data from",
+            "linkedText": "Electronic Shelf Labels",
+            "description": "(ESLs) to monitor competitor pricing, ensure compliance, and react quickly to pricing shifts with instant alerts, maximizing pricing effectiveness.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Innovation.svg"
+          },
+          {
+            "id": "2",
+            "title": "Centralized Campaign Execution",
+            "description": "Launch and manage targeted campaigns with real-time performance tracking, enabling you to adjust strategies on the go and achieve higher engagement and ROI.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Shelf-Efficiency.svg"
+          },
+          {
+            "id": "3",
+            "title": "Enhance Stock Management",
+            "description": "Detect stockouts instantly and receive actionable restocking recommendations powered by real-time data, ensuring shelves are always replenished to meet customer demand",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Sensors.svg"
+          },
+          {
+            "id": "4",
+            "title": "Improve Assortment Effectiveness",
+            "description": "Analyze real-time performance data to identify top-performing products and underperformers, helping refine your assortment strategy for maximum impact.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Automation.svg"
+          },
+          {
+            "id": "5",
+            "title": "Monitor Performance Metrics",
+            "description": "Track store performance against key financial and operational goals, gaining insights to drive continuous improvement and profitability.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/eCommerce.svg"
+          },
+          {
+            "id": "6",
+            "title": "Ensure Planogram Compliance",
+            "description": "Receive real-time alerts on planogram adherence, ensuring in-store displays align with strategic merchandising plans to boost sales and enhance the shopper experience.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Digitalization.svg"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "Memory Benefits",
+        "header": "How the Memory family of products works in-store",
+        "description": "Software systems work together, integrating your in-store data and third-party sources to provide meaningful insights that optimize store performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/03/Untitled-design-3.svg"
+      },
+      "Features": {
+        "subtitle": "Features",
+        "header": "Ground your decision-making with trusted insights and performance simulations",
+        "description": "Advanced-Data Integration: Seamlessly integrate and aggregate diverse data sources, providing a unified and comprehensive view of business performance Actionable Business Recommendations: Beyond traditional analytics, RI delivers actionable business recommendations tailored for both day-to-day operations and strategic initiatives to drive efficiency and growth in retail operations. Embedded Simulation Tools: Leverage robust simulation capabilities to test and optimize various aspects of your operations, such as product assortment, pricing strategies, and merchandising techniques. Connection to In-Store IoT with Floor Messaging: Translate data into action, by automatically displaying messaging on in-store Electronic Shelf Labels to communicate with store associates or calling out promotions and price matching for shoppers.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/03/031A9649-scaled-1540x1020-c-default.jpg"
+      },
+      "Podcast": {
+        "subtitle": "PODCAST",
+        "header": "Retail intelligence: What is it and why is it crucial for today's retailers",
+        "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
+        "link": "https://soundcloud.com/rethink-retail/from-insight-to-action-transforming-data-into-retail-strategy?.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/05/Untitled-design-2024-05-29T152956.388-1440x1440-c-default.png"
+      }
+    },
+    "productMemory": {
+      "intro": {
+        "header": "Retail Intelligence Software: Drive Strategic Decisions through AI",
+        "description": "Leverage Data and AI to Optimize Sales Performance & Profitability. Memory caters to both headquarters and enterprise store chains, as well as individual stores.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Memory_Hero@2x.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "High-performance retail analytics",
+        "header": "Data is our DNA. Retail is our expertise. Combining both is our unique strength.",
+        "description": "Retail Intelligence helps retailer HQs, stores and CPG brands make sense of scattered data and enable evidence-based decisions. Using AI-powered suggestions, Retail Intelligence solves concrete issues, boost sales performance by automating product assortment (mix), optimizing merchandising, pricing strategy, collaboration with brands and connect with the execution in store.",
+        "link": "https://player.vimeo.com/progressive_redirect/playback/919090035/rendition/720p/file.mp4?loc=external&log_user=0&signature=db9df5c3a834fe8562f55c8bc93dcf2402c576e1fdd8da2091746d188389b631",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/SES-01-1440x1440-c-default.jpg"
+      },
+      "MemoryBenefits": {
+        "subtitle": "Memory Benefits",
+        "header": "How the Memory family of products works in-store",
+        "description": "Software systems work together, integrating your in-store data and third-party sources to provide meaningful insights that optimize store performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/03/Untitled-design-3.svg"
+      },
+      "Features": {
+        "subtitle": "Features",
+        "header": "Ground your decision-making with trusted insights and performance simulations",
+        "description": "Advanced-Data Integration: Seamlessly integrate and aggregate diverse data sources, providing a unified and comprehensive view of business performance Actionable Business Recommendations: Beyond traditional analytics, RI delivers actionable business recommendations tailored for both day-to-day operations and strategic initiatives to drive efficiency and growth in retail operations. Embedded Simulation Tools: Leverage robust simulation capabilities to test and optimize various aspects of your operations, such as product assortment, pricing strategies, and merchandising techniques. Connection to In-Store IoT with Floor Messaging: Translate data into action, by automatically displaying messaging on in-store Electronic Shelf Labels to communicate with store associates or calling out promotions and price matching for shoppers.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/03/031A9649-scaled-1540x1020-c-default.jpg"
+      },
+      "Podcast": {
+        "subtitle": "PODCAST",
+        "header": "Retail intelligence: What is it and why is it crucial for today's retailers",
+        "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
+        "link": "https://soundcloud.com/rethink-retail/from-insight-to-action-transforming-data-into-retail-strategy?.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/05/Untitled-design-2024-05-29T152956.388-1440x1440-c-default.png"
+      }
+    },
+    "productCloud": {
+      "intro": {
+        "header": "Cloud for Retail",
+        "description": "Track, monitor, and manage retail IoT devices from anywhere.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Vusion_Live_Hero@2x.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "Retail IoT Platform",
+        "header": "Optimize IoT device management",
+        "description": "Our VusionCloud platform is a retail IoT management solution that enables you to track, monitor, and manage digital price tags and IoT devices from anywhere, anytime. Close monitoring capabilities for millions of devices at once — from tracking asset shipments to streamlining warranty and RMA processes — enable you to streamline operations at minimal cost. VusionCloud offers security, scalability, and reliability while keeping costs under control for retailers with a SaaS-based model.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/03/Untitled-design-2024-03-01T141903.834-1440x1440-c-default.png"
+      },
+      "Opportunities": {
+        "subHeader": "Opportunities",
+        "header": "VusionCloud: unique Cloud Solution for Retailers",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Limitless scalability",
+            "description": "VusionCloud is built on an elastic model for greater scalability — allowing retail businesses to expand their IoT infrastructure as they grow, easily and quickly.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Growth-2.svg"
+          },
+          {
+            "id": "2",
+            "title": "Improve IoT asset sustainability",
+            "description": "With our unique Asset Management add-on, VusionCloud provides valuable insights to help optimize and extend the lifespan of",
+            "descriptionBefore": "and IoT devices.",
+            "linkedText": "electronic shelf labels",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Sustainability-3.svg"
+          },
+          {
+            "id": "3",
+            "title": "Top-tier security",
+            "description": "We offer industry-leading cloud security for retailers with pen testing, ISO 27001 and other safety compliances",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/IoT-Cloud-2.svg"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "VusionCloud Benefits",
+        "header": "How the VusionCloud family of products works in-store",
+        "description": "Our comprehensive IoT platform is tailor-made for retailers to easily integrate with your existing in-store IoT devices to monitor, track, and manage hardware via app or API.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/L2_Solution_VusionLive_Benefits_Map-1440x1440-c-default.png"
+      },
+      "nextGenBlock": {
+        "header": "Why VusionCloud works for you",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Keep track of your IoT Devices",
+            "description": "Track your IoT assets from shipment to store shelves. Receive timely alerts via app and API, get valuable usage insights, and ensure devices are running smoothly.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Shelf-Efficiency-2.svg"
+          },
+          {
+            "id": "2",
+            "title": "Make the most of your IoT",
+            "description": "Rapidly scale your connected IoT devices with ease, through seamless integration with a unified platform leveraging the market-leading IoT protocol in retail.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Innovation-2.svg"
+          },
+          {
+            "id": "3",
+            "title": "See ROI impact",
+            "description": "Our secure, scalable, and open IoT platform was created to increase operational efficiency while reducing maintenance costs.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Lock-2.svg"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "Streamline operations with the most comprehensive retail IoT platform",
+        "subtitle": "Features",
+        "header": "Join us in the future of retail",
+        "description": "+26K stores in the cloud +188M million managed labels Over 100M/hr item integration Over 1bn/hr 10M updates in less than 2 hrs. ISO 27001 certified ISO 9001 certified",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Shopper_Engagement_Smartphone_Interaction-1540x1020-c-default.jpg"
+      },
+      "CloudProduct": {
+        "subtitle": "VusionCloud Products",
+        "header": "Get detailed information on the VusionCloud family of products",
+        "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
+        "link": "https://www.vusion.com/products/vusioncloud/vusionox/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_VusionCloud_GetInfo@1x-1440x1440-c-default.png"
+      }
+    },
+    "ProductSesimagotag": {
+      "intro": {
+        "header": "Improve store efficiency with advanced digital pricing solutions",
+        "description": "Automate pricing processes and remove manual steps to eliminate errors.  ",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/IMG-3_2-1.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "Premier electronic shelf labels",
+        "header": "Digitalize your Shelves with SESimagotag",
+        "description": "Our SESimagotag platform is the key to transforming your physical store into a digital asset. We offer the highest quality electronic shelf labels, empowering retailers to be more agile, responsive, and accurate in all pricing operations — and beyond. Our electronic shelf labels can display relevant information in addition to pricing — like product ratings, customer reviews, and nutritional information for shoppers and actionable data, delivery information, and stock levels for associates.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/02/031A9622-scaled-1440x1440-c-default.jpg"
+      },
+      "Opportunities": {
+        "header": "The SESimagotag difference",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Update prices with one click",
+            "description": "Leveraging a central management platform, ESLs enable retailers to update pricing at the store or chain level — in a matter of seconds — for hassle-free pricing management.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_UpdatePrices-170x170-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Engage shoppers and streamline operations",
+            "description": "ESLs allow information sharing beyond pricing, such as delivering rich or local product information or activation campaigns for shoppers. Associates can view operational data at the shelf, enabling faster and smoother workflows.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_EngageShoppers-170x170-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Easy integrations",
+            "description": "SESimagotag’s ESLs are infraless, leveraging existing network infrastructures in-store to ensure fast turnaround times, facilitate systems maintenance, and lower retailers’ carbon footprint across entire store chains.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_EasyIntegration-170x170-c-default.png"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "SESimagotag Benefits",
+        "header": "How the SESimagotag family of products works in-store",
+        "description": "Run your store more efficiently at minimal cost with connected electronic shelf labels that easily integrate with your existing ERP.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/02/Vusion_All_Solutions_Benefits_Illustrations_10.04.23_SESimagotag-scaled-1440x1440-c-default.jpg"
+      },
+      "nextGenBlock": {
+        "header": "Why SESimagotag works for you",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Automate price changes",
+            "description": "Enhance responsiveness, precision, and quality in pricing execution at the store or retail chain level with a single management platform.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_AutomatePriceChanges-50x50-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Smooth operations",
+            "description": "Display ERP, inventory, or any other operational data for in-store associates to access real-time information about stocking and inventory.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_SmoothOperations-50x50-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Accelerate pick-up orders",
+            "description": "Improve your buy-online-pick-up-in-store experience for your customers with geolocation and pick-to-light capabilities embedded in our ESLs.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_AccelerateOrders-50x50-c-default.png"
+          },
+          {
+            "id": "4",
+            "title": "Engage with in-store shoppers",
+            "description": "Connect with customers at the shelf to help them discover new products, find relevant information, see promotional offers, or get digital coupons.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_EngageInStoreShoppers-50x50-c-default.png"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "Become more agile, responsive, and accurate in all pricing operations and information displays ",
+        "header": "Spotlight on SESimagotag product features:",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/SES-imagotag_VUSION_freezer-1540x1020-c-default.jpg"
+      },
+      "SESimagotagProduct": {
+        "subtitle": "SESimagotag Products",
+        "header": "Get detailed information on the SESimagotag family of products",
+        "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_SESimagotag_GetInfo@1x-1440x1440-c-default.png"
+      }
+    },
+    "ProductCaptana": {
+      "intro": {
+        "header": "Drive your Store with AI and Computer Vision ",
+        "description": "Maximize on-shelf availability, increase unit sales, and reduce waste.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-10.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "Quality shelf monitoring",
+        "header": "Gain real-time visibility of every shelf",
+        "description": "Captana’s mini wireless cameras (GDPR compliant) give retailers visibility into every shelf and product in-store, at all times, without monitoring individuals. Delivering real-time shelf monitoring data and analysis, Captana helps run stores more efficiently,increasing top-line revenue and gross profit margin with AI-enabled retail forecasting.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Captana_Feature-1@2x-1440x1440-c-default.jpg"
+      },
+      "Opportunities": {
+        "header": "The Captana difference",
+        "subHeader": "Opportunities",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "AI-powered insights",
+            "description": "Captana’s AI-powered insights provide both IoT asset management and retail task management to improve on-shelf availability (OSA), increase unit sales, and reduce waste.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Intelligence-Insights-2.svg"
+          },
+          {
+            "id": "2",
+            "title": "Simple integration",
+            "description": "Our technologies are built to easily connect with your existing systems, applications, and products and smoothly integrate with your enterprise resource planning (ERP) systems.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/AI-2.svg"
+          },
+          {
+            "id": "3",
+            "title": "Global patent",
+            "description": "",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Verified-2.svg"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "Captana Benefits",
+        "header": "How the Captana family of products works in-store",
+        "description": "Hardware and software systems work together and easily integrate with your existing ERP to imrprove shelf performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/L2_Solution_Captana_Benefits_Map-1440x1440-c-default.png"
+      },
+      "nextGenBlock": {
+        "header": "Why Captana works for you",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Automate shelf monitoring",
+            "description": "Streamline operations and reduce inventory management inefficiencies with automated shelf monitoring and gap scanning, without monitoring individuals and in compliance with the GDPR.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Vision-Scanning-2.svg"
+          },
+          {
+            "id": "2",
+            "title": "Leverage real-time business insights",
+            "description": "Maximize on-shelf availability and respond to changing market conditions in real time. Prioritize staff scheduling based on day-to-day store needs.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Marketing-2.svg"
+          },
+          {
+            "id": "3",
+            "title": "Optimize sales forecasting",
+            "description": "Improve product assortment planning and replenishment to reduce waste and optimize revenue growth and promotions through automated insights and real-time data.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Digitalization-2.svg"
+          },
+          {
+            "id": "4",
+            "title": "Elevate your customer experience",
+            "description": "Understand customer behavior with point of sale (POS) data that enables you to keep the products your customers want available in store and offer relevant promotions.",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/05/Physical-Retail-3.svg"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "Improve on-shelf availability with the most advanced, scalable shelf monitoring solution",
+        "header": "Spotlight on SESimagotag product features:",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/02/031A9547-scaled-1540x1020-c-default.jpg"
+      },
+      "CaptanaProduct": {
+        "subHeader": "Captana Features",
+        "mainHeader": "Improve on-shelf availability with the most advanced, scalable shelf monitoring solution",
+        "subtitle": "Feature",
+        "header": "Captana includes connected hardware and software solutions",
+        "description": "Wireless shelf-edge mini-cameras (GDPR compliant) connect to the cloud platform dashboard to provide 24/7 shelf monitoring without monitoring individuals, automatic alerts, and automatic SKU identification.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/02/031A9547-scaled-1540x1020-c-default.jpg"
+      }
+    }
   }
 }

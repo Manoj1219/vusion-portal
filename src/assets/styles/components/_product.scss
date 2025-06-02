@@ -237,3 +237,32 @@
         }
     }
 }
+
+.productBlock {
+    background-color: rgb(200 78 61);
+    border-radius: 15px;
+    .actionBlock {
+        display: flex;
+        column-gap: 5px;
+        flex-direction: column;
+    }
+    a {
+        width: max-content;
+        background: var(--primary);
+        &:hover,
+        &:focus {
+            background: var(--background);
+            color: var(--primary);
+        }
+    }
+    a svg {
+        width: var(--base);
+        height: var(--base);
+    }
+    &.cloud {
+        background-color: rgb(0 115 140);
+    }
+    &.captana {
+        background-color: rgb(47 144 251);
+    }
+}

@@ -59,20 +59,41 @@ const routes = [
   {
     path: "/products",
     name: "Products",
-    component: () => import("../views/products/pages/ProductsOverview.vue"),
     children: [
+      {
+        path: "",
+        name: "productOverview",
+        component: () => import("../views/products/pages/ProductsOverview.vue"),
+      },
       {
         path: "vusion-live",
         name: "VusionLive",
         component: () => import("../views/products/pages/VusionLive.vue"),
       },
       {
-        path: "Vusion-Cloud",
+        path: "vusion-memory",
+        name: "VusionMemory",
+        component: () => import("../views/products/pages/VusionMemory.vue"),
+      },
+      {
+        path: "vusion-cloud",
         name: "VusionCloud",
         component: () => import("../views/products/pages/VusionCloud.vue"),
       },
+      {
+        path: "vusion-sesimagotag",
+        name: "VusionSesimagotag",
+        component: () =>
+          import("../views/products/pages/VusionSesimagotag.vue"),
+      },
+      {
+        path: "vusion-captana",
+        name: "VusionCaptana",
+        component: () => import("../views/products/pages/VusionCaptana.vue"),
+      },
     ],
   },
+
   {
     path: "/solutions",
     name: "Solutions",

@@ -17,6 +17,7 @@
 @include mds-font-size(xl, var(--xl)); // 24px
 @include mds-font-size(2xl, var(--2xl)); // 28px
 @include mds-font-size(3xl, var(--3xl)); // 32px
+@include mds-font-size(3xsl, var(--3sxl)); // 42px
 @include mds-font-size(4xl, var(--4xl)); // 48px
 @include mds-font-size(5xl, var(--5xl)); // 56px
 
@@ -89,4 +90,12 @@
 @include mds-text-color(light, var(--light));
 @include mds-text-color(dark, var(--dark));
 @include mds-text-color(muted, var(--muted));
-@include mds-text-color('white', var(--white));
+@include mds-text-color("white", var(--white));
+
+.defaultHeaderFont {
+    font-family: var(--font-family);
+    font-weight: var(--fw-500);
+    margin: 10px 0;
+    line-height: 1.15;
+    text-transform: capitalize;
+}

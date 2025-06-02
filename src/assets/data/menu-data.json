@@ -12,42 +12,42 @@
       "title": "VusionCloud",
       "subTitle": "IoT Platform",
       "description": "Optimize your physical store operations from end to end.",
-      "routoTo": "/vusion-cloud"
+      "routoTo": "/products/vusion-cloud"
     },
     {
       "imgSrc": "https://www.vusion.com/wp-content/uploads/2025/01/SES-Imagotag_Stacked_Vusion-Black-Purple_RGB-1-60x0-c-default.png",
       "title": "SESimagotag",
       "subTitle": "Electronic Shelf Labels",
       "description": "Digitalize your Shelves",
-      "routoTo": "/vusion-cloud"
+      "routoTo": "/products/vusion-sesimagotag"
     },
     {
       "imgSrc": "https://www.vusion.com/wp-content/uploads/2025/01/Captana_Black-1-60x0-c-default.png",
       "title": "Captana",
       "subTitle": "Computer Vision / AI",
       "description": "Maximize on-shelf availability and store performance",
-      "routoTo": "/products/vusion-cloud"
+      "routoTo": "/products/vusion-captana"
     },
     {
       "imgSrc": "https://www.vusion.com/wp-content/uploads/2025/01/Memory_Stacked_Vusion-Black-Orange_RGB-1-60x0-c-default.png",
       "title": "Memory",
       "subTitle": "Retail Intelligence",
       "description": "Harness the power of your data with A.I.",
-      "routoTo": "/products/vusion-cloud"
+      "routoTo": "/products/vusion-memory"
     },
     {
       "imgSrc": "https://www.vusion.com/wp-content/uploads/2025/01/Engage_Stacked_Vusion-Black-Red_RGB-1-60x0-c-default.png",
       "title": "Engage",
       "subTitle": "In-Store Retail Media",
       "description": "Run digital campaigns instantly.",
-      "routoTo": "/products/vusion-cloud"
+      "routoTo": "/products/vusion-engage"
     },
     {
       "imgSrc": "https://www.vusion.com/wp-content/uploads/2025/01/PDi-Digital_Stacked_Vusion-BlackGreen_RGB-1-60x0-c-default.png",
       "title": "PDI digital",
       "subTitle": "Industrial IoT",
       "description": "Share the right information in the right place.",
-      "routoTo": "/products/vusion-cloud"
+      "routoTo": "/products/vusion-PDI-digital"
     }
   ],
   "solutions": [

@@ -383,6 +383,10 @@ dl {
         }
     }
 
+    &-column-gap-5 {
+        column-gap: 5rem;
+    }
+
     // Cursor
     &-cursor {
         &-pointer {
@@ -423,6 +427,9 @@ dl {
 @include mds-background(secondary, var(--secondary));
 @include mds-background(secondary-light, var(--secondary-light));
 @include mds-background(secondary-shade, var(--secondary-shade));
+@include mds-background(memory-shade, var(--memory-shade));
+@include mds-background(captana-shade, var(--captana-shade));
+@include mds-background(live-shade, var(--live-shade));
 @include mds-background(secondary-gradient, var(--secondary-gradient));
 @include mds-background(success, var(--success));
 @include mds-background(danger, var(--danger));
