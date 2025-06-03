@@ -447,6 +447,9 @@ dl {
 @include mds-background("red-light", var(--red-light));
 @include mds-background("orange-light", var(--orange-light));
 @include mds-background("magenta-light", var(--magenta-light));
+@include mds-background("engage-shade", var(--engage-shade));
+@include mds-background("pdi-shade", var(--pdi-shade));
+@include mds-background("contactBadge", var(--light-grey));
 
 .mds-box-shadow-hover {
     @include transition-base;

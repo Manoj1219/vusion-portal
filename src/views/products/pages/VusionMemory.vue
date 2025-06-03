@@ -381,7 +381,9 @@
           </div>
         </div>
       </div>
-      <faqAccordion />
+      <div class="mds-section-content">
+        <faqAccordion productKey="productMemory" />
+      </div>
       <div
         class="mds-section-content productBlock mds-p-around-none mds-m-bottom-4xl"
       >
@@ -438,10 +440,14 @@
       </div>
     </div>
   </section>
+  <section>
+    <contactUs />
+  </section>
 </template>
 
 <script setup>
 import AppData from "@/assets/data/app-data.json";
 import faqAccordion from "@/components/faqAccordion.vue";
+import contactUs from "@/components/ProductContactUs.vue";
 const memoryData = AppData.allProducts.productMemory;
 </script>

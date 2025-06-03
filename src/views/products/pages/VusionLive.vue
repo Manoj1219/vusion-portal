@@ -168,9 +168,13 @@
       </div>
     </div>
   </section>
+  <section>
+    <contactUs />
+  </section>
 </template>
 
 <script setup>
 import AppData from "@/assets/data/app-data.json";
+import contactUs from "@/components/ProductContactUs.vue";
 const vusionLive = AppData.allProducts.vusionLive;
 </script>

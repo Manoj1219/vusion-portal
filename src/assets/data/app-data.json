@@ -686,6 +686,29 @@
         "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
         "link": "https://soundcloud.com/rethink-retail/from-insight-to-action-transforming-data-into-retail-strategy?.",
         "image": "https://www.vusion.com/wp-content/uploads/2024/05/Untitled-design-2024-05-29T152956.388-1440x1440-c-default.png"
+      },
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "header": "VusionCloud: unique Cloud Solution for Retailers",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What differentiates Memory from other retail intelligence software?",
+            "description": "Memory sets itself apart from other retail intelligence software through several key differentiators. Firstly, we boast a modern and innovative in-house platform that utilizes different data sets to address specific use cases. Moreover, we excel in leveraging loyalty card data, a valuable asset in the retail landscape. Unlike other software, Memory actively supports decision-making processes, ensuring that our insights translate into actionable strategies. Our platform is highly agile and customizable, tailored to the unique needs and processes of each retailer and brand. With a team possessing strong expertise in retail, we prioritize innovation and focus on answering critical business questions through data-driven insights. Our agile platform allows for seamless customization to match our clients’ processes and needs, ensuring a tailored and effective solution."
+          },
+          {
+            "id": "2",
+            "label": "How does Memory Retail Intelligence software impact pricing?",
+            "description": "With our unique Asset Management add-on, VusionCloud provides valuable insights to help optimize and extend the lifespan of"
+          },
+          {
+            "id": "3",
+            "title": "How does Memory retail intelligence software impact sales and store performance?",
+            "description1": "2% to 4% of sales growth through assortment optimization",
+            "description2": "15% to 30% increase of promotions profitability",
+            "description3": "50% to 70% productivity gain on category management tasks"
+          }
+        ]
       }
     },
     "productCloud": {
@@ -768,6 +791,32 @@
         "description": "Listen to the RETHINK Retail podcast hosted by retail expert, Matthew Adam Smith: Clément Galeron, our esteemed Client Director at VusionGroup, discusses the power of our ‘In The Memory’ solution in transforming retail intelligence by harnessing valuable data and turning insights into actionable strategies.",
         "link": "https://www.vusion.com/products/vusioncloud/vusionox/",
         "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_VusionCloud_GetInfo@1x-1440x1440-c-default.png"
+      },
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "header": "VusionCloud FAQ",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What is VusionCloud and how can it transform my in-store IoT device management as a cloud solution for retailers? ",
+            "description": "VusionCloud is a Cloud Retail IoT platform with the strongest security, reliability, and performances. It allows customers to track, manage and monitor their electronic shelf labels throughout their lifecycle, from delivery to end-of-life."
+          },
+          {
+            "id": "2",
+            "label": "In what ways can VusionCloud help reduce operational costs for retailers seeking a cloud solution? ",
+            "description": "VusionCloud is a Software as a Service platform that helps retailers reduce their operational costs by automating many routine tasks at the shelf such as price and promotion updates, and requires no capital expenditures, no new store hardware equipment, and no expensive/hidden operating costs."
+          },
+          {
+            "id": "3",
+            "title": "Is VusionCloud easily integrated with other existing systems in my retail environment? ",
+            "description": "Thanks to its wide range of APIs, retailers can easily integrate VusionCloud in their own ecosystem. Our APIs agility enables rapid access to a whole range of possibilities to deliver additional value in stores on-demand."
+          },
+          {
+            "id": "4",
+            "title": "What kind of support does VusionCloud offer to ensure retailers' success with this cloud solution?",
+            "description": "With VusionCloud, customers ensure that prices and promotions are always synchronized online and in-store. Thanks to its web and mobile interfaces, retailers can have a real-time access to the store activity and the status of its assets, from anywhere at anytime. VusionCloud also includes a monitoring tool to identify and spot unusual device or infrastructure behavior to reduce mean-time-to-resolution and ensure accurate pricing in the store."
+          }
+        ]
       }
     },
     "ProductSesimagotag": {
@@ -935,6 +984,206 @@
         "header": "Captana includes connected hardware and software solutions",
         "description": "Wireless shelf-edge mini-cameras (GDPR compliant) connect to the cloud platform dashboard to provide 24/7 shelf monitoring without monitoring individuals, automatic alerts, and automatic SKU identification.",
         "image": "https://www.vusion.com/wp-content/uploads/2024/02/031A9547-scaled-1540x1020-c-default.jpg"
+      }
+    },
+    "ProductEngage": {
+      "intro": {
+        "header": "Retail Marketing solutions",
+        "description": "Run successful digital campaigns in your store.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Engage_Hero@2x.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "Premier digital campaigns",
+        "header": "Deliver impactful messages at the shelf",
+        "description": "Our Engage marketing platform enables retailers and brands to partner on impactful digital campaigns in physical stores. Improve inventory turnover by reaching customers right at the shelf with compelling calls to action. Insightful reporting allows you to optimize and adjust campaigns in real time, so retailers can turn foot traffic into financial uptick and brands can achieve higher returns on ad spend.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/02/engage-rails-V2-1440x1440-c-default.png"
+      },
+      "Opportunities": {
+        "subHeader": "Differentiators",
+        "header": "Engage: One-Stop Shop In-Store Marketing Platform",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Run Dynamic Campaigns In-Store",
+            "description": "Engage with shoppers via digital content delivered at the shelf, on schedule, automatically.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_RunDynamicCampaigns-170x170-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Real-time monitoring",
+            "description": "Measure the real-time impact of campaigns and generate real-time 360º insights for understanding customer behaviors.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_Real-timeMonitoring-170x170-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Monetize foot traffic",
+            "description": "Leverage retail media ad spend & foot traffic to create an additional revenue stream at the shelf.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_MonetizeFootTraffic%E2%80%AF-170x170-c-default.png"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "Engage Benefits",
+        "header": "How the Engage family of products works in-store",
+        "description": "Our turnkey solution integrates hardware, software, and analytics to effortlessly run dynamic in-store marketing campaigns.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/L2_Solution_Engage_Benefits_Map-1440x1440-c-default.png"
+      },
+      "nextGenBlock": {
+        "header": "Why Engage works for you",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Create new revenue streams",
+            "description": "Easily deliver digital campaigns to encourage purchasing and generate sales at the moment when it makes the most impact on the shoppers.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_CreateNewRevenueStreams-50x50-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Strengthen brand partnerships",
+            "description": "Protect and grow promotional revenue and give CPG brands cost-effective, targeted access to shoppers.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_StrengthenBrandPartnerships%E2%80%AF-50x50-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Enhance your ESG commitment",
+            "description": "By eliminating paper waste and reducing your carbon footprint through efficient promotional signage.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_EnhanceYourESGCommitment-50x50-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Create interactive experiences in-store",
+            "description": "Create campaigns beyond promotions that offer brand experiences in-store and get to know your customers better through their interaction.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/Engage_CreateInteractiveExperiencesInStore-50x50-c-default.png"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "Ignite sales and captivate customers with cutting-edge digital campaigns in-store",
+        "subtitle": "Features",
+        "header": "Automate campaigns with one click",
+        "description": "With Engage software you can easily schedule and automate new content through playlists associated with in-store touchpoints — individually, by group, or through an entire retail chain with just one click.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/MicrosoftTeams-image-75-1540x1020-c-default.png"
+      },
+      "benchMark": {
+        "header": "Measure and benchmark campaign performance ",
+        "description": "Determine campaign performance — product by product — and benchmark it against your store and other products’ performance. Get comprehensive reports on campaign execution with shelf images taken throughout the campaign.  ",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/SCREEN-engage-1540x1020-c-default.png"
+      },
+      "EngageProduct": {
+        "subtitle": "Engage Products",
+        "header": "Get detailed information on the Engage family of products",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_Engage_GetInfo@1x-1440x1440-c-default.png"
+      },
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What are the main features of Vusion's retail marketing solutions?",
+            "description1": "Precise and agile campaign programming and execution directly at the shelf.",
+            "description2": "Integration of marketing content with accurate price information on in-store touchpoints.",
+            "description3": "Flexibility of in-store touchpoints, customizable to store concepts, available space, and marketing objectives (size, color options, dynamic or static content).",
+            "description4": "Comprehensive analytics offering monitoring of execution, analysis of foot traffic, proximity, and dwell time via sensors, along with performance measurement through shopper data analytics."
+          },
+          {
+            "id": "2",
+            "label": "How do Engage's retail marketing solutions captivate shoppers at the shelf?",
+            "description": "Engage offers an in-store marketing platform, empowering both retailers and brands to launch digital campaigns directly within physical stores. Leveraging Shelf Edge rails and V700/ESLs strategically positioned at the shelf, Engage ensures messages are delivered precisely when and where shoppers are making purchasing decisions. These dynamic digital campaigns not only captivate shoppers but also optimize ad spend returns for brands, while simultaneously driving additional revenues for retailers."
+          },
+          {
+            "id": "3",
+            "title": "How does Engage's retail marketing solutions handle the interaction between retailers, brands, and retail media campaigns?",
+            "description": "Engage acts as an intermediary between retailers and brands, encouraging the use of self-service tools to facilitate content publication and ensure retailers profit from selling ad space."
+          },
+          {
+            "id": "4",
+            "title": "Can Engage's retail marketing solutions be customized for different retail environments?",
+            "description": "Engage offers extensive customization options to adapt to diverse retail environments. Content can be tailored to suit specific needs, ensuring relevance and effectiveness. Additionally, various hardware configurations, such as rails of different lengths and monitors of different sizes (ranging from 60cm to 120cm) including options like LCD or e-paper displays, can be implemented to match the requirements of different retail spaces. Clients can leverage our API to seamlessly integrate Engage with their CMS, allowing for comprehensive customization and integration tailored to their unique environment and objectives."
+          }
+        ]
+      }
+    },
+    "ProductPDI": {
+      "intro": {
+        "header": "Smart inventory management",
+        "description": "Digitalize paper-based signage and automate operations.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_PDIDigital_Hero@2x.png"
+      },
+      "retailAnalytics": {
+        "subtitle": "High-performance digital signage",
+        "header": "Eliminate manual and paper-based processes",
+        "description": "PDI Digital’s sepioo® is an IoT-based solution that enables businesses to automate and digitize their processes, eliminating the need for manual and paper-based operations. With the combination of a SaaS platform and IoT devices, Sepioo® provides the backbone for smart inventory management systems and digital signage.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/pdi-digital_iiot_technology-min-1440x1440-c-default.webp"
+      },
+      "Opportunities": {
+        "header": "The PDI digital difference",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "A comprehensive IoT inventory solution",
+            "description": "PDI Digital’s sepioo® combines a SaaS platform and IoT devices into one seamless solution that automates and digitizes industrial processes.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_ComprehensiveIoTInventorySolution%E2%80%AF%E2%80%AF-170x170-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Locate your assets in real time",
+            "description": "Access real-time geolocation data with GPS precision, indoor and outdoor, and unlock location-based triggers for your workflows (distance traveled, perimeter).",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_LocateAssetsInRealTime-170x170-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Impact across industries",
+            "description": "From manufacturing and logistics to healthcare and automotive, sepioo® is a flexible solution for a wide range of industries.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_ImpactAcrossIndustries%E2%80%AF-170x170-c-default.png"
+          }
+        ]
+      },
+      "MemoryBenefits": {
+        "subtitle": "PDI digital benefits",
+        "header": "How the PDI digital family of products works",
+        "description": "Software and hardware systems work together, creating the digital backbone of a smart inventory system.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_All_Solutions_Benefits_Illustrations_PDI-Digital_V2-1.png"
+      },
+      "nextGenBlock": {
+        "header": "Why PDI digital works for you",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Digitalize your paper-based signage",
+            "description": "Shift to dynamic information sharing with digital signage and eliminate the need for paper’s associated costs, waste, and labor.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_DigitalizePaper-basedSignage-50x50-c-default.png"
+          },
+          {
+            "id": "2",
+            "title": "Leverage dynamic data displays",
+            "description": "Share information from your systems and ERP where it’s needed in real time, with instant updates on item status or location.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_LeverageDynamicDataDisplays%E2%80%AF%E2%80%AF%E2%80%AF-50x50-c-default.png"
+          },
+          {
+            "id": "3",
+            "title": "Automate manual processes",
+            "description": "Create custom triggers based on location data or actioning buttons. Streamline day-to-day operations and reduce errors with LED hints & pick to light.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_AutomateManualProcesses%E2%80%AF%E2%80%AF%E2%80%AF-50x50-c-default.png"
+          },
+          {
+            "id": "4",
+            "title": "Track your assets in real time",
+            "description": "Locate your assets with GPS precision — indoor and outdoor — and optimize workflows with location-based triggers.",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/PDIDigital_LocateAssetsInRealTime-50x50-c-default.png"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "Enhance day-to-day operations with automated efficiencies",
+        "subtitle": "Features",
+        "header": "The PDI digital family of products includes valuable features:",
+        "description": "LED signal for pick-and-put by light — reduces search time and picking errors Real-time geolocation tracking — provides visibility on assets throughout the complete operation Trigger actions by button-press & sensors — associates can request instructions, a refill, or help; confirm tasks, count inventory, and implement quality testing",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/smart-iiot-platform-modern-ui-1540x1020-c-default.webp"
+      },
+      "EngageProduct": {
+        "subtitle": "PDI digital Products",
+        "header": "Get detailed information on the PDI digital family of products",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_PDIDigital_GetInfo@1x-1440x1440-c-default.png"
       }
     }
   }

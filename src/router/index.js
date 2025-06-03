@@ -91,6 +91,16 @@ const routes = [
         name: "VusionCaptana",
         component: () => import("../views/products/pages/VusionCaptana.vue"),
       },
+      {
+        path: "vusion-engage",
+        name: "VusionEngage",
+        component: () => import("../views/products/pages/VusionEngage.vue"),
+      },
+      {
+        path: "vusion-PDI-digital",
+        name: "VusionPdiDigital",
+        component: () => import("../views/products/pages/VusionPdiDigital.vue"),
+      },
     ],
   },
 
