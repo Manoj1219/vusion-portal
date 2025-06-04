@@ -32,7 +32,7 @@ const routes = [
     component: () => import("../views/NewsroomView.vue"),
   },
   {
-    path: "/contact",
+    path: "/contact-us",
     name: "Contact Us",
     component: () => import("../views/ContactUsView.vue"),
   },
@@ -176,6 +176,11 @@ const routes = [
         component: () => import("../views/positive-commerce/SocialImpact.vue"),
       },
     ],
+  },
+  {
+    path: "/products/sesimagotag/iot-infrastructure",
+    name: "IotInfrastructure",
+    component: () => import("../views/IotInfrastructure.vue"),
   },
 ];
 // Lazy loading is a technique that delays the loading of a resource until it is needed.

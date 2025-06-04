@@ -450,6 +450,7 @@ dl {
 @include mds-background("gray", var(--gray));
 @include mds-background("blue-light", var(--blue-light));
 @include mds-background("pink-light", var(--pink-light));
+@include mds-background("pink-shade", var(--pink-shade));
 @include mds-background("purple-light", var(--purple-light));
 @include mds-background("red-light", var(--red-light));
 @include mds-background("orange-light", var(--orange-light));
