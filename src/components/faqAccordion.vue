@@ -36,7 +36,6 @@
         </svg>
 
         <svg
-          v-else
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           width="28"
@@ -56,9 +55,10 @@
     <transition name="accordion">
       <div
         v-show="openIndex === index"
-        class="content-wrapper layout-accordion__content mds-width-80"
+        class="content-wrapper layout-accordion__content mds-width-85"
       >
-        <p>{{ block.description }}</p>
+        <div class="accordionDes" v-html="block.description"></div>
+
         <ul>
           <li
             class="mds-font-weight-400 mds-font-size-base-2 mds-m-bottom-sm"
@@ -212,14 +212,36 @@ body :is(.shrink-0) {
 .layout-accordion__content {
   padding-bottom: 2rem;
 }
-.layout-accordion__content p {
+.layout-accordion__content .accordionDes {
   font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.15rem !important;
   line-height: 1.65;
   letter-spacing: -0.02rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
   margin: 2rem 0;
+}
+</style>
+<style lang="scss">
+.layout-accordion__content .accordionDes p {
+  font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem !important;
+  line-height: 1.65;
+  letter-spacing: -0.02rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  margin: 2rem 0;
+}
+.accordionDes ol,
+ul {
+  font-size: 1.15rem !important;
+}
+.component-accordion .tab-wrapper div.is-open svg {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 </style>

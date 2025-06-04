@@ -224,6 +224,7 @@ dl {
             }
         }
     }
+
     &-overflow {
         &-hidden {
             overflow: hidden !important;
@@ -372,6 +373,12 @@ dl {
             }
             &-200 {
                 height: torem(200) !important;
+            }
+            &-150 {
+                height: torem(150) !important;
+            }
+            &-50 {
+                height: torem(50) !important;
             }
         }
     }

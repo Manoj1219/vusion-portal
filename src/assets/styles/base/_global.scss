@@ -42,8 +42,15 @@ a {
         }
     }
 }
+.text-underline {
+    color: #000000;
+    text-decoration: underline;
+}
 img {
     max-width: 100%;
+}
+.defaul-b-border {
+    border-bottom: 1px solid #425052;
 }
 .mds {
     &-img-position-cover {

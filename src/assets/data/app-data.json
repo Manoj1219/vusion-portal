@@ -491,6 +491,327 @@
           "description": "Through better data, IoT, and automations solutions, we are improving efficiency and inventory management in physical stores, while reducing waste and avoiding GHG emissions."
         }
       ]
+    },
+    "SustainableRetail": {
+      "intro": {
+        "subHeader": "Postitive commerce",
+        "header": "Contributing to sustainable retail",
+        "description": "Our goal is to improve efficiency and inventory management while reducing waste and avoiding GHG emissions. With better data, IoT, and automation solutions, we leverage physical stores to drive local e-commerce and create micro-fulfillment centers to execute online purchases in physical stores.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Insights_FPO_IMG_2-1440x1440-c-default.png"
+      },
+      "Opportunities": {
+        "icon": "https://www.vusion.com/wp-content/uploads/2023/10/icon-sustainability-170x170-c-default.png",
+        "subHeader": "Sustainable Retail KPIs",
+        "header": "Powering more sustainable stores for a positive social impact",
+        "description": "We are committed to making retail more sustainable, with smarter, more efficient technologies that enable more powerful ESG strategies across business practices. Here are some of our sustainable commitments and performance indicators",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "Decarbonizing Retail",
+            "subTitle": "Avoiding GHG emissions",
+            "description": "Greater potential to avoid GHG emissions when using our solutions"
+          },
+          {
+            "id": "2",
+            "title": "212,152 kg",
+            "subTitle": "Cardboard usage reduction",
+            "description": "In 2023 in comparison to 2021, due to leveraging efficiencies in packaging when shipping our products"
+          },
+          {
+            "id": "3",
+            "title": "Platinum",
+            "subTitle": "EcoVadis rating 2023",
+            "description": "One of the world’s most recognized rating providers for sustainability"
+          },
+          {
+            "id": "4",
+            "title": "1 900 000",
+            "subTitle": "Recycled ESLs in 2023",
+            "description": "As part of our responsible consumption and production programming"
+          }
+        ],
+        "certificate": [
+          {
+            "id": "1",
+            "title": "EcoVadis",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/csr-2-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2023/12/SES-IMAGOTAG_SA_GROUP_EcoVadis_Rating_Certificate_2023_12_04-002-2.pdf"
+          },
+          {
+            "id": "2",
+            "title": "Global Compact",
+            "subTitle": "View our engagement",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Global-Compact-495x0-c-default.png",
+            "downloadLink": "https://unglobalcompact.org/what-is-gc/participants/142459"
+          },
+          {
+            "id": "3",
+            "title": "ISO 14001",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/ISO-14001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2025/01/VUSIONGROUP-ISO-14001-ENG-V2-valid-until-March-2026.pdf"
+          },
+          {
+            "id": "4",
+            "title": "ISO 9001",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/iso-9001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2025/01/VUSIONGROUP-ISO-9001-ENG-V2-valid-until-November-2026.pdf"
+          },
+          {
+            "id": "5",
+            "title": "ISO 27001",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/04/ISO-14001-V2-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/04/ISO_27001_ENG_VUSIONGROUP.pdf"
+          },
+          {
+            "id": "6",
+            "title": "ISO 27701",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-16T154500.432-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/04/ISO_27701_ENG_VUSIONGROUP.pdf"
+          },
+          {
+            "id": "7",
+            "title": "ISO 28000:2022",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/02/VUSIONGROUP-ISO-28000-UKAS-logo-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2025/02/00047819-28000-ENGGB-UKAS-1.pdf"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "What does climate-conscious retail look like?",
+        "subtitle": "Sustainable e-Commerce",
+        "header": "Turning retail stores into e-commerce centers",
+        "description": "Leveraging our technologies, turning existing physical stores into efficient local fulfilment centers for online would offer a sustainable e-Commerce solution and avoid up to 0.5GT of CO2 emissions.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/image-1515-1540x1020-c-default.jpg",
+        "link": "https://www.weforum.org/stories/2022/09/retail-stores-into-ecommerce-centres-avoid-carbon-emissions/"
+      },
+      "FeaturesTwo": {
+        "subtitle": "Carbon reduction",
+        "header": "How our solutions work to avoid GHG emissions and decarbonize retail",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/01/MicrosoftTeams-image-72-1540x1020-c-default.jpg"
+      },
+      "OurCustomer": {
+        "subtitle": "Our Customers",
+        "header": "“Our launch of the Choose Better Program is not only a testament to our commitment to sustainability, it also aligns with our purpose to help customers shop smarter and live better by helping them make healthier, more sustainable shopping choices.”",
+        "name": "Sheila Chaiban",
+        "position": "CMO at Majid Al Futtaim Retail",
+        "link": "https://www.vusion.com/insights/howgood-announces-its-climate-impact-labels-will-be-displayed-on-food-products-at-cop28-to-drive-sustainability-transparency-and-carbon-footprint-awareness/",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/12/MicrosoftTeams-image-69-1440x1440-c-default.jpg"
+      },
+      "OurCustomerTwo": {
+        "subtitle": "Our Customers",
+        "header": "“By combining SPAR, VusionGroup, and Wasteless, you improve sell-through, you improve profitability and margins while also reducing your food waste.”",
+        "name": "David Kat",
+        "position": "SVP Business Development of Wasteless — Sell More, Waste Less",
+        "link": "https://player.vimeo.com/progressive_redirect/playback/782982324/rendition/1080p/file.mp4?loc=external&log_user=0&signature=57e5aff0b54780928d5dca275c036168883c36381937cf0457ce670b511b57fc",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-FPO-1-1-1440x1440-c-default.png"
+      },
+      "Podcast": {
+        "subtitle": "Our ESG Report",
+        "header": "See Ourcommitments to sustainable strategies",
+        "description": "And learn about our company roadmap for Positive Commerce.",
+        "link": "https://www.vusion.com/wp-content/uploads/2024/05/VusionGroup_2023_ESG_Report-2023-EN.pdf",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-8-1440x1440-c-default.png"
+      },
+      "OurPolicies": {
+        "icon": "https://www.vusion.com/wp-content/uploads/2023/10/icon-sustainability-170x170-c-default.png",
+        "subHeader": "Our Policies",
+        "header": "Learn how we advance sustainability across our supply chain",
+        "description": "To ensure that our supply chain is sustainable, we assess all our supply chain.",
+        "certificate": [
+          {
+            "id": "1",
+            "title": "Environmental policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/csr-2-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/08/Environmental-Policy-VusionGroup-2024.pdf"
+          },
+          {
+            "id": "2",
+            "title": "RoHS and REACH policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Global-Compact-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/RoHS-and-REACH-Policy-2024.pdf"
+          },
+          {
+            "id": "3",
+            "title": "Sustainable procurement and purchasing policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/ISO-14001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/Sustainable-Procurement-and-Purchasing-Policy-2024.pdf"
+          },
+          {
+            "id": "4",
+            "title": "Conflict minerals policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/iso-9001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/Conflict-Minerals-Policy-2024.pdf"
+          },
+          {
+            "id": "5",
+            "title": "Modern slavery statement",
+            "subTitle": "Learn More",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/08/Modern-Slavery-Statement_2024.pdf"
+          }
+        ]
+      },
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What is VusionCloud and how can it transform my in-store IoT device management as a cloud solution for retailers? ",
+            "description": "VusionCloud is a Cloud Retail IoT platform with the strongest security, reliability, and performances. It allows customers to track, manage and monitor their electronic shelf labels throughout their lifecycle, from delivery to end-of-life."
+          },
+          {
+            "id": "2",
+            "label": "In what ways can VusionCloud help reduce operational costs for retailers seeking a cloud solution? ",
+            "description": "VusionCloud is a Software as a Service platform that helps retailers reduce their operational costs by automating many routine tasks at the shelf such as price and promotion updates, and requires no capital expenditures, no new store hardware equipment, and no expensive/hidden operating costs."
+          },
+          {
+            "id": "3",
+            "title": "Is VusionCloud easily integrated with other existing systems in my retail environment? ",
+            "description": "Thanks to its wide range of APIs, retailers can easily integrate VusionCloud in their own ecosystem. Our APIs agility enables rapid access to a whole range of possibilities to deliver additional value in stores on-demand."
+          },
+          {
+            "id": "4",
+            "title": "What kind of support does VusionCloud offer to ensure retailers' success with this cloud solution?",
+            "description": "With VusionCloud, customers ensure that prices and promotions are always synchronized online and in-store. Thanks to its web and mobile interfaces, retailers can have a real-time access to the store activity and the status of its assets, from anywhere at anytime. VusionCloud also includes a monitoring tool to identify and spot unusual device or infrastructure behavior to reduce mean-time-to-resolution and ensure accurate pricing in the store."
+          }
+        ]
+      }
+    },
+    "SocialImpact": {
+      "intro": {
+        "subHeader": "Positive Commerce",
+        "header": "Creating positive social impact",
+        "description": "Our goal is to provide a positive daily experience for retailers and associates in commerce and to enable more diverse and fulfilling social connections in local communities through more sustainable stores.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Stocksy_comp_4632429-2-1440x1440-c-default.jpg"
+      },
+      "Opportunities": {
+        "icon": "https://www.vusion.com/wp-content/uploads/2023/10/icon-sustainability-170x170-c-default.png",
+        "subHeader": "Social Impact KPIs",
+        "header": "Powering human-centered technologies for commerce and consumers",
+        "description": "We are committed to human-centered commerce through principled solutions that enable more positive social impact across business practices. Here are some of our commitment and performance indicators.",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "title": "OECD and UN Guiding Principles",
+            "subTitle": "Learn more",
+            "description": "We are committed to ethical and conscious growth based on the fundamental value of respect for human rights",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/Commitment-to-ILO-MNE-Declaration-and-respect-of-Guidelines-2024.pdf"
+          },
+          {
+            "id": "2",
+            "title": "Supplier Code of Conduct",
+            "subTitle": "Learn more",
+            "description": "98.2% of our external manufacturing EMS and component suppliers adhere to our Supplier Code of Conduct for responsible production",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2023/12/SES2022_Supplier_Code_of_Conduct_EN-1.pdf"
+          },
+          {
+            "id": "3",
+            "title": "Platinum EcoVadis Rating 2023",
+            "description": "We have been granted the Platinum recognition by one of the world’s most recognized rating providers for sustainability"
+          }
+        ],
+        "certificate": [
+          {
+            "id": "1",
+            "title": "EcoVadis",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/csr-2-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2023/12/SES-IMAGOTAG_SA_GROUP_EcoVadis_Rating_Certificate_2023_12_04-002-2.pdf"
+          },
+          {
+            "id": "2",
+            "title": "Global Compact",
+            "subTitle": "View our engagement",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Global-Compact-495x0-c-default.png",
+            "downloadLink": "https://unglobalcompact.org/what-is-gc/participants/142459"
+          },
+          {
+            "id": "3",
+            "title": "ISO 9001",
+            "subTitle": "Download certificate",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/ISO-14001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2025/01/VUSIONGROUP-ISO-9001-ENG-V2-valid-until-November-2026.pdf"
+          },
+          {
+            "id": "4",
+            "title": "Women’s Empowerment principles",
+            "subTitle": "View our engagement",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/UNWomen_WePrinciples_endt_support_k_pos_rgb-495x0-c-default.png",
+            "downloadLink": "http://weps.org/company/ses-imagotag"
+          }
+        ]
+      },
+      "Features": {
+        "mainHeader": "What does positive social impact look like?",
+        "subtitle": "For communities",
+        "header": "Enhancing cities and communities",
+        "description": "Physical stores are a precious common good that need to be protected — they provide a lively social hub, rich with culture in our communities. Stores play a crucial role in the social well-being of our world, allowing consumers immediate access to products and enabling brands to offer an experience. By transforming stores into digital assets and improving the in-store experience for everyone, we benefit the broader economy and contribute positively to society.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/12/Stocksy_txp7ce4f63dW3r300_OriginalDelivery_713875-scaled-1540x1020-c-default.jpg"
+      },
+      "FeaturesTwo": {
+        "subtitle": "More fulfilling jobs",
+        "header": "Our solutions contribute to securing more fulfilling retail jobs",
+        "description": "Stores represent one-sixth of all jobs on the planet. With solutions that empower stores to be more successful and longer lasting, we help create culture in local communities. We enable a better, more reliable shopping experience with price integrity via our solutions and contribute to better overall store performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/11/Store_Efficiency_Customer_Service-scaled-1540x1020-c-default.jpg"
+      },
+      "OurCustomer": {
+        "header": "Transparency and synchronization",
+        "description": "Our electronic shelf label technologies enable fast, productive, and effective updates to ensure the information shown to the customer is always accurate and compliant with regulations. For food stores, that can mean providing vital allergen information, nutritional information, country of origin, or whether an item is produced locally. Our solutions can also identify soon-to-expire goods to reduce food waste and improve inventory turnover.",
+        "link": "https://www.vusion.com/insights/howgood-announces-its-climate-impact-labels-will-be-displayed-on-food-products-at-cop28-to-drive-sustainability-transparency-and-carbon-footprint-awareness/",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/01/Stocksy_txpa108b1dee3r300_OriginalDelivery_5093245-scaled-1440x1440-c-default.jpg"
+      },
+      "Podcast": {
+        "subtitle": "Our ESG Report",
+        "header": "See Ourcommitments to sustainable strategies",
+        "description": "And learn about our company roadmap for Positive Commerce.",
+        "link": "https://www.vusion.com/wp-content/uploads/2024/05/VusionGroup_2023_ESG_Report-2023-EN.pdf",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-8-1440x1440-c-default.png"
+      },
+      "OurPolicies": {
+        "icon": "https://www.vusion.com/wp-content/uploads/2023/10/icon-sustainability-170x170-c-default.png",
+        "subHeader": "Our commitment",
+        "header": "See our commitment to be a good place to work",
+        "description": "We are dedicated to creating a positive work environment for our employees by cultivating a highly motivating and inclusive workplace.",
+        "certificate": [
+          {
+            "id": "1",
+            "title": "Global Human Rights Policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/csr-2-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/08/Environmental-Policy-VusionGroup-2024.pdf"
+          },
+          {
+            "id": "2",
+            "title": "Labor Rights Policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Global-Compact-495x0-c-default.png",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/RoHS-and-REACH-Policy-2024.pdf"
+          },
+          {
+            "id": "3",
+            "title": "Diversity & Inclusion Program",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/ISO-14001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/Sustainable-Procurement-and-Purchasing-Policy-2024.pdf"
+          },
+          {
+            "id": "4",
+            "title": "Anti-Discrimination, Anti-Harassment & Promotion of Diversity Policy",
+            "subTitle": "Learn More",
+            "image": "https://www.vusion.com/wp-content/uploads/2023/11/iso-9001-V2-495x0-c-default.jpg",
+            "downloadLink": "https://www.vusion.com/wp-content/uploads/2024/07/Conflict-Minerals-Policy-2024.pdf"
+          }
+        ]
+      }
     }
   },
   "allProducts": {
@@ -1184,6 +1505,73 @@
         "subtitle": "PDI digital Products",
         "header": "Get detailed information on the PDI digital family of products",
         "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_PDIDigital_GetInfo@1x-1440x1440-c-default.png"
+      }
+    },
+    "SustainableRetail": {
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "header": "VusionCloud FAQ",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What is Positive Commerce and what is your sustainability strategy?",
+            "description": "<p>Turning the physical store into a digital asset. Contribute to the adoption of digital technologies by physical stores and sustain the economic health of the sector.</p><p>Reduce the impact of Commerce on the environment, by making the digital transformation of commerce low-carbon and sustainable: aiming to reduce the carbon footprint of our solutions and contribute to reducing that of our customers thanks to the many use cases enabling the avoidance of additional issues.</p><p>While aligning itself with the guiding principles of the OECD and the United Nations in terms of human rights, the fight against corruption and compliance with competition law.</p>"
+          },
+          {
+            "id": "2",
+            "label": "Why are ESG strategies important to commerce and retailers?",
+            "description": "<p>E-commerce global growth is expected to grow by 30 to 40% in 5 years, and e-commerce will therefore represent 60% of total retail sales added in the next 5 years. Retail supply chains are responsible for 25% of the world GHG emissions and many retailers have set bold targets towards the net zero race but only a few are on track with an actionable agenda. As a result, physical retail digitalization has an important role to play in the world’s sustainability agenda. Our solutions support putting stores at the heart of retailers’ e-commerce strategy by allowing in-store fulfillment, pickup, and express delivery, avoiding the construction of order-picking warehouses and by:<br>*Enabling local and low carbon e-commerce<br>*Reducing food waste<br>*Influencing responsible consumption at the shelf<br>*Fostering local-for-local production and consumption<br>*Enabling end-to-end supply chain transparency<br>*Paperless commerce</p>"
+          },
+          {
+            "id": "3",
+            "title": "Do you measure and disclose Scope 1, 2, and 3 GHG emissions? Do you have carbon emission reduction targets in line with the Paris Agreement or equivalent?",
+            "description": "Yes, we measure our GHG emissions Scope 1,2,3 annually in conformance with the GHG accounting protocol and disclose them on a yearly basis through our ESG annual report. Additionally, we disclose our climate-change strategy through the CDP questionnaire. We started the process to submit our GHG emissions targets to SBTi to be aligned with 1.5°C targets of the Paris Agreement."
+          },
+          {
+            "id": "4",
+            "title": "Do you support the Sustainable Development Goals?",
+            "description": "<p>Yes, we do. For the past three years we have been supporters of the United Nations Global Compact, and our ESG Goals are aligned primarily with the following UN Sustainable Development Goals:</p><p>3. Good health and well-being</p><p>5. Gender equality</p><p>7. Affordable and clean energy</p><p>8. Decent work and economic growth</p><p>9. Industry, innovation, and infrastructure</p><p>11. Sustainable cities and communities</p><p>12. Responsible consumption and production</p><p>13. Climate action</p>"
+          },
+          {
+            "id": "5",
+            "title": "Do you collaborate with other industry players, bodies, or other organizations to improve the sustainability of your industry?",
+            "description": "<p>– Gigaton Walmart</p><p>– NZI4IT by Carbone 4</p><p>We joined the group study Net Zero initiative for IT (NZI4IT) in June 2023, which was organized by Carbone4 for understanding the role of digital solutions in the global net zero effort.</p> <p>Carbone 4 is a leading climate change consultancy supporting the world’s transformation towards decarbonization and climate change adaptation. Acting as a bridge between scientific excellence and the business world, Carbone 4 helps its clients understand the challenges of our changing world. Net Zero Initiative is the very first framework dedicated to the contribution of companies to global net zero. Led by Carbone 4 since 2018, NZI aims to empower businesses to transform their activities towards a net zero economy.</p><p>The objectives of this project are:</p><p>1. Create a top-level working group of companies, academics, institutions, and experts that are relevant on the topics of IT and climate mitigation.</p><p>2. Investigate several topics related to the general question of the role of IT in the global net zero effort, especially the question of avoided emissions, carbon removals and related claims.</p><p>3. Publish the outcomes of each area of work, through the production of guidelines and tools that will help all stakeholders understand the role of IT on the global net zero goal and prevent greenwashing.</p><p>– We joined the Consumer Goods Forum: The only organization that brings consumer goods retailers and manufacturers together globally. It is a CEO-led organization that helps the world’s retailers and consumer goods manufacturers to collaborate, alongside other key stakeholders, to secure consumer trust and drive positive change, including greater efficiency. With their global reach, CEO leadership, and focus on retailer–manufacturer collaboration, the Consumer goods forum is in a unique position to drive positive change and help address key challenges impacting the industry, including environmental and social sustainability, health, food safety, and product data accuracy.</p><p>– Additionally, we are a member of the World Economic Forum‘s Future of Consumption Platform in order to advance, share, and promote knowledge around Positive Commerce. The Forum engages the foremost political, business, cultural, and other leaders of society to shape global, regional, and industry agendas.</p><p>– VusionGroup is also part of Perifem. Perifem is working to bring on board all the players in the distribution sector to create a more responsible commercial ecosystem.</p>"
+          }
+        ]
+      }
+    },
+    "SocialImpact": {
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "header": "VusionCloud FAQ",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "How do you track performance with your clients?",
+            "description": "At the end of 2020, we launched our “Customer First” program, anchored in our belief that high levels of customer satisfaction and loyalty lead to consumers becoming our greatest champions, recommending us to other potential customers. Thus, the Group is dedicated to fostering a positive experience at every key stage of the customer journey in order to set this virtuous cycle in motion. The indicator we used is the Net Promoter Score (NPS). It is a widely used tool for measuring customer loyalty and satisfaction. It involves asking customers how likely they are to recommend a product or service to others, on a scale of 0-10. Our customer satisfaction survey is deployed worldwide. It is linked to our Customer Relationship Management (CRM) system and our Power BI analysis tool. Implementing NPS across the work done by every employee will help us measure how customers perceive our service and how well our business is doing. With an overall NPS above 65 in the first half of 2023 (compared to 55 in 2022 vs. 38 in 2021) and an industry average of around 33, VusionGroup is in the upper range of the SaaS and software sector and remains on a clear path towards improvement. This positive NPS has been achieved by adopting a truly customer-centric approach. "
+          },
+
+          {
+            "id": "2",
+            "label": "How do you ensure your supply chain is sustainable?",
+            "description": "<p>To assess and ensure the sustainability of its industrial supply chain, the Group developed a supplier code of conduct, which was signed by 98.2% of its industrial purchases in 2023. Additionally, VusionGroup evaluates the quality and CSR aspects of its supply chain through three types of audits:</p><ol><li>Self-Assessment Questionnaires: completed by potential new suppliers, these questionnaires identify any major breaches of the Group’s social and environmental requirements.</li><li>Internal Audits: conducted by the Group’s product quality teams, during regular on-site visits to our subcontractors and suppliers. These audits ensure suppliers meet quality standards and comply with the sustainable purchasing policy: in 2023, 97.18% of industrial purchases and the Group’s main indirect suppliers were audited.</li><li>Third-Party Assessments: the Group has commissioned EcoVadis, a CSR rating company, to conduct documentary CSR assessments of its suppliers.</li></ol><p>These measures uphold high standards of social and environmental responsibility across VusionGroup’s supply chain.</p>"
+          },
+          {
+            "id": "3",
+            "title": "How do you assess your supply chain?",
+            "description": "<p><span>We don’t own the production plants that manufacture our products. We have opted for a factory-free production model, outsourcing our production processes to External Manufacturing Services (EMSs). Our main assembly partners have long-established programs in ESG and environmental initiatives. They follow global reporting standards for sustainability and are all certified to ISO International Standards that provide guidance on environmentally and socially responsible behavior for organizations. The scope of their environmental management systems extends far beyond what is typically found in an ISO 14001:2015 system and includes such elements as product environmental compliance and e-waste management. We subcontract the manufacturing of ESLs to specialized service providers (EMS-Electronics Manufacturing Services), while retaining the design and intellectual property rights of our products. Most of our EMS partners are located in mainland China or Southeast Asia, or more recently in Central America (Mexico). The Group assesses the quality of its supply chain through three types of audits:</span><span>&nbsp;</span></p><ol><li><span>An audit of our suppliers managed by the Group’s product quality department, during visits organized to our subcontractors and suppliers.</span></li><li>Supplier self-assessment questionnaire to be completed by suppliers: in order to identify any major breach of the Group’s social and environmental requirements, a self-assessment questionnaire was designed by the Product Quality Department and the Group’s purchasing teams and is systematically submitted to current and potential suppliers.</li><li>The Group entrusted a third party (the ESG rating company EcoVadis) with the performance of ESG documentary assessments. They measure the performance of SESimagotag’s main suppliers on 21 ESG criteria grouped into four themes: Environment, Labor &amp; Human Rights, Ethics, and Responsible Procurement.</li></ol>"
+          },
+          {
+            "id": "4",
+            "title": "How do you ensure you conduct business ethically?",
+            "description": "<p><span  >Within our organization, our Code of Ethics is designed to make sure that each staff member — no matter what position they hold — knows, understands, and acts with the highest ethical standards in every aspect of our work. While the Code cannot cover every workplace challenge, it helps us to spot issues, become more familiar with our policies and act with integrity. Everyone at VusionGroup must apply the Code along with the procedures and related policies. This is what we expect when we work together, interact with customers, address shareholders, collaborate with business partners, and contribute to our communities.</span><span>&nbsp;</span></p><p><span  >Following the communication and training on business ethics, the Group has set itself a clear objective since 2021: to ensure that each employee signs the Company’s Code of Ethics, so that our values and fundamental principles are as widely shared and understood as possible, with signature campaigns being organized during the first quarter of each year. This Code of Ethics has been strengthened by the implementation of three new procedures:</span></p><ul> <li><span> the gift and hospitality procedure;</span></li> <li><span> the conflict of interest procedure; and</span></li> <li><span> the ethical alert procedure (available on our internal “Service Now” platform, to ensure both confidentiality and fluidity of flows).</span></li></ul>"
+          },
+          {
+            "id": "4",
+            "title": "How do you assure data privacy?",
+            "description": "<p><span>Anytime, anywhere, consumers have the right to obtain complete information about the products they purchase and consume. They also have the right to know that their personal data is protected and cannot be used for purposes other than to provide them with full purchasing satisfaction. It is essential to maintain strict confidentiality of data. In this sense, the customer applications that we develop or activate place this imperative at the forefront. Our applications are based on the following assumptions:</span>></p><ul><li><span> Consumers expect personalized service, recommendations and offers. As a result, they are ready to be identified and provide data on their preferred choices; and</span></li><li><span> For retailers, personalized marketing in-store can unlock significant value. We thus promote solutions and operate under two guiding principles:</span></li></ul><ol><li><span>The deal must be fair. Retailers must earn the right to know their customers and to use the data in exchange for a better and more personalized service, better value for money, time savings, and real value; and</span></li><li>The services are always subject to the shopper’s willingness to sign up for a clear and transparent deal, without surprises. As stores bridge over to digital technology, the actions of retailers regarding privacy must be fully transparent. Smart labels are the perfect GDPR-compliant tool as they are an opt-in-only gateway to digital content and services.</li></ol>"
+          }
+        ]
       }
     }
   }
