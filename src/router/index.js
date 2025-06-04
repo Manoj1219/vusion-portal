@@ -182,6 +182,11 @@ const routes = [
     name: "IotInfrastructure",
     component: () => import("../views/IotInfrastructure.vue"),
   },
+  {
+    path: "/products/vusionox",
+    name: "Vusionox",
+    component: () => import("../views/ProductVusionox.vue"),
+  },
 ];
 // Lazy loading is a technique that delays the loading of a resource until it is needed.
 // In this case, the components for the routes are loaded only when the route is visited,
