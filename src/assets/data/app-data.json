@@ -1,4 +1,32 @@
 {
+  "headerLabels": {
+    "home": "Home",
+    "company": "Company",
+    "products": "Products",
+    "solutions": "Solutions",
+    "positiveCommerce": "Positive Commerce",
+    "partners": "Partners",
+    "investors": "Investors",
+    "insights": "Insights",
+    "careers": "Careers",
+    "contact": "Contact Us"
+  },
+  "companyNav": {
+    "header": "Company Overview",
+    "description": "We invent technologies for sustainable and human-centered commerce."
+  },
+  "productsNav": {
+    "header": "Product Overview",
+    "description": "Turn your physical store into a digital asset to maximize efficiency and improve store performance."
+  },
+  "positiveCommerceNav": {
+    "header": "Positive Commerce",
+    "description": "Making a positive impact through our sustainable, human-centered commerce technologies."
+  },
+  "solutionsNav": {
+    "header": "Solutions Overview",
+    "description": "Turn your physical store into a digital asset to maximize efficiency and improve store performance."
+  },
   "homepage": {
     "intro": {
       "header": "Technologies for Positive Commerce",
@@ -660,7 +688,7 @@
           }
         ]
       },
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "eachBlockInfo": [
           {
@@ -815,6 +843,123 @@
     }
   },
   "allProducts": {
+    "overview": {
+      "intro": {
+        "title": "Overview - Products",
+        "header": "Products to Manage Commerce with Impact",
+        "description": "Our products offer a smarter, more unified commerce infrastructure for retailers and brands. Turn your physical store into a digital asset to maximize efficiency and improve store performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Group-164144.png"
+      },
+      "exploreEcosystem": {
+        "title": "Explore Product Ecosystem",
+        "header": "Our Products Address Immediate Needs and Scale as Your Business Evolves"
+      },
+      "exploreSolutions": {
+        "title": "Explore Solutions",
+        "header": "Our solutions create a smarter, more efficient shopping experience for everyone",
+        "list": [
+          {
+            "id": "1",
+            "description": "Digitalize your physical store operations from end to end with a sustainable, secure, scalable solution that leverages high-performance IoT and retail analytics.",
+            "logo": "https://www.vusion.com/wp-content/uploads/2023/11/VusionCloudLogo-New.svg",
+            "list": [
+              {
+                "id": "1",
+                "label": "Streamline operations at minimal cost"
+              },
+              {
+                "id": "2",
+                "label": "Track, manage, and monitor digital price tags"
+              },
+              {
+                "id": "3",
+                "label": "Monitor millions of devices at once"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "description": "Leverage the highest-quality IoT price automation platform to remove manual pricing steps and eliminate errors, freeing your team to focus on customers.",
+            "logo": "https://www.vusion.com/wp-content/uploads/2023/10/sesimagotag_logo.png",
+            "list": [
+              {
+                "id": "1",
+                "label": "Automate pricing processes"
+              },
+              {
+                "id": "2",
+                "label": "Boost sales and improve overall store efficiency"
+              },
+              {
+                "id": "3",
+                "label": "Display relevant information beyond pricing, like ratings, reviews, and nutrition"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "description": "Maximize on-shelf availability and optimize inventory management with automatic monitoring and alerts, and re-orders predefined by you.",
+            "logo": "https://www.vusion.com/wp-content/uploads/2024/01/Captana_Stacked_Black-Blue_RGB-1.svg",
+            "list": [
+              {
+                "id": "1",
+                "label": "Wireless mini camera systems with real-time monitoring"
+              },
+              {
+                "id": "2",
+                "label": "Gain real-time shelf visibility across your store"
+              },
+              {
+                "id": "3",
+                "label": "AI-powered insights maximize on-shelf availabilty"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "description": "Harness the power of your data by applying A.I. to your existing data collections to deliver actionable insights that improve workflows and customer experience.",
+            "logo": "https://www.vusion.com/wp-content/uploads/2023/10/memory_logo.png",
+            "list": [
+              {
+                "id": "1",
+                "label": "Improve inventory turnover — down to individual SKU"
+              },
+              {
+                "id": "2",
+                "label": "Organize your evolving data set to optimize assortment"
+              },
+              {
+                "id": "3",
+                "label": "Easily monitor and analyze sales data"
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "description": "Run digital campaigns instantly, monetize your foot traffic, and partner with brands to connect with shoppers at the shelf and improve inventory turnover.",
+            "logo": "https://www.vusion.com/wp-content/uploads/2023/10/egage_logo.png",
+            "list": [
+              {
+                "id": "1",
+                "label": "Run a successful digital display campaign in your store"
+              },
+              {
+                "id": "2",
+                "label": "Reach shoppers at the shelf"
+              },
+              {
+                "id": "3",
+                "label": "Monitor campaign performance in real-time"
+              }
+            ]
+          }
+        ]
+      },
+      "relatedInsights": {
+        "label": "Related Insights",
+        "header": "Learn how to leverage retail IoT for your business"
+      }
+    },
     "productsOverviewTabs": [
       {
         "id": "1",
@@ -1008,7 +1153,7 @@
         "link": "https://soundcloud.com/rethink-retail/from-insight-to-action-transforming-data-into-retail-strategy?.",
         "image": "https://www.vusion.com/wp-content/uploads/2024/05/Untitled-design-2024-05-29T152956.388-1440x1440-c-default.png"
       },
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "header": "VusionCloud: unique Cloud Solution for Retailers",
         "eachBlockInfo": [
@@ -1113,7 +1258,7 @@
         "link": "https://www.vusion.com/products/vusioncloud/vusionox/",
         "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_VusionCloud_GetInfo@1x-1440x1440-c-default.png"
       },
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "header": "VusionCloud FAQ",
         "eachBlockInfo": [
@@ -1395,7 +1540,7 @@
         "header": "Get detailed information on the Engage family of products",
         "image": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_Engage_GetInfo@1x-1440x1440-c-default.png"
       },
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "eachBlockInfo": [
           {
@@ -1508,7 +1653,7 @@
       }
     },
     "SustainableRetail": {
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "header": "VusionCloud FAQ",
         "eachBlockInfo": [
@@ -1541,7 +1686,7 @@
       }
     },
     "SocialImpact": {
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "header": "VusionCloud FAQ",
         "eachBlockInfo": [
@@ -1550,7 +1695,6 @@
             "label": "How do you track performance with your clients?",
             "description": "At the end of 2020, we launched our “Customer First” program, anchored in our belief that high levels of customer satisfaction and loyalty lead to consumers becoming our greatest champions, recommending us to other potential customers. Thus, the Group is dedicated to fostering a positive experience at every key stage of the customer journey in order to set this virtuous cycle in motion. The indicator we used is the Net Promoter Score (NPS). It is a widely used tool for measuring customer loyalty and satisfaction. It involves asking customers how likely they are to recommend a product or service to others, on a scale of 0-10. Our customer satisfaction survey is deployed worldwide. It is linked to our Customer Relationship Management (CRM) system and our Power BI analysis tool. Implementing NPS across the work done by every employee will help us measure how customers perceive our service and how well our business is doing. With an overall NPS above 65 in the first half of 2023 (compared to 55 in 2022 vs. 38 in 2021) and an industry average of around 33, VusionGroup is in the upper range of the SaaS and software sector and remains on a clear path towards improvement. This positive NPS has been achieved by adopting a truly customer-centric approach. "
           },
-
           {
             "id": "2",
             "label": "How do you ensure your supply chain is sustainable?",
@@ -1826,7 +1970,7 @@
           ]
         }
       ],
-      "faqAccordion": {
+      "FaqAccordion": {
         "subHeader": "Frequently asked questions",
         "header": "VusionCloud FAQ",
         "eachBlockInfo": [
@@ -1898,6 +2042,619 @@
           }
         ]
       }
+    }
+  },
+  "ElectronicShel": {
+    "testimonials": {
+      "logos": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Darty.svg-0x80-c-default.png",
+          "alt": "Darty logo"
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Jula-logo.max-400x200-1-0x80-c-default.png",
+          "alt": "Jula x VusionGroup"
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Watsons-logo-2013-1024x751-1-1-0x80-c-default.png",
+          "alt": "Watsons-logo-2013-1024x751 (1)"
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Carrefour-Logo-1-0x80-c-default.png",
+          "alt": "Carrefour logo"
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/intermarche-logos-idKkUYc6MM-0x80-c-default.png",
+          "alt": "intermarche-logo"
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/sephora-logos-id976Dvlh0-0x80-c-default.png",
+          "alt": "Sephora Logo"
+        },
+        {
+          "id": 7,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/euronics-logos-idnIHr5J1w-0x80-c-default.png",
+          "alt": "Euronics Logotype"
+        },
+        {
+          "id": 8,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/wayfair-logos-id-rIpy3sc-0x80-c-default.png",
+          "alt": "Wayfair logo"
+        }
+      ]
+    },
+    "videos": [
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/09/pricing-to-promotion.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/1005767606/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cc16b8d7bd858c52a6bf31fef468ca04f15b71903a622a7877c908f5a5df6824"
+      },
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/09/shopper-information.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/1005768041/rendition/1080p/file.mp4?loc=external&log_user=0&signature=88f3e9e0bcae07dd41c3e2ec97f6fc60f1684e3b03a36368ddb61d967fbabf6d"
+      },
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/09/shopper-information.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/1005768041/rendition/1080p/file.mp4?loc=external&log_user=0&signature=88f3e9e0bcae07dd41c3e2ec97f6fc60f1684e3b03a36368ddb61d967fbabf6d"
+      }
+    ],
+    "carousalItems": [
+      {
+        "id": 1,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/2.png.webp",
+        "header": "V100 Series",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The V100 Series is the accessible solution for all verticals and in-store uses, focusing on fast price and promotion automation. Rugged and built from strong materials, ensuring the best price/performance ratio on the market. "
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White <br/> Red"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "1.5”, 1.6”, 2.1”, 2.2”, 2.6”"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/3.png.webp",
+        "header": "V300 Series - BWR",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The V300 BWR Series offers a wider range of sizes with up to 15 years of battery lifetime to meet all retailers needs. Equipped with NFC capabilities and 7-color LEDs, they enable deeper information sharing and enhance responsiveness at the shelf. "
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White <br/> Red"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "1.6”, 2.2”, 2.6”, 2.9”, 4.2”, 4.5”, 5.9”, 6.0”, 7.4”, 9.7”, 12.2”"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/4.png.webp",
+        "header": "V300 Series - BWRY",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "Pricing automation just got better with the latest 4-color display technology, bringing countless new possibilities to shelves. With specific sizes showcasing black, white, red and yellow, elevate your brand visibility and differentiate products better."
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White <br/> Red <br/> Yellow"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "1.5”, 1.6”, 2.1”, 2.2”, 2.6”, 2.9”, 3.5”, 4.2”, 4.5”, 5.9”, 6.0”, 7.4”, 9.7”"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/1.png.webp",
+        "header": "V300 Waterproof Series",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The V300 Waterproof series is designed for environments where traditional electronic labels fall short due to water exposure, ice, or humidity; or specific sections of the stores requiring deep cleaning and hygiene."
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White <br/> Red <br/> Yellow"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "2.6”, 4.2”"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/5.png.webp",
+        "header": "V300 Freezer Series",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The V300 Freezer is the perfect addition to any store with freezer and cold environments, designed to withstand temperatures as low as -25°C. Simplify your shop associates' daily tasks in cold environments with the 7-color LED blinking feature."
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "2.1”, 2.2”, 2.6”, 2.9”, 3.5"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/6.png.webp",
+        "header": "V700 Series – Full color",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The V300 Freezer is the perfect addition to any store with freezer and cold environments, designed to withstand temperatures as low as -25°C. Simplify your shop associates' daily tasks in cold environments with the 7-color LED blinking feature."
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Full-color"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "8.2”"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "image": "https://www.vusion.com/wp-content/uploads/2025/04/7.png.webp",
+        "header": "VSway Series",
+        "background": "mds-background-pink-light",
+        "features": [
+          {
+            "id": 1,
+            "title": "DESCRIPTION",
+            "description": "The VSway is designed to eliminate the need for shelves by displaying pricing directly on the product itself, using dynamic features that seamlessly integrate real-time updates."
+          },
+          {
+            "id": 2,
+            "title": "COLORS",
+            "description": "Black <br/> White <br/> Red <br/> Yellow"
+          },
+          {
+            "id": 3,
+            "title": "SIZES AVAILABLE",
+            "description": "2.6”"
+          },
+          {
+            "id": 4,
+            "title": "LED COLORS",
+            "description": "7-colors"
+          }
+        ]
+      }
+    ],
+    "FaqAccordion": {
+      "subHeader": "Frequently asked questions",
+      "header": "VusionCloud FAQ",
+      "eachBlockInfo": [
+        {
+          "id": "1",
+          "label": "What are electronic shelf labels and how do they work?",
+          "description": "Electronic shelf labels are the key to transforming your physical store into a digital asset. With SESimagotag’s high-resolution labels, you benefit from direct communication capabilities with your customers, perform automatic updates, and guarantee the integrity of the information displayed on the shelves."
+        },
+        {
+          "id": "2",
+          "label": "What operational data can be displayed directly on the shelves using electronic labels?",
+          "description": "Digital shelf labels can display ERP, inventory or other operational data allowing store associates to access real-time storage and inventory information."
+        },
+        {
+          "id": "3",
+          "title": "What are the benefits of electronic labels in retail?",
+          "description": "Electronic shelf labels allow merchants to update prices at the store or chain level, within seconds, for error-free and hassle-free price management."
+        },
+        {
+          "id": "4",
+          "title": "How can digital price tags increase in-store shopper engagement?",
+          "description": "<ul><li>Connect with customers on the shelf to help them discover new products, find relevant information, view promotional offers or obtain digital coupons through electronic shelf labels.</li><li>Communicate product information or send shoppers to purchase online with a simple NFC click or QR Code scan directly on electronic labels.</li></ul>"
+        }
+      ]
+    }
+  },
+  "MemoryPulse": {
+    "testimonials": {
+      "logos": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Darty.svg-0x80-c-default.png",
+          "alt": "Darty logo"
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Jula-logo.max-400x200-1-0x80-c-default.png",
+          "alt": "Jula x VusionGroup"
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Watsons-logo-2013-1024x751-1-1-0x80-c-default.png",
+          "alt": "Watsons-logo-2013-1024x751 (1)"
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Carrefour-Logo-1-0x80-c-default.png",
+          "alt": "Carrefour logo"
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/intermarche-logos-idKkUYc6MM-0x80-c-default.png",
+          "alt": "intermarche-logo"
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/sephora-logos-id976Dvlh0-0x80-c-default.png",
+          "alt": "Sephora Logo"
+        },
+        {
+          "id": 7,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/euronics-logos-idnIHr5J1w-0x80-c-default.png",
+          "alt": "Euronics Logotype"
+        },
+        {
+          "id": 8,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/wayfair-logos-id-rIpy3sc-0x80-c-default.png",
+          "alt": "Wayfair logo"
+        }
+      ]
+    }
+  },
+  "enquirySeciton": {
+    "header": "We’re here to help make your store smarter and more efficient."
+  },
+  "insightsSection": {
+    "list": [
+      {
+        "label": "Announcements",
+        "header": "Carrefour Pénestin: ultra-efficient date control with Smartdetection Flash Evo",
+        "description": "How Carrefour Pénestin reduced date control time by 80% Store size: 1,200 m² Solutions: Smartdetection • Flash Evo Faster short-date management to ensure zero expired products on shelves Before adopting Smartway and VusionGroup solutions,",
+        "updated": "March 14, 2025 | 4 min read",
+        "routeTo": "#"
+      },
+      {
+        "label": "Announcements",
+        "header": "Carrefour Pénestin: ultra-efficient date control with Smartdetection Flash Evo",
+        "img": "https://www.vusion.com/wp-content/uploads/2024/04/Shopper-Engagement@2x-100-scaled-1179x786-c-default.jpg",
+        "updated": "March 14, 2025 | 4 min read",
+        "routeTo": "#"
+      },
+      {
+        "label": "Video",
+        "header": "NRF 2025 Keynote: Enhancing the Associate & Customer Experiences at Walmart with Store Digitalization",
+        "description": "Insights from Industry Leaders Curious how technology is transforming the in-store experience? Watch our NRF 2025 keynote, “Enhancing the Associate & Customer Experiences at Walmart with Store Digitalization,” featuring: Cedric Clark, EVP",
+        "updated": "January 30, 2025 | 3 min read",
+        "routeTo": "#"
+      }
+    ]
+  },
+  "productContactUs": {
+    "header": "We’re here to help make your store smarter and more efficient.",
+    "list": [
+      {
+        "id": "1",
+        "title": "We’ll be in touch soon.",
+        "description": "Submit the contact form, and we’ll make sure it gets to the right person. They’ll be in touch as soon as possible.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/05/Partnership-Community-2.svg"
+      },
+      {
+        "id": "2",
+        "title": "We’ll set up the right demo.",
+        "description": "We’ll identify the right solutions and technologies to fit your business needs and show you how they can work for you.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/05/Physical-Retail-2.svg"
+      },
+      {
+        "id": "2",
+        "title": "We’ll customize a plan.",
+        "description": "Every business and brand has unique needs. We’ll create a plan that helps you achieve your goals and makes immediate impact",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/05/Customer-First-1.svg"
+      }
+    ]
+  },
+  "solutions": {
+    "overview": {
+      "intro": {
+        "label": "Our Solutions",
+        "header": "Solutions to manage commerce with impact",
+        "description": "Our solutions offer a smarter, more unified commerce infrastructure for retailers and brands. Turn your physical store into a digital asset to maximize efficiency and improve store performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Group-164144.png"
+      },
+      "insights": {
+        "label": "Insights",
+        "description": "Learn how to leverage retail IoT for your business"
+      },
+      "exploreSolutions": {
+        "label": "Explore Solutions",
+        "header": "Our solutions create a smarter, more efficient shopping experience for everyone",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/Group-164144.png",
+
+        "solutionsList": [
+          {
+            "id": "1",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Store_Performance.png",
+            "description": "VusionGroup’s Store Operational Excellence streamlines workflows, improves performance, and supports store teams with efficient processes.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Eliminate Pricing Minutiae"
+              },
+              {
+                "id": "2",
+                "description": "Confirm Shelf Execution"
+              },
+              {
+                "id": "3",
+                "description": "Facilitate Product Availability"
+              },
+              {
+                "id": "4",
+                "description": "Unlock Supply Chain Visibility"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Integrated_Local_eCommerce.png",
+            "description": "VusionGroup's Local eCommerce streamlines eCommerce fulfillment operations and last-mile delivery, enabling stores and associates to process orders faster and more accurately.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Align Inventory Across Channels"
+              },
+              {
+                "id": "2",
+                "description": "Simplify Online Orders Fulfillment"
+              },
+              {
+                "id": "3",
+                "description": "Optimize Staging Operations"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Digital_InStore_Media.png",
+            "description": "VusionGroup’s Digital In-Store Retail Media turns retail locations into dynamic media channels, creating revenue opportunities with targeted promotions and real-time insights.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Drive Sales with In-Store Activations"
+              },
+              {
+                "id": "2",
+                "description": "Monetize Stores as Media Hubs"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Category_Performance-opti.png",
+            "description": "VusionGroup’s Category Optimization helps retailers and CPGs improve decision-making in assortment, merchandising, promotions, and inventory, saving time and boosting performance.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Build Your Assortments Effectively"
+              },
+              {
+                "id": "2",
+                "description": "Maximize your sales potential"
+              },
+              {
+                "id": "3",
+                "description": "Construct Effective Pricing & Promotions Strategies"
+              },
+              {
+                "id": "4",
+                "description": "Monitor Inventory Proactively"
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Food_Waste_Management.png",
+            "description": "VusionGroup’s Food Waste Management reduces waste, improves experiences, and maximizes profitability with advanced tracking and AI forecasting.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Optimize Daily-Prepared Food Management"
+              },
+              {
+                "id": "2",
+                "description": "Automate Expiration Tracking for Short Shelf-Life Items"
+              },
+              {
+                "id": "3",
+                "description": "Improve Inventory for Fruits & Vegetables"
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/Guided-Shopped-Experience.png",
+            "description": "VusionGroup’s Shopper Services engages customers with dynamic marketing, bridging online and offline shopping, and providing tailored in-store experiences.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Elevate the Shopper Journey with Digital Tools"
+              },
+              {
+                "id": "2",
+                "description": "Bridge Digital and Physical Shopping Experiences"
+              },
+              {
+                "id": "3",
+                "description": "Improve Inventory for Fruits & Vegetables"
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "image": "https://www.vusion.com/wp-content/uploads/2025/01/CPG-Insights-Monetization.png",
+            "description": "VusionGroup’s Collaboration & Data Monetization provides CPGs with performance insights, retail compliance tracking, and partnership facilitation to drive revenue.",
+            "list": [
+              {
+                "id": "1",
+                "description": "Boost Category Performance"
+              },
+              {
+                "id": "2",
+                "description": "Track Execution Compliance"
+              },
+              {
+                "id": "3",
+                "description": "Foster Winning Partnerships"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "vusionox": {
+    "intro": {
+      "label": "VusionOX",
+      "header": "Interoperability made secure and scalable",
+      "description": "With Bluetooth-LE standards at its core, VusionOX is the backbone engineered for scalability, designed for upgradability and proven to integrate with over 120,000 devices in a single-store setup.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/VusionOX-Logo-L3-1440x1440-c-default.png"
+    },
+    "bluetooth": {
+      "label": "Bluetooth-LE at its core",
+      "header": "Augmented Bluetooth-LE to serve retail needs",
+      "description": "Going beyond the core Bluetooth-LE standard, VusionOX incorporates additional features enabling plug-n-play connectivity to the networking infrastructure and VusionCloud.",
+      "items": [
+        {
+          "id": "1",
+          "title": "Proven Scalability",
+          "description": "Going beyond the core Bluetooth-LE standard, VusionOX proves scalable with 120K+ IoT at once."
+        },
+        {
+          "id": "2",
+          "title": "Advanced End-to-End Security",
+          "description": "VusionOX provides the security layer necessary for safe data/price transmission in retail environments."
+        },
+        {
+          "id": "3",
+          "title": "Enterprise-level Interoperability",
+          "description": "Smart Coexistence minimized interferences in busy environments, enhancing interoperability."
+        },
+        {
+          "id": "4",
+          "title": "Over-The-Air New Features Deployment",
+          "description": "Plug-and-play connectivity to the networking infrastructure devices and VusionCloud."
+        }
+      ]
+    },
+    "vusionCloud": {
+      "label": "VusionCloud",
+      "header": "Retail IoT platform",
+      "description": "VusionCloud uses the latest technologies to provide retailers with unparalleled performance. The platform complies with the most demanding international security standards in the industry. With VusionCloud, access your store and manage labels anytime, anywhere.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/Vusion-Pictograms_IoTCloud_white_large_rgb-1440x1440-c-default.png"
+    },
+    "vusionEnabled": {
+      "label": "Vusion Enabled",
+      "header": "Vusion OX enables a unified retail IoT ecosystem.",
+      "description": "Vusion-Enabled IoT devices benefit from a plug-n-play bridge to the Vusion IoT platform, scalability for high density areas, enhanced security for pricing information and data integration.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Vusion_Live_Hero@2x-1540x1020-c-default.png"
+    },
+
+    "completeSolution": {
+      "label": "Complete solution",
+      "header": "Cloud-to-edge connectivity serving physical retail",
+      "items": [
+        {
+          "id": "1",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/VusionCloud_LimitlessScalability-170x170-c-default.png",
+          "title": "Engineered for scalability, designed for upgradability",
+          "description": "Delivering over-the-air upgrades, for continuous evolution of systems and hands-off new features deployment."
+        },
+        {
+          "id": "2",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/VusionCloud_Top-tierSecurity%E2%80%AF-170x170-c-default.png",
+          "title": "Unlocks easier integration with third-party sensors and devices with VusionOX",
+          "description": "VusionOX facilitates the integration with leading AP vendors -and enables a plug-n-play connection to the VusionCloud platform."
+        },
+        {
+          "id": "3",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_UpdatePrices-170x170-c-default.png",
+          "title": "Bluetooth-LE standards at its core",
+          "description": "Industry-standard BLE integration, designed for demanding and enterprise-level retail networks."
+        }
+      ]
+    },
+    "whitePaper": {
+      "label": "WHITEPAPER",
+      "header": "Security & scalability: Navigating the Bluetooth LE Landscape for Retail",
+      "description": "Discover how to streamline your operations, reduce costs, and enhance your security and scalability through Bluetooth LE technology.",
+      "image": "https://www.vusion.com/wp-content/uploads/2024/05/SES_EdgeSense_Narrative_Stills_05-1440x1440-c-default.png"
     }
   }
 }

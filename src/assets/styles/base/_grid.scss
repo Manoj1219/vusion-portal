@@ -7,25 +7,24 @@
             grid-template-columns: repeat($i, 1fr);
         }
     }
-
-    @media (max-width: var(--sr-mobile-end)) {
-        &-size-2,
-        &-size-3,
-        &-size-4,
-        &-size-5,
-        &-size-6 {
-            grid-template-columns: repeat(1, 1fr);
-        }
+}
+@media only screen and (max-width: 1023px) {
+    .mds-grid-size-2,
+    .mds-grid-size-3,
+    .mds-grid-size-4,
+    .mds-grid-size-5,
+    .mds-grid-size-6 {
+        grid-template-columns: repeat(1, 1fr);
     }
+}
 
-    @media (min-width: var(--sr-tablet-port-start)) and (max-width: var(--sr-tablet-port-end)) {
-        &-size-3,
-        &-size-4 {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        &-size-5,
-        &-size-6 {
-            grid-template-columns: repeat(3, 1fr);
-        }
+@media only screen and (min-width: var(--sr-tablet-port-start)) and (max-width: var(--sr-tablet-port-end)) {
+    .mds-grid-size-3,
+    .mds-grid-size-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mds-grid-size-5,
+    .mds-grid-size-6 {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

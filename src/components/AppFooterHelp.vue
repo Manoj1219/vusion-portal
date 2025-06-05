@@ -3,8 +3,8 @@
         <div class="mds-container">
             <div class="mds-flex">
                 <div class="mds-width-70">
-                    <h4 class="mds-font-size-5xl mds-m-bottom-3xl mds-text-color-white">
-                        We’re here to help make <br /> your store smarter and<br /> more efficient.
+                    <h4 class="mds-font-size-5xl mds-m-bottom-3xl mds-text-color-white mds-width-80">
+                        {{ footerData.header }}
                     </h4>
                     <button class="mds-button mds-button-secondary mds-button-animate">
                         Let's connect
@@ -20,3 +20,8 @@
         </div>
     </section>
 </template>
+<script setup>
+import appData from "@/assets/data/app-data.json";
+
+const footerData = appData.enquirySeciton || {};
+</script>

@@ -1,10 +1,9 @@
 <template>
     <div class="mds-navitem-container products-nav">
         <div class="mds-navitem-sidenav">
-            <h3 class="mds-font-size-base-2">Product Overview</h3>
+            <h3 class="mds-font-size-base-2">{{ productNav.header }}</h3>
             <p class="mds-font-size-md-2 mds-font-weight-400 mds-line-height-base">
-                Turn your physical store into a digital asset to maximize efficiency and improve
-                store performance.
+                {{ productNav.description }}
             </p>
             <router-link to="/products" class=" mds-button mds-button-primary_outline">Overview</router-link>
         </div>
@@ -26,6 +25,8 @@
 </template>
 <script setup>
 import navLinks from "@/assets/data/menu-data.json";
+import navMessages from "@/assets/data/app-data.json";
 
 const pageLinks = navLinks?.products || [];
+const productNav = navMessages.productsNav || {};
 </script>

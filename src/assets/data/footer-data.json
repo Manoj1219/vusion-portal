@@ -1,0 +1,106 @@
+{
+  "description": "Technologies for Positive Commerce.",
+  "ourSolutions": {
+    "header": "Our Solutions",
+    "links": [
+      {
+        "title": "Store Operational Excellencde",
+        "routoTo": "/solutions/store-operational-excellence"
+      },
+      {
+        "title": "Local eCommerce",
+        "routoTo": "/solutions/local-ecommerce"
+      },
+      {
+        "title": "Digital In-Store Retail Media",
+        "routoTo": "/solutions/digital-in-store-retail-media"
+      },
+      {
+        "title": "Category Optimization",
+        "routoTo": "/solutions/category-optimization"
+      },
+      {
+        "title": "Food Waste Management",
+        "routoTo": "/solutions/food-waste-management"
+      },
+      {
+        "title": "Shopper Services",
+        "routoTo": "/solutions/shopper-services"
+      },
+      {
+        "title": "Collaboration & Data Monetization",
+        "routoTo": "/solutions/collaboration-data-monetization"
+      }
+    ]
+  },
+  "popularProdcuts": {
+    "header": "Popular Products",
+    "links": [
+      {
+        "title": "Pulse",
+        "routoTo": "/products/memory/pulse"
+      },
+      {
+        "title": "EdgeSense™",
+        "routoTo": "/edgesense"
+      },
+      {
+        "title": "IOT Infrastructure",
+        "routoTo": "/sesimagotag/iot-infrastructure"
+      },
+      {
+        "title": "Electronic Shelf Labels",
+        "routoTo": "/sesimagotag/electronic-shelf-labels"
+      },
+      {
+        "title": "VusionOX",
+        "routoTo": "/products/vusion-cloud/vusion-ox"
+      }
+    ]
+  },
+  "helpfulLinks": {
+    "header": "Helpful Links",
+    "links": [
+      {
+        "title": "Our Products",
+        "routoTo": "/products"
+      },
+      {
+        "title": "About Vusion",
+        "routoTo": "/about-us"
+      },
+      {
+        "title": "Careers",
+        "routoTo": "/careers"
+      },
+      {
+        "title": "Inverstors",
+        "routoTo": "/investors"
+      },
+      {
+        "title": "Sustainability",
+        "routoTo": "/positive-commerce/sustainable-retail"
+      },
+      {
+        "title": "Our Impact",
+        "routoTo": "/positive-commerce/social-impact"
+      }
+    ]
+  },
+  "legal": {
+    "links": [
+      {
+        "title": "Privacy Policy",
+        "routoTo": "/privacy-policy"
+      },
+      {
+        "title": "Legal Notice",
+        "routoTo": "/legal-notice"
+      },
+      {
+        "title": "Cookie Info",
+        "routoTo": "/cookie-info"
+      }
+    ]
+  }
+}

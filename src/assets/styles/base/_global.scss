@@ -7,6 +7,12 @@
 }
 html {
     font-size: var(--font-size-screen-base);
+    @media only screen and (max-width: var(--sr-tablet-port-end)) {
+        font-size: var(--font-size-screen-md);
+    }
+    @media only screen and (max-width: var(--sr-mobile-end)) {
+        font-size: var(--font-size-screen-sm);
+    }
 }
 body {
     background: var(--background);

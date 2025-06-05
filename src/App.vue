@@ -21,6 +21,7 @@ const isPageScrolled = ref(false);
 
 onMounted(() => {
 	document.body.classList.add('light-mode');
+	document.body.classList.add('app-styles');
 	const handleScroll = () => {
 		if (window.scrollY > 5) {
 			isPageScrolled.value = true;

@@ -1,14 +1,4 @@
 :root {
-    // Shared Variables
-    // --font-family:              "Space Grotesk", sans-serif;
-    --font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
-    --font-size-screen-base: 16px;
-    --font-size-screen-lg: 18px;
-    --font-size-screen-md: 16px;
-    --font-size-screen-sm: 14px;
-    --max-container: 1240px;
-    --box-shadow-base: -5px -10px 75px 0 rgba(0, 94, 147, 0.15);
-
     .light-mode {
         --primary: #0d2126;
         --secondary: #fdcd38;
@@ -62,40 +52,51 @@
         --link: #66b2ff;
         --link-hover: #3399ff;
     }
+    .app-styles{
+        // Shared Variables
+        // --font-family:              "Space Grotesk", sans-serif;
+        --font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
+        --font-size-screen-base: 16px;
+        --font-size-screen-lg: 18px;
+        --font-size-screen-md: 16px;
+        --font-size-screen-sm: 14px;
+        --max-container: 1240px;
+        --box-shadow-base: -5px -10px 75px 0 rgba(0, 94, 147, 0.15);
 
-    // Breakpoints
-    --sr-mobile-end: 767px;
-    --sr-tablet-port-start: 768px;
-    --sr-tablet-port-end: 1023px;
-    --sr-laptop-sm-start: 1024px;
-    --sr-laptop-sm-end: 1367px;
-    --sr-large-start: 1368px;
+        // Breakpoints
+        --sr-mobile-end: 767px;
+        --sr-tablet-port-start: 768px;
+        --sr-tablet-port-end: 1023px;
+        --sr-laptop-sm-start: 1024px;
+        --sr-laptop-sm-end: 1367px;
+        --sr-large-start: 1368px;
 
-    // Metrics
-    --xs: 0.25rem; // 4px
-    --sm: 0.5rem; // 8px
-    --md: 0.75rem; // 12px
-    --md-2: 0.875rem; // 14px
-    --base: 1rem; // 16px
-    --base-2: 1.125rem; // 18px
-    --lg: 1.25rem; // 20px
-    --xl: 1.5rem; // 24px
-    --2xl: 1.75rem; // 28px
-    --3xl: 2rem; // 32px
-    --3sxl: 2.6rem; // 38px
-    --4xl: 3rem; // 48px
-    --5xl: 3.5rem; // 50px
-    --6xl: 5em; // 56px
-    --7xl: 6rem; // 56px
+        // Metrics
+        --xs: 0.25rem; // 4px
+        --sm: 0.5rem; // 8px
+        --md: 0.75rem; // 12px
+        --md-2: 0.875rem; // 14px
+        --base: 1rem; // 16px
+        --base-2: 1.125rem; // 18px
+        --lg: 1.25rem; // 20px
+        --xl: 1.5rem; // 24px
+        --2xl: 1.75rem; // 28px
+        --3xl: 2rem; // 32px
+        --3sxl: 2.6rem; // 38px
+        --4xl: 3rem; // 48px
+        --5xl: 3.5rem; // 50px
+        --6xl: 5em; // 56px
+        --7xl: 6rem; // 56px
 
-    // fw
-    --fw-100: 100;
-    --fw-200: 200;
-    --fw-300: 300;
-    --fw-400: 400;
-    --fw-500: 500;
-    --fw-600: 600;
-    --fw-700: 700;
-    --fw-800: 800;
-    --fw-900: 900;
+        // fw
+        --fw-100: 100;
+        --fw-200: 200;
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-600: 600;
+        --fw-700: 700;
+        --fw-800: 800;
+        --fw-900: 900;
+    }
 }

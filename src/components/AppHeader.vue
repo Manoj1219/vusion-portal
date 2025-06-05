@@ -5,8 +5,8 @@
 		</router-link>
 		<div class="mds-header-brand-actions">
 			<div class="mds-header-brand-actions-lang">Engilsh</div>
-			<router-link to="/investors" rel="noopener noreferrer">Investors</router-link>
-			<router-link to="/partners" rel="noopener noreferrer">Partners</router-link>
+			<router-link to="/investors" rel="noopener noreferrer">{{ headerLabels.investors }}</router-link>
+			<router-link to="/partners" rel="noopener noreferrer">{{ headerLabels.partners }}</router-link>
 			<button class="mds-button mds-button-primary_outline">
 				<i class="pi pi-search"></i>
 			</button>
@@ -21,7 +21,7 @@
 				<ul class="mds-header-nav-list">
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Products</span>
+							<span>{{ headerLabels.products }}</span>
 							<i class="pi pi-angle-down"></i>
 						</button>
 						<div class="mds-navitem-wrapper">
@@ -30,7 +30,7 @@
 					</li>
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Solutions</span>
+							<span>{{ headerLabels.solutions }}</span>
 							<i class="pi pi-angle-down"></i>
 						</button>
 						<div class="mds-navitem-wrapper">
@@ -39,12 +39,12 @@
 					</li>
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Insights</span>
+							<span>{{ headerLabels.insights }}</span>
 						</button>
 					</li>
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Positive Commerce</span>
+							<span>{{ headerLabels.positiveCommerce }}</span>
 							<i class="pi pi-angle-down"></i>
 						</button>
 						<div class="mds-navitem-wrapper">
@@ -53,12 +53,12 @@
 					</li>
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Careers</span>
+							<span>{{ headerLabels.careers }}</span>
 						</button>
 					</li>
 					<li class="mds-header-nav-item">
 						<button class="mds-button mds-button-nav">
-							<span>Company</span>
+							<span>{{ headerLabels.company }}</span>
 							<i class="pi pi-angle-down"></i>
 						</button>
 						<div class="mds-navitem-wrapper">
@@ -68,15 +68,17 @@
 				</ul>
 			</div>
 			<router-link to='/contact-us' class="mds-button mds-button-secondary">
-				Contact Us
+				{{ headerLabels.contact }}
 			</router-link>
 		</nav>
 	</div>
 </template>
 <script setup>
+import appData from "@/assets/data/app-data.json";
 import CompanyNav from './menus/CompanyNav.vue';
 import PositiveCommerceNav from './menus/PositiveCommerceNav.vue';
 import ProdcutsNav from './menus/ProdcutsNav.vue';
 import SolutionsNav from './menus/SolutionsNav.vue';
 
+const headerLabels = appData.headerLabels || {};
 </script>
