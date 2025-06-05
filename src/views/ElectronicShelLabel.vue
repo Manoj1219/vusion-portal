@@ -493,7 +493,6 @@
       </div>
     </div>
   </section>
-
   <section class="mds-container mds-p-top-2xl">
     <div
       class="mds-section-content mds-box-shadow-base mds-p-around-none mds-m-bottom-7xl"
@@ -622,6 +621,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import ElectronicShelCarousal from "../components/ElectronicShelCarousal.vue";
+import contactUs from "@/components/ProductContactUs.vue";
 import AppData from "@/assets/data/app-data.json";
 
 const modules = [Pagination, Navigation];

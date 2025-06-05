@@ -400,6 +400,8 @@
             <div class="actionBlock">
               <a
                 class="mds-button mds-button-icon-forward mds-button-primary__outlineDark mds-gap-around-xl mds-inline-flex mds-items-center mds-m-top-xl"
+                href="https://www.inthememory.com/"
+                target="_blank"
               >
                 Learn about our HQ solution
                 <svg
@@ -414,6 +416,7 @@
               </a>
               <a
                 class="mds-button mds-button-icon-forward mds-button-primary__outlineDark mds-gap-around-xl mds-inline-flex mds-items-center mds-m-top-xl"
+                href="/products/memory/pulse"
               >
                 Learn about our store solution
                 <svg

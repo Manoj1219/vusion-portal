@@ -1852,6 +1852,52 @@
           }
         ]
       }
+    },
+    "MemoryPulse": {
+      "testimonials": {
+        "logos": [
+          {
+            "id": 1,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Darty.svg-0x80-c-default.png",
+            "alt": "Darty logo"
+          },
+          {
+            "id": 2,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Jula-logo.max-400x200-1-0x80-c-default.png",
+            "alt": "Jula x VusionGroup"
+          },
+          {
+            "id": 3,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Watsons-logo-2013-1024x751-1-1-0x80-c-default.png",
+            "alt": "Watsons-logo-2013-1024x751 (1)"
+          },
+          {
+            "id": 4,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Carrefour-Logo-1-0x80-c-default.png",
+            "alt": "Carrefour logo"
+          },
+          {
+            "id": 5,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/intermarche-logos-idKkUYc6MM-0x80-c-default.png",
+            "alt": "intermarche-logo"
+          },
+          {
+            "id": 6,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/sephora-logos-id976Dvlh0-0x80-c-default.png",
+            "alt": "Sephora Logo"
+          },
+          {
+            "id": 7,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/euronics-logos-idnIHr5J1w-0x80-c-default.png",
+            "alt": "Euronics Logotype"
+          },
+          {
+            "id": 8,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/wayfair-logos-id-rIpy3sc-0x80-c-default.png",
+            "alt": "Wayfair logo"
+          }
+        ]
+      }
     }
   }
 }
