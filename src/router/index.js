@@ -183,6 +183,11 @@ const routes = [
     component: () => import("../views/IotInfrastructure.vue"),
   },
   {
+    path: "/products/sesimagotag/electronic-shelf-labels",
+    name: "ElectronicShelLabel",
+    component: () => import("../views/ElectronicShelLabel.vue"),
+  },
+  {
     path: "/products/vusionox",
     name: "Vusionox",
     component: () => import("../views/ProductVusionox.vue"),

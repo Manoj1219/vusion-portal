@@ -6,42 +6,42 @@
         :class="{ 'is-active': activeSlide === 1 }"
         @click="slideTo(1)"
       >
-        VusionCloud
+        V100 Series
       </button>
       <button
         class="mds-button mds-button-slider-link"
         :class="{ 'is-active': activeSlide === 2 }"
         @click="slideTo(2)"
       >
-        SESImagotag
+        V300 Series - BWR
       </button>
       <button
         class="mds-button mds-button-slider-link"
         :class="{ 'is-active': activeSlide === 3 }"
         @click="slideTo(3)"
       >
-        Captana
+        V300 Waterproof Series
       </button>
       <button
         class="mds-button mds-button-slider-link"
         :class="{ 'is-active': activeSlide === 4 }"
         @click="slideTo(4)"
       >
-        Memory
+        V300 Freezer Series
       </button>
       <button
         class="mds-button mds-button-slider-link"
         :class="{ 'is-active': activeSlide === 5 }"
         @click="slideTo(5)"
       >
-        Engage
+        V700 Series – Full color
       </button>
       <button
         class="mds-button mds-button-slider-link"
         :class="{ 'is-active': activeSlide === 6 }"
         @click="slideTo(6)"
       >
-        PDigital
+        VSway Series
       </button>
     </div>
   </div>
@@ -59,42 +59,31 @@
         :class="item.background"
       >
         <div
-          class="mds-flex mds-gap-around-5xl mds-items-center mds-border-bottom mds-p-bottom-3xl mds-m-bottom-2xl mds-height-px-500"
+          class="mds-flex mds-gap-around-5xl mds-items-center mds-p-top-2xl mds-height-px-600"
         >
-          <div class="mds-section-image mds-width-40">
-            <img :src="item.image" alt="" />
-          </div>
-          <div
-            class="mds-flex mds-flex-column mds-gap-around-xl mds-items-start mds-width-60"
-          >
-            <div class="mds-section-content-icon">
-              <img class="mds-width-60" :src="item.icon" :alt="item.header" />
-            </div>
-            <h2 class="mds-font-size-3xl">
+          <div class="mds-width-50">
+            <h1 class="defaultHeaderFont mds-font-size-xl">
               {{ item.header }}
-            </h2>
-            <p class="mds-font-size-base mds-line-height-xl mds-width-80">
-              {{ item.description }}
-            </p>
-            <router-link
-              :to="item.link"
-              class="mds-button mds-button-primary_outline mds-button-animate"
+            </h1>
+            <div
+              v-for="block in item.features"
+              :key="block.id"
+              class="mds-flex mds-column-gap-3 mds-border-default-top mds-p-vertical-xl"
             >
-              Explore solutions
-              <i class="pi pi-arrow-right"></i>
-            </router-link>
+              <span
+                class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500 mds-width-30"
+              >
+                {{ block.title }}
+              </span>
+
+              <p
+                v-html="block.description"
+                class="mds-font-size-md-2 mds-line-height-md mds-font-weight-300 mds-width-70"
+              ></p>
+            </div>
           </div>
-        </div>
-        <div
-          class="mds-flex mds-gap-around-2xl mds-items-center mds-p-vertical-2xl"
-        >
-          <div
-            class="mds-flex mds-gap-around-lg mds-items-center"
-            v-for="feature in item.features"
-            :key="feature.title"
-          >
-            <img :src="feature.imgUrl" alt="" />
-            <p>{{ feature.title }}</p>
+          <div class="mds-section-image mds-width-50">
+            <img :src="item.image" alt="" />
           </div>
         </div>
       </swiper-slide>
@@ -109,33 +98,16 @@ import { Pagination, Navigation, Virtual } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import AppData from "@/assets/data/app-data.json";
 
-// Import product icons
-import vusionCloudIcon from "@/assets/media/products/vusion-cloud.svg";
-import sesimagotagIcon from "@/assets/media/products/sesimagotag.svg";
-import captanaIcon from "@/assets/media/products/captana.svg";
-import memoryIcon from "@/assets/media/products/memory.svg";
-import engageIcon from "@/assets/media/products/engage.svg";
-import pdigitalIcon from "@/assets/media/products/pdigital.svg";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/virtual";
 
-const iconMap = {
-  1: vusionCloudIcon,
-  2: sesimagotagIcon,
-  3: captanaIcon,
-  4: memoryIcon,
-  5: engageIcon,
-  6: pdigitalIcon,
-};
 const modules = [Pagination, Navigation, Virtual];
 const carousalItems = computed(() => {
-  return AppData.homepage.products.carousalItems.map((item) => ({
+  return AppData.allProducts.ElectronicShel.carousalItems.map((item) => ({
     ...item,
-    icon: iconMap[item.id],
   }));
 });
 

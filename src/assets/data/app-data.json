@@ -1573,6 +1573,285 @@
           }
         ]
       }
+    },
+    "ElectronicShel": {
+      "testimonials": {
+        "logos": [
+          {
+            "id": 1,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Darty.svg-0x80-c-default.png",
+            "alt": "Darty logo"
+          },
+          {
+            "id": 2,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/10/Jula-logo.max-400x200-1-0x80-c-default.png",
+            "alt": "Jula x VusionGroup"
+          },
+          {
+            "id": 3,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Watsons-logo-2013-1024x751-1-1-0x80-c-default.png",
+            "alt": "Watsons-logo-2013-1024x751 (1)"
+          },
+          {
+            "id": 4,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/Carrefour-Logo-1-0x80-c-default.png",
+            "alt": "Carrefour logo"
+          },
+          {
+            "id": 5,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/intermarche-logos-idKkUYc6MM-0x80-c-default.png",
+            "alt": "intermarche-logo"
+          },
+          {
+            "id": 6,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/sephora-logos-id976Dvlh0-0x80-c-default.png",
+            "alt": "Sephora Logo"
+          },
+          {
+            "id": 7,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/euronics-logos-idnIHr5J1w-0x80-c-default.png",
+            "alt": "Euronics Logotype"
+          },
+          {
+            "id": 8,
+            "image": "https://www.vusion.com/wp-content/uploads/2023/12/wayfair-logos-id-rIpy3sc-0x80-c-default.png",
+            "alt": "Wayfair logo"
+          }
+        ]
+      },
+      "videos": [
+        {
+          "poster": "https://www.vusion.com/wp-content/uploads/2024/09/pricing-to-promotion.png",
+          "src": "https://player.vimeo.com/progressive_redirect/playback/1005767606/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cc16b8d7bd858c52a6bf31fef468ca04f15b71903a622a7877c908f5a5df6824"
+        },
+        {
+          "poster": "https://www.vusion.com/wp-content/uploads/2024/09/shopper-information.png",
+          "src": "https://player.vimeo.com/progressive_redirect/playback/1005768041/rendition/1080p/file.mp4?loc=external&log_user=0&signature=88f3e9e0bcae07dd41c3e2ec97f6fc60f1684e3b03a36368ddb61d967fbabf6d"
+        },
+        {
+          "poster": "https://www.vusion.com/wp-content/uploads/2024/09/shopper-information.png",
+          "src": "https://player.vimeo.com/progressive_redirect/playback/1005768041/rendition/1080p/file.mp4?loc=external&log_user=0&signature=88f3e9e0bcae07dd41c3e2ec97f6fc60f1684e3b03a36368ddb61d967fbabf6d"
+        }
+      ],
+      "carousalItems": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/2.png.webp",
+          "header": "V100 Series",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The V100 Series is the accessible solution for all verticals and in-store uses, focusing on fast price and promotion automation. Rugged and built from strong materials, ensuring the best price/performance ratio on the market. "
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White <br/> Red"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "1.5”, 1.6”, 2.1”, 2.2”, 2.6”"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/3.png.webp",
+          "header": "V300 Series - BWR",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The V300 BWR Series offers a wider range of sizes with up to 15 years of battery lifetime to meet all retailers needs. Equipped with NFC capabilities and 7-color LEDs, they enable deeper information sharing and enhance responsiveness at the shelf. "
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White <br/> Red"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "1.6”, 2.2”, 2.6”, 2.9”, 4.2”, 4.5”, 5.9”, 6.0”, 7.4”, 9.7”, 12.2”"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/4.png.webp",
+          "header": "V300 Series - BWRY",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "Pricing automation just got better with the latest 4-color display technology, bringing countless new possibilities to shelves. With specific sizes showcasing black, white, red and yellow, elevate your brand visibility and differentiate products better."
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White <br/> Red <br/> Yellow"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "1.5”, 1.6”, 2.1”, 2.2”, 2.6”, 2.9”, 3.5”, 4.2”, 4.5”, 5.9”, 6.0”, 7.4”, 9.7”"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/1.png.webp",
+          "header": "V300 Waterproof Series",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The V300 Waterproof series is designed for environments where traditional electronic labels fall short due to water exposure, ice, or humidity; or specific sections of the stores requiring deep cleaning and hygiene."
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White <br/> Red <br/> Yellow"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "2.6”, 4.2”"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/5.png.webp",
+          "header": "V300 Freezer Series",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The V300 Freezer is the perfect addition to any store with freezer and cold environments, designed to withstand temperatures as low as -25°C. Simplify your shop associates' daily tasks in cold environments with the 7-color LED blinking feature."
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "2.1”, 2.2”, 2.6”, 2.9”, 3.5"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/6.png.webp",
+          "header": "V700 Series – Full color",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The V300 Freezer is the perfect addition to any store with freezer and cold environments, designed to withstand temperatures as low as -25°C. Simplify your shop associates' daily tasks in cold environments with the 7-color LED blinking feature."
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Full-color"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "8.2”"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "image": "https://www.vusion.com/wp-content/uploads/2025/04/7.png.webp",
+          "header": "VSway Series",
+          "background": "mds-background-pink-light",
+          "features": [
+            {
+              "id": 1,
+              "title": "DESCRIPTION",
+              "description": "The VSway is designed to eliminate the need for shelves by displaying pricing directly on the product itself, using dynamic features that seamlessly integrate real-time updates."
+            },
+            {
+              "id": 2,
+              "title": "COLORS",
+              "description": "Black <br/> White <br/> Red <br/> Yellow"
+            },
+            {
+              "id": 3,
+              "title": "SIZES AVAILABLE",
+              "description": "2.6”"
+            },
+            {
+              "id": 4,
+              "title": "LED COLORS",
+              "description": "7-colors"
+            }
+          ]
+        }
+      ],
+      "faqAccordion": {
+        "subHeader": "Frequently asked questions",
+        "header": "VusionCloud FAQ",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "label": "What are electronic shelf labels and how do they work?",
+            "description": "Electronic shelf labels are the key to transforming your physical store into a digital asset. With SESimagotag’s high-resolution labels, you benefit from direct communication capabilities with your customers, perform automatic updates, and guarantee the integrity of the information displayed on the shelves."
+          },
+          {
+            "id": "2",
+            "label": "What operational data can be displayed directly on the shelves using electronic labels?",
+            "description": "Digital shelf labels can display ERP, inventory or other operational data allowing store associates to access real-time storage and inventory information."
+          },
+          {
+            "id": "3",
+            "title": "What are the benefits of electronic labels in retail?",
+            "description": "Electronic shelf labels allow merchants to update prices at the store or chain level, within seconds, for error-free and hassle-free price management."
+          },
+          {
+            "id": "4",
+            "title": "How can digital price tags increase in-store shopper engagement?",
+            "description": "<ul><li>Connect with customers on the shelf to help them discover new products, find relevant information, view promotional offers or obtain digital coupons through electronic shelf labels.</li><li>Communicate product information or send shoppers to purchase online with a simple NFC click or QR Code scan directly on electronic labels.</li></ul>"
+          }
+        ]
+      }
     }
   }
 }

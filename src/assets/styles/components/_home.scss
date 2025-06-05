@@ -118,6 +118,7 @@
 		display: flex;
 		border: 1px solid #c8cdce;
 		border-radius: 1rem;
+		overflow: hidden;
 		.insights-content {
 			&.insights-content-image {
 				border-radius: 1rem 1rem 0 0;
@@ -182,6 +183,6 @@
 		}
 	}
 }
-.mds-solutions-image{
+.mds-solutions-image {
 	max-width: 150%;
 }

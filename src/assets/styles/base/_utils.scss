@@ -192,6 +192,10 @@ dl {
         &-right {
             border-right: torem(1) solid var(--border);
         }
+        &-default-top {
+            border-top: solid 0.1rem rgba(13, 33, 38, 0.6);
+        }
+
         &-color {
             &-primary {
                 border-color: var(--primary) !important;
@@ -362,6 +366,9 @@ dl {
             height: 100% !important;
         }
         &-px {
+            &-600 {
+                height: torem(600) !important;
+            }
             &-500 {
                 height: torem(500) !important;
             }
@@ -392,6 +399,9 @@ dl {
 
     &-column-gap-5 {
         column-gap: 5rem;
+    }
+    &-column-gap-3 {
+        column-gap: 3rem;
     }
 
     // Cursor

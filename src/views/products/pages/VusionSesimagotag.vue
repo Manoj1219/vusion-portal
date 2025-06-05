@@ -224,6 +224,7 @@
             <div class="actionBlock">
               <a
                 class="mds-button mds-button-icon-forward mds-button-primary__outlineDark mds-gap-around-xl mds-inline-flex mds-items-center mds-m-top-xl"
+                href="/products/sesimagotag/electronic-shelf-labels"
               >
                 Electronic Shelf Labels
                 <svg
@@ -253,6 +254,7 @@
                 </a>
                 <a
                   class="mds-button mds-button-icon-forward mds-button-primary__outlineDark mds-gap-around-xl mds-inline-flex mds-items-center mds-m-top-xl"
+                  href="/products/sesimagotag/iot-infrastructure"
                 >
                   IoT infrastructure
                   <svg
