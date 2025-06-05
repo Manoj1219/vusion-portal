@@ -858,26 +858,28 @@
     </div>
   </section>
 
-  <section class="contactUs mds-section newsletter theme-yellow">
+  <section class="mds-section newsletter theme-yellow">
     <div x-data="newsletter" class="component-layout">
       <div class="mds-container">
-        <div class="newsletter__grid-wrapper">
-          <div class="newsletter__intro col-span-full lg:col-span-4">
-            <h3 class="header">
+        <div class="mds-flex mds-content-start mds-p-vertical-2xl">
+          <div
+            class="mds-flex mds-flex-column mds-items-start mds-p-right-6xl mds-width-50"
+          >
+            <h1 class="subHeader mds-m-bottom-lg mds-width-8">
               Suscribe to <br />
               our newsletter
-            </h3>
+            </h1>
           </div>
           <div
             x-data="iFrameFormComponent"
-            class="component-i-frame-form newsletter__form-wrapper col-span-full lg:col-start-7 lg:col-span-6"
+            class="component-i-frame-form newsletter__form-wrapper mds-width-50"
           >
             <iframe
               x-ref="iframe"
               src="https://www2.vusiongroup.com/l/192552/2024-03-29/2q1h13"
               id="iFrameResizer1"
               scrolling="no"
-              style="overflow: hidden; height: 543px"
+              style="overflow: hidden; height: 543px; width: 100%; border: none"
             ></iframe>
           </div>
         </div>
@@ -1023,6 +1025,32 @@ const selectOption = (option) => {
     color: #e6b800;
     text-decoration: underline;
   }
+}
+
+.newsletter {
+  overflow: hidden;
+  position: relative;
+}
+.theme-yellow {
+  background-color: rgb(253 205 56);
+  color: var(--primary);
+}
+.newsletter__image {
+  position: absolute;
+  top: 330px;
+  left: 35%;
+  bottom: 0;
+  z-index: 10;
+  transform: scale(1.7);
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+.newsletter.theme-yellow .newsletter__form-wrapper {
+  background-color: rgb(254 225 135);
+  overflow: hidden;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
 }
 </style>
 
