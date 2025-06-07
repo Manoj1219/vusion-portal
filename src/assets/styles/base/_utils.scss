@@ -10,6 +10,12 @@ dl {
     &-flex {
         display: flex !important;
     }
+    &-mobile-flex {
+        display: flex;
+        @media (max-width: 1023px) {
+            flex-direction: column;
+        }
+    }
     &-inline-flex {
         display: inline-flex !important;
     }
@@ -358,6 +364,23 @@ dl {
                 width: torem(20) !important;
             }
         }
+        @media (max-width: 1023px) {
+            &-40,
+            &-50,
+            &-55,
+            &-60,
+            &-65,
+            &-70,
+            &-75,
+            &-85,
+            &-90,
+            &-95,
+            &-px-400,
+            &-px-300 {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+        }
     }
 
     // Height
@@ -371,6 +394,12 @@ dl {
             }
             &-500 {
                 height: torem(500) !important;
+            }
+
+            @media (max-width: 1023px) {
+                &-500 {
+                    height: 100% !important;
+                }
             }
             &-400 {
                 height: torem(400) !important;

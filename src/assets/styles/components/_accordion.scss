@@ -16,6 +16,10 @@
 		h2 {
 			font-size: 1.8rem;
 			margin: 0;
+
+			@media (max-width: 1023px) {
+				font-size: 1.25rem;
+			}
 		}
 
 		div {
@@ -103,6 +107,9 @@ body :is(.shrink-0) {
 	--tw-text-opacity: 1;
 	color: rgb(0 0 0 / var(--tw-text-opacity));
 	margin: 2rem 0;
+	@media (max-width: 1023px) {
+		font-size: 1rem !important;
+	}
 }
 .layout-accordion__content .accordionDes p {
 	font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
@@ -113,6 +120,10 @@ body :is(.shrink-0) {
 	--tw-text-opacity: 1;
 	color: rgb(0 0 0 / var(--tw-text-opacity));
 	margin: 2rem 0;
+
+	@media (max-width: 1023px) {
+		font-size: 1rem !important;
+	}
 }
 
 .accordionDes ol,

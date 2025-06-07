@@ -186,3 +186,14 @@
 .mds-solutions-image {
 	max-width: 150%;
 }
+
+$mobile: 1023px;
+@media (max-width: $mobile) {
+	.oppprtunities-section,
+	.insights-section {
+		padding: 6rem 0;
+		h2 {
+			font-size: var(--3xl);
+		}
+	}
+}

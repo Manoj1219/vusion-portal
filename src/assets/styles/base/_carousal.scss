@@ -7,6 +7,11 @@
             overflow: visible;
             max-width: calc(var(--max-container) - torem(200));
             left: -6rem;
+            @media (max-width: 1023px) {
+                left: 0;
+                width: 90%;
+                margin: 0 auto;
+            }
             .swiper-slide {
                 padding: var(--2xl) var(--5xl);
                 border-radius: var(--base);

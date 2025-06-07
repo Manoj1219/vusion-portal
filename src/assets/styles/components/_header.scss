@@ -1,5 +1,5 @@
 @use "../base/mixins" as *;
-$mobile: 768px;
+$mobile: 1023px;
 
 .mds-header {
     position: fixed;
@@ -263,6 +263,7 @@ $mobile: 768px;
         &-nav {
             background: var(--white);
             position: relative;
+            padding: 1rem;
             .mds-container {
                 display: block;
                 text-align: end;
@@ -279,6 +280,8 @@ $mobile: 768px;
                     color: var(--primary);
                     font-weight: var(--fw-500);
                     padding: 15px 0;
+                    justify-content: space-between;
+                    width: 85%;
                 }
                 &:hover {
                     .mds-button-nav {
@@ -287,6 +290,9 @@ $mobile: 768px;
                     i {
                         transform: rotate(180deg);
                     }
+                }
+                i {
+                    font-size: 20px;
                 }
             }
         }

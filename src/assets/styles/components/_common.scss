@@ -5,12 +5,18 @@
     .mds-container {
         border-bottom: torem(1) solid var(--border);
         padding: 7rem 0 var(--7xl);
+        @media (max-width: 1023px) {
+            padding: 4rem 0;
+        }
     }
 }
 .mds-section {
     &-content {
         padding: 7rem 0;
         align-self: center;
+        @media (max-width: 1023px) {
+            padding: 4rem 0;
+        }
     }
 }
 .mds-team-image {
@@ -24,5 +30,33 @@
         &:last-child {
             border-bottom: none;
         }
+    }
+}
+.mds-scroll {
+    &-auto {
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .mds-p-top-4xl-sm {
+        padding-top: 4rem;
+    }
+    .mds-icon-width-60 {
+        width: 60% !important;
+    }
+    .mds-p-left-6xl {
+        padding-left: 0 !important;
+    }
+    .mds-height-px-500 {
+        height: 100% !important;
+    }
+    .mds-carousal.mds-products-carousal .mds-swiper .swiper-slide {
+        padding: 0 var(--2xl);
+    }
+
+    .mob-p-left-xl {
+        padding-left: var(--2xl) !important;
     }
 }

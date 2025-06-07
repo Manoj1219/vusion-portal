@@ -101,82 +101,93 @@
         <i :class="['pi', isMobileMenuOpen ? 'pi-times' : 'pi-bars']"></i>
       </button>
     </div>
-    <div class="header-mobile">
-      <div class="mds-header-nav-mobile" :class="{ open: isMobileMenuOpen }">
-        <nav class="mds-container">
-          <ul class="mds-header-nav-list">
-            <li class="mds-header-nav-item">
-              <button
-                class="mds-button mds-button-nav"
-                @click="isProductsOpen = !isProductsOpen"
-              >
-                <span>Products</span>
-                <i class="pi pi-angle-down"></i>
-              </button>
-              <transition name="fade-slide">
-                <div class="mds-navitem-wrapper" v-show="isProductsOpen">
-                  <ProdcutsNav />
-                </div>
-              </transition>
-            </li>
-            <li class="mds-header-nav-item">
-              <button
-                class="mds-button mds-button-nav"
-                @click="isProductsOpen = !isProductsOpen"
-              >
-                <span>Solutions</span>
-                <i class="pi pi-angle-down"></i>
-              </button>
-              <transition name="fade-slide">
-                <div class="mds-navitem-wrapper" v-show="isProductsOpen">
-                  <SolutionsNav />
-                </div>
-              </transition>
-            </li>
-            <li class="mds-header-nav-item">
-              <button class="mds-button mds-button-nav">
-                <span>Insights</span>
-              </button>
-            </li>
-            <li class="mds-header-nav-item">
-              <button
-                class="mds-button mds-button-nav"
-                @click="isProductsOpen = !isProductsOpen"
-              >
-                <span>Positive Commerce</span>
-                <i class="pi pi-angle-down"></i>
-              </button>
-              <transition name="fade-slide">
-                <div class="mds-navitem-wrapper" v-show="isProductsOpen">
-                  <PositiveCommerceNav />
-                </div>
-              </transition>
-            </li>
-            <li class="mds-header-nav-item">
-              <button class="mds-button mds-button-nav">
-                <span>Careers</span>
-              </button>
-            </li>
-            <li class="mds-header-nav-item">
-              <button
-                class="mds-button mds-button-nav"
-                @click="isProductsOpen = !isProductsOpen"
-              >
-                <span>Company</span>
-                <i class="pi pi-angle-down"></i>
-              </button>
-              <transition name="fade-slide">
-                <div class="mds-navitem-wrapper" v-show="isProductsOpen">
-                  <CompanyNav />
-                </div>
-              </transition>
-            </li>
-          </ul>
-          <router-link to="/contact-us" class="mds-button mds-button-secondary"
-            >Contact Us</router-link
-          >
-        </nav>
-      </div>
+
+    <div class="mds-header-nav-mobile" :class="{ open: isMobileMenuOpen }">
+      <nav class="mds-container">
+        <ul class="mds-header-nav-list">
+          <li class="mds-header-nav-item">
+            <button
+              class="mds-button mds-button-nav"
+              @click="isProductsOpen = !isProductsOpen"
+            >
+              <span>Products</span>
+              <i class="pi pi-angle-down"></i>
+            </button>
+            <transition name="fade-slide">
+              <div class="mds-navitem-wrapper" v-show="isProductsOpen">
+                <ProdcutsNav />
+              </div>
+            </transition>
+          </li>
+          <li class="mds-header-nav-item">
+            <button
+              class="mds-button mds-button-nav"
+              @click="isProductsOpen = !isProductsOpen"
+            >
+              <span>Solutions</span>
+              <i class="pi pi-angle-down"></i>
+            </button>
+            <transition name="fade-slide">
+              <div class="mds-navitem-wrapper" v-show="isProductsOpen">
+                <SolutionsNav />
+              </div>
+            </transition>
+          </li>
+          <li class="mds-header-nav-item">
+            <button class="mds-button mds-button-nav">
+              <span>Insights</span>
+            </button>
+          </li>
+          <li class="mds-header-nav-item">
+            <button
+              class="mds-button mds-button-nav"
+              @click="isProductsOpen = !isProductsOpen"
+            >
+              <span>Positive Commerce</span>
+              <i class="pi pi-angle-down"></i>
+            </button>
+            <transition name="fade-slide">
+              <div class="mds-navitem-wrapper" v-show="isProductsOpen">
+                <PositiveCommerceNav />
+              </div>
+            </transition>
+          </li>
+          <li class="mds-header-nav-item">
+            <button class="mds-button mds-button-nav">
+              <span>Careers</span>
+            </button>
+          </li>
+          <li class="mds-header-nav-item">
+            <button
+              class="mds-button mds-button-nav"
+              @click="isProductsOpen = !isProductsOpen"
+            >
+              <span>Company</span>
+              <i class="pi pi-angle-down"></i>
+            </button>
+            <transition name="fade-slide">
+              <div class="mds-navitem-wrapper" v-show="isProductsOpen">
+                <CompanyNav />
+              </div>
+            </transition>
+          </li>
+        </ul>
+        <router-link to="/contact-us" class="mds-button mds-button-secondary"
+          >Contact Us</router-link
+        >
+      </nav>
+      <!-- <div class="mds-background-primary">
+        <button class="mds-button mds-button-primary_outline">
+          <i class="pi pi-search"></i>
+        </button>
+        <div class="mds-header-brand-actions-lang">Engilsh</div>
+        <router-link to="/investors" rel="noopener noreferrer">{{
+          headerLabels.investors
+        }}</router-link>
+        <router-link to="/partners" rel="noopener noreferrer">{{
+          headerLabels.partners
+        }}</router-link>
+      </div> -->
     </div>
   </div>
 </template>

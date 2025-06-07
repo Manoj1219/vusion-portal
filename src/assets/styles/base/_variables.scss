@@ -52,7 +52,7 @@
         --link: #66b2ff;
         --link-hover: #3399ff;
     }
-    .app-styles{
+    .app-styles {
         // Shared Variables
         // --font-family:              "Space Grotesk", sans-serif;
         --font-family: TWKEverett, ui-sans-serif, system-ui, sans-serif;
@@ -98,5 +98,23 @@
         --fw-700: 700;
         --fw-800: 800;
         --fw-900: 900;
+    }
+}
+
+@media (max-width: 1023px) {
+    :root .app-styles {
+        // Metrics
+
+        --base: 0.75rem; // 12px
+        --base-2: 1rem; // 14px
+        --lg: 1.15rem; // 16px
+        --xl: 1.25rem; // 18px
+        --2xl: 1.5rem; // 20px
+        --3xl: 1.75rem; // 24px
+        --3sxl: 2.2rem; // 28px
+        --4xl: 2.5rem; // 32px
+        --5xl: 2.75rem; // 36px
+        --6xl: 3rem; // 44px
+        --7xl: 3.5rem; // 52px
     }
 }
