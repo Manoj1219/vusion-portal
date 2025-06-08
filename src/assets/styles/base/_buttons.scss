@@ -52,6 +52,9 @@
             background: transparent;
             color: var(--primary);
             width: max-content;
+            @media (max-width: 1023px) {
+                font-size: 14px;
+            }
             &:hover,
             &:focus {
                 border: torem(1) solid var(--primary);

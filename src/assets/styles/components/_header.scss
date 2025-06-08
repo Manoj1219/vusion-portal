@@ -242,7 +242,7 @@ $mobile: 1023px;
         color: var(--primary);
         cursor: pointer;
         position: relative;
-        top: 10px;
+        // top: 10px;
     }
     .mds-main-section {
         padding-top: 0;
@@ -295,6 +295,10 @@ $mobile: 1023px;
                     font-size: 20px;
                 }
             }
+        }
+
+        &-fixed {
+            top: 0;
         }
     }
     .mds-navitem {

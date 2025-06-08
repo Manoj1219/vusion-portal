@@ -13,7 +13,7 @@
             <i class="pi pi-arrow-right"></i>
           </button>
         </div>
-        <div class="mds-width-30">
+        <div class="mds-width-40">
           <img
             class="mds-width-100"
             src="https://www.vusion.com/wp-content/uploads/2023/10/Retail-W-15-1200x1200-c-default.png"

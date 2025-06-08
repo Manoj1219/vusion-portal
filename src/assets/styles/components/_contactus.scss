@@ -10,6 +10,9 @@
 		border-radius: 1.6rem;
 		background-color: rgb(39 54 58);
 		padding: 3.2rem;
+		@media (max-width: 1023px) {
+			padding: 1.5rem;
+		}
 
 		.form-grid {
 			display: grid;

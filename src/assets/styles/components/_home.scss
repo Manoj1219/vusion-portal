@@ -191,9 +191,12 @@ $mobile: 1023px;
 @media (max-width: $mobile) {
 	.oppprtunities-section,
 	.insights-section {
-		padding: 6rem 0;
+		padding: 3rem 0;
 		h2 {
 			font-size: var(--3xl);
 		}
+	}
+	.mds-solutions-image {
+		max-width: 100%;
 	}
 }
