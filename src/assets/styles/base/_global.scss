@@ -74,10 +74,16 @@ img {
     .layout-accordion__content h1 {
         font-size: 1.5rem;
         margin: 1rem 0;
+        @media (max-width: 1023px) {
+            font-size: 1.25rem;
+        }
     }
     .layout-accordion__content p {
         font-size: 1.15rem;
         font-weight: 300;
+        @media (max-width: 1023px) {
+            font-size: 0.85rem;
+        }
     }
 }
 .truncate {

@@ -20,7 +20,7 @@
           </p>
           <a
             target="_blank"
-            class="mds-button mds-button-secondary mds-m-top-3xl mds-width-60"
+            class="mds-button mds-button-secondary mds-m-top-3xl mds-width-max"
             href="https://www.bluetooth.com/blog/ses-imagotag-outlines-what-you-need-to-know-about-electronic-shelf-labels/"
           >
             Learn more about the technology
@@ -108,7 +108,7 @@
             {{ vusionoXData.vusionCloud.header }}
           </h2>
           <p
-            class="mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl"
+            class="mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl mds-width-80"
           >
             {{ vusionoXData.vusionCloud.description }}
           </p>

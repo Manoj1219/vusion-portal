@@ -3,7 +3,7 @@
     <div class="mds-container">
       <div class="mds-grid mds-grid-size-2 mds-gap-around-7xl">
         <div class="mds-section-content">
-          <h1 class="header mds-m-bottom-lg mds-width-75">
+          <h1 class="header mds-m-bottom-lg mds-width-75 mds-p-top-4xl-sm">
             {{ memoryData.intro.header }}
           </h1>
           <p
@@ -420,7 +420,7 @@
               </a>
               <a
                 class="mds-button mds-button-icon-forward mds-button-primary__outlineDark mds-gap-around-xl mds-inline-flex mds-items-center mds-m-top-xl"
-                href="/products/memory/pulse"
+                href="/memory/pulse"
               >
                 Learn about our store solution
                 <svg

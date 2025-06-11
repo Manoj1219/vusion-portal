@@ -46,6 +46,9 @@
     .mds-icon-width-60 {
         width: 60% !important;
     }
+    .mob-icon-width-80 {
+        width: 80% !important;
+    }
     .mds-p-left-6xl {
         padding-left: 0 !important;
     }
@@ -61,5 +64,14 @@
     }
     .mob-p-top-3xl {
         padding-top: var(--3xl) !important;
+    }
+    .mob-p-bottom-3xl {
+        padding-bottom: var(--3xl) !important;
+    }
+    .copyright-text {
+        padding-top: 1rem;
+    }
+    .mob-grid-2 {
+        grid-template-columns: 1fr 1fr;
     }
 }

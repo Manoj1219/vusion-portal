@@ -5,13 +5,23 @@
 	color: #fff;
 	font-family: sans-serif;
 
+	@media (max-width: 1023px) {
+		padding: 1rem;
+	}
+
+	.mds-container {
+		@media (max-width: 1023px) {
+			margin: 0;
+		}
+	}
+
 	.form-card {
 		overflow: hidden;
 		border-radius: 1.6rem;
 		background-color: rgb(39 54 58);
 		padding: 3.2rem;
 		@media (max-width: 1023px) {
-			padding: 1.5rem;
+			padding: 1.3rem;
 		}
 
 		.form-grid {

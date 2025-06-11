@@ -131,7 +131,7 @@
     .fade-slide-leave-active {
         transition: all 0.3s ease;
         overflow: hidden;
-        max-height: 500px; /* limit for animation */
+        max-height: 500px;
     }
 
     .fade-slide-enter-from,

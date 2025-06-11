@@ -4,7 +4,9 @@
       class="mds-container mds-grid mds-grid-size-2 mds-gap-around-5xl mds-m-vertical-7xl"
     >
       <div>
-        <h1 class="header mds-m-bottom-lg">Contact VusionGroup</h1>
+        <h1 class="header mds-m-bottom-lg mds-m-top-2xl">
+          Contact VusionGroup
+        </h1>
         <p
           class="mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl"
         >
@@ -191,9 +193,9 @@
       </div>
     </div>
     <div class="mds-container defaul-b-border">
-      <div class="mds-flex mds-m-vertical-6xl mds-gap-around-2xl">
+      <div class="mds-mobile-flex mds-m-vertical-6xl mds-gap-around-2xl">
         <div
-          class="mds-flex mds-items-start mds-flex-column mds-gap-around-md mds-width-30"
+          class="mds-flex mds-items-start mds-flex-column mds-gap-around-md mds-width-40"
         >
           <div
             class="mds-badge mds-badge-rounded mds-badge-large mds-background-secondary-shade"
