@@ -6,7 +6,9 @@
         Turn your physical store into a digital asset to maximize efficiency and
         improve store performance.
       </p>
-      <router-link to="/products" class="mds-button mds-button-primary_outline"
+      <router-link
+        to="/products"
+        class="mds-button mds-button-primary_outline mds-m-top-xl"
         >Overview</router-link
       >
     </div>

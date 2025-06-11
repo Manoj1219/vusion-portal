@@ -6,7 +6,7 @@
 	font-family: sans-serif;
 
 	@media (max-width: 1023px) {
-		padding: 1rem;
+		padding: 1rem!important;
 	}
 
 	.mds-container {
@@ -21,7 +21,7 @@
 		background-color: rgb(39 54 58);
 		padding: 3.2rem;
 		@media (max-width: 1023px) {
-			padding: 1.3rem;
+			padding: 1.3rem !important;
 		}
 
 		.form-grid {

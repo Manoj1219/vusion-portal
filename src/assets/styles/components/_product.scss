@@ -40,6 +40,11 @@
             scrollbar-width: none;
             scroll-behavior: smooth;
             border-bottom: 1px solid var(--light-grey);
+
+            @media (max-width: 1023px) {
+                display: flex !important;
+            }
+
             .eachTabButton {
                 font-family: var(--font-family);
                 font-weight: var(--fw-400);
@@ -52,6 +57,9 @@
                 border: none;
                 cursor: pointer;
                 background-color: var(--background);
+                @media (max-width: 1023px) {
+                    font-size: 0.75rem;
+                }
                 &.active,
                 &:hover {
                     font-weight: 600 !important;
@@ -71,6 +79,11 @@
                 position: absolute;
                 right: 6rem;
                 top: 65%;
+                @media (max-width: 1023px) {
+                    position: relative;
+                    top: 15px;
+                    right: 0;
+                }
                 .contentBox {
                     position: relative;
                     overflow: hidden;
@@ -78,6 +91,11 @@
                     width: 600px;
                     border-radius: 15px;
                     padding: 5rem;
+                    @media (max-width: 1023px) {
+                        padding: 2.5rem 1.5rem;
+                        width: 92% !important;
+                        margin: auto;
+                    }
                     .boxHeader {
                         font-size: 32px;
                         line-height: 1.35;
@@ -138,6 +156,10 @@
     padding: 6rem 0;
     h2 {
         font-size: 2.625rem;
+    }
+
+    @media (max-width: 1023px) {
+        padding: 2.5rem 0;
     }
 }
 .product-card {

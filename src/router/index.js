@@ -61,7 +61,7 @@ const routes = [
     children: [
       {
         path: "",
-        name: "productOverview",
+        name: "ProductsOverview",
         component: () => import("../views/products/pages/ProductsOverview.vue"),
       },
       {

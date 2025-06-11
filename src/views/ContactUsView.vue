@@ -860,26 +860,28 @@
     </div>
   </section>
 
-  <section class="contactUs mds-section newsletter theme-yellow">
+  <section class="mds-section newsletter theme-yellow">
     <div x-data="newsletter" class="component-layout">
       <div class="mds-container">
-        <div class="newsletter__grid-wrapper">
-          <div class="newsletter__intro col-span-full lg:col-span-4">
-            <h3 class="header">
+        <div class="mds-mobile-flex mds-content-start mds-p-vertical-2xl">
+          <div
+            class="mds-flex mds-flex-column mds-items-start mds-p-right-6xl mds-width-50"
+          >
+            <h1 class="subHeader mds-m-bottom-lg mds-width-8">
               Suscribe to <br />
               our newsletter
-            </h3>
+            </h1>
           </div>
           <div
             x-data="iFrameFormComponent"
-            class="component-i-frame-form newsletter__form-wrapper col-span-full lg:col-start-7 lg:col-span-6"
+            class="component-i-frame-form newsletter__form-wrapper mds-width-50"
           >
             <iframe
               x-ref="iframe"
               src="https://www2.vusiongroup.com/l/192552/2024-03-29/2q1h13"
               id="iFrameResizer1"
               scrolling="no"
-              style="overflow: hidden; height: 543px"
+              style="overflow: hidden; height: 543px; width: 100%; border: none"
             ></iframe>
           </div>
         </div>
@@ -923,51 +925,24 @@ const selectOption = (option) => {
   isOpen.value = false;
 };
 </script>
-<style lang="scss" scoped>
-.page-container {
+
+<style lang="scss">
+.contactUs {
+  border-top: 1px solid #425052;
   background-color: #0c1b24;
   padding: 2rem;
   color: #fff;
   font-family: sans-serif;
-  @media (max-width: 1023px) {
-    padding: 1rem;
-  }
-
-  @media (max-width: 1023px) {
-    margin-top: var(--xl) !important;
-    margin-bottom: var(--xl) !important;
-  }
-  .mds-container {
-    border-bottom: 1px solid #425052;
-    padding-bottom: 5rem;
-  }
-
-  .contactGrid {
-    img {
-      height: 85px;
-      width: 85px;
-      padding: 5px;
-      border-radius: 50px;
-    }
-  }
 
   .form-card {
-    grid-column: 1 / -1;
     overflow: hidden;
     border-radius: 1.6rem;
     background-color: rgb(39 54 58);
     padding: 3.2rem;
-    @media (max-width: 1023px) {
-      padding: 1.5rem;
-    }
 
     .form-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       gap: 1rem 5rem;
-      @media (max-width: 1023px) {
-        grid-template-columns: 1fr;
-      }
     }
 
     label {
@@ -1003,11 +978,6 @@ const selectOption = (option) => {
 
     .checkbox-grid {
       padding-left: 5rem;
-
-      @media (max-width: 1023px) {
-        padding-left: 0.5rem;
-      }
-
       label {
         text-transform: capitalize;
       }
@@ -1053,9 +1023,78 @@ const selectOption = (option) => {
     }
   }
 
-  a {
-    color: #c9e2ff;
+  .Contactlinks {
+    color: #e6b800;
     text-decoration: underline;
   }
+}
+
+.newsletter {
+  overflow: hidden;
+  position: relative;
+}
+.theme-yellow {
+  background-color: rgb(253 205 56);
+  color: var(--primary);
+}
+.newsletter__image {
+  position: absolute;
+  top: 330px;
+  left: 35%;
+  bottom: 0;
+  z-index: 10;
+  transform: scale(1.7);
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+.newsletter.theme-yellow .newsletter__form-wrapper {
+  background-color: rgb(254 225 135);
+  overflow: hidden;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+}
+</style>
+
+<style scoped>
+.dropdown {
+  position: relative;
+  width: 300px;
+  font-family: sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+}
+.dropdown-selected {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  color: #666;
+  border-radius: 10px;
+  border: 1px solid rgb(66 80 82);
+}
+.dropdown-icon {
+  transition: transform 0.2s;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.dropdown-menu li {
+  padding: 0.75rem;
+  cursor: pointer;
+}
+.dropdown-menu li:hover,
+.dropdown-menu li.selected {
+  background-color: #ffe564;
 }
 </style>

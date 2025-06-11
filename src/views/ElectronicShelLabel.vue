@@ -257,7 +257,9 @@
       class="mds-section-content productBlock cloud mds-p-around-none mds-m-bottom-7xl"
     >
       <div class="mds-grid mds-grid-size-2 mds-p-top-2xl">
-        <div class="mds-section-content mds-p-left-7xl mds-text-color-white">
+        <div
+          class="mds-section-content mds-p-left-7xl mds-text-color-white mob-p-left-xl"
+        >
           <span
             class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
           >
@@ -297,7 +299,7 @@
         class="mds-grid mds-grid-size-2 mds-border-radius-base mds-background-primary mds-overflow-hidden mds-box-shadow-base"
       >
         <div
-          class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mds-text-color-white"
+          class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mds-text-color-white mob-p-left-xl"
         >
           <span
             class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
@@ -498,7 +500,7 @@
       class="mds-section-content mds-box-shadow-base mds-p-around-none mds-m-bottom-7xl"
     >
       <div class="mds-grid mds-grid-size-2 mds-p-top-2xl">
-        <div class="mds-section-content mds-p-left-7xl">
+        <div class="mds-section-content mds-p-left-7xl mob-p-left-xl">
           <span
             class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
           >
@@ -508,7 +510,7 @@
             We Have The Right Fixing For Your Store
           </h2>
           <p
-            class="mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl"
+            class="mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl mds-width-80"
           >
             SESimagotag developed specific VTag fixtures to fit all retailers’
             requirements. VTag fixtures are designed to be rotated, adapted and
@@ -623,6 +625,7 @@ import "swiper/css/navigation";
 import ElectronicShelCarousal from "../components/ElectronicShelCarousal.vue";
 import contactUs from "@/components/ProductContactUs.vue";
 import AppData from "@/assets/data/app-data.json";
+import FaqAccordion from "@/components/FaqAccordion.vue";
 
 const modules = [Pagination, Navigation];
 const swiperRef = ref(null);
