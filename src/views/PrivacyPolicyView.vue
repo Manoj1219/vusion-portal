@@ -4,7 +4,7 @@
       <div class="mds-p-horizontal-lg mds-p-vertical-7xl">
         <div class="layout-richtext__content">
           <h2
-            class="mds-font-weight-500 mds-font-size-3xl mds-m-bottom-xl"
+            class="mds-font-weight-500 mds-font-size-3xl mds-m-bottom-xl mds-p-top-2xl-sm"
             style="text-align: center"
           >
             <b>Data Privacy Policy</b>
@@ -142,58 +142,65 @@
               aria-rowcount="6"
               class="mds-m-bottom-base"
             >
-              <tbody>
+              <thead>
                 <tr aria-rowindex="1">
-                  <td
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>How we collect the Personal data</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Categories of Personal data</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Purpose of processing</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Legal basis for processing</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Retention period</b>
-                  </td>
+                  </th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr aria-rowindex="2">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="How we collect the Personal data"
                   >
                     From you when you exchange your business card
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Categories of Personal data"
                   >
                     Name, Surname, e-mail address, job title, company
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Purpose of processing"
                   >
                     To enable contact between commercial teams
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest of having data about our
                     customers/prospects
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose
                   </td>
@@ -201,12 +208,14 @@
                 <tr aria-rowindex="3">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="How we collect the Personal data"
                   >
                     From you by filling one of our contact form available on the
                     website or subscribing to a newsletter
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Categories of Personal data"
                   >
                     Name, Surname, e-mail address, company, job title, country
                     of residence, any other information you chose to share with
@@ -214,6 +223,7 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Purpose of processing"
                   >
                     To enable marketing communications about our brands,
                     services and commitments and management of unsubscription
@@ -221,12 +231,14 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest of having data about our
                     customers/prospects
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose or until
                     opt-out from the data subject
@@ -235,28 +247,33 @@
                 <tr aria-rowindex="4">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="How we collect the Personal data"
                   >
                     From you by contacting us on social media
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Categories of Personal data"
                   >
                     Name, surname, e-mail address, company, job title, country,
                     any other information you chose to share with us
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Purpose of processing"
                   >
                     To enable contact between commercial teams
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest of having data about our
                     customers/prospects
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose
                   </td>
@@ -264,11 +281,13 @@
                 <tr aria-rowindex="5">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="How we collect the Personal data"
                   >
                     From you or the company you represent
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Categories of Personal data"
                   >
                     Name, surname, e-mail address, company, job title, country
                     of residence, any other information you chose to share with
@@ -276,16 +295,19 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Purpose of processing"
                   >
                     To establish, exercise or defend legal claims
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest in protecting our legal interests
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Retention period"
                   >
                     Following the end of our relationship/ or contact, for as
                     long as is necessary to fulfil the purpose
@@ -294,26 +316,31 @@
                 <tr aria-rowindex="6">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="How we collect the Personal data"
                   >
                     By acquiring a database with your data on it
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Categories of Personal data"
                   >
                     Name, surname, e-mail address, job title, company
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Purpose of processing"
                   >
                     To enable contact between commercial teams
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest in fulfilling our activity
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose
                   </td>
@@ -336,42 +363,46 @@
               aria-rowcount="5"
               class="mds-m-bottom-base"
             >
-              <tbody>
+              <thead>
                 <tr aria-rowindex="1">
-                  <td
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>How we collect the Personal data</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Categories of Personal data</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Purpose of processing</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Legal basis for processing</b>
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     <b>Retention period</b>
-                  </td>
+                  </th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr aria-rowindex="2">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="How we collect the Personal data"
                   >
                     From you or the company you represent
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Categories of Personal data"
                   >
                     Name, Surname, e-mail address, job title and company,
                     financial information, and any other information you provide
@@ -379,6 +410,7 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Purpose of processing"
                   >
                     Contract management (negotiation, signature, etc of the
                     contract) and management of the contractual relationship
@@ -386,12 +418,14 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest in managing the contract with your
                     company.
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Retention period"
                   >
                     For the duration of the contract.
                   </td>
@@ -399,11 +433,13 @@
                 <tr aria-rowindex="3">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="How we collect the Personal data"
                   >
                     From you or the company you represent
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Categories of Personal data"
                   >
                     Name, Surname, e-mail address, job title and company,
                     financial information, and any other information you provide
@@ -411,17 +447,20 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Purpose of processing"
                   >
                     Bournemouth legal requirements such as accounting
                     requirements
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Legal basis for processing"
                   >
                     Compliance with legal obligations
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Retention period"
                   >
                     For as long as is required by law
                   </td>
@@ -429,11 +468,13 @@
                 <tr aria-rowindex="4">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="How we collect the Personal data"
                   >
                     From you or the company you represent
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Categories of Personal data"
                   >
                     Name, Surname, e-mail address, job title and company,
                     financial information, and any other information you provide
@@ -441,16 +482,19 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Purpose of processing"
                   >
                     To establish, exercise, defend and follow legal claims
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest in protecting our company
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md background-light-gray"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose
                   </td>
@@ -458,27 +502,32 @@
                 <tr aria-rowindex="5">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="How we collect the Personal data"
                   >
                     From you by contacting our support teams via our website
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Categories of Personal data"
                   >
                     Name, surname, e-mail address, profession phone number,
                     company, any other information you share with us
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Purpose of processing"
                   >
                     To provide help and support while using our solutions
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Legal basis for processing"
                   >
                     Legitimate interest to fulfill our contractual obligations
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Retention period"
                   >
                     For as long as is necessary to fulfill the purpose
                   </td>
@@ -501,22 +550,25 @@
               aria-rowcount="2"
               class="mds-m-bottom-base"
             >
-              <tbody>
+              <thead>
                 <tr aria-rowindex="1">
-                  <td
+                  <th
                     class="mds-font-size-base mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     Internal recipients
-                  </td>
-                  <td
+                  </th>
+                  <th
                     class="mds-font-size-base mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
                   >
                     External recipients
-                  </td>
+                  </th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr aria-rowindex="2">
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="Internal recipients"
                   >
                     <ul class="mds-m-left-lg">
                       <li
@@ -542,6 +594,7 @@
                   </td>
                   <td
                     class="mds-font-size-md mds-line-height-sm mds-m-vertical-xl mds-p-around-md"
+                    data-label="External recipients"
                   >
                     <ul class="mds-m-left-lg">
                       <li
@@ -776,6 +829,7 @@
     margin-bottom: var(--base);
   }
 
+  th,
   td {
     border: 1px solid #425052;
     vertical-align: top;
@@ -805,6 +859,117 @@
 
   .mds-underline-text {
     text-decoration: underline;
+  }
+
+  /* Tablet view (≤ 768px) */
+  @media (max-width: 768px) {
+    .privactPolicy {
+      max-width: 100%;
+      padding: 16px;
+    }
+
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+
+    thead {
+      display: none; /* Hide table headers on tablet */
+    }
+
+    tr {
+      display: block;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #425052;
+    }
+
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      font-size: 14px;
+      line-height: 1.4;
+      text-align: left;
+      border: none;
+      border-bottom: 1px solid #425052;
+    }
+
+    td:before {
+      content: attr(data-label);
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .background-light-gray {
+      background-color: #c8cdce;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p,
+    li {
+      font-size: 14px;
+    }
+  }
+
+  /* Mobile view (≤ 576px) */
+  @media (max-width: 576px) {
+    .privactPolicy {
+      padding: 12px;
+    }
+
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+
+    thead {
+      display: none; /* Hide table headers on mobile */
+    }
+
+    tr {
+      display: block;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #425052;
+    }
+
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: left;
+      border: none;
+      border-bottom: 1px solid #425052;
+    }
+
+    td:before {
+      content: attr(data-label);
+      display: block;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .background-light-gray {
+      background-color: #c8cdce;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p,
+    li {
+      font-size: 12px;
+    }
   }
 }
 </style>

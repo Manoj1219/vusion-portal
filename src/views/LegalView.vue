@@ -5,7 +5,7 @@
         <div class="mds-p-horizontal-lg mds-p-vertical-4xl">
           <div class="layout-richtext__content">
             <h1
-              class="mds-font-weight-500 mds-font-size-4xl mds-m-bottom-xl"
+              class="mds-font-weight-500 mds-font-size-4xl mds-m-bottom-xl mds-p-top-2xl-sm"
               style="text-align: left"
             >
               Legal Notice
@@ -246,6 +246,122 @@
     color: #000;
     text-decoration: underline;
     font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #333;
+  }
+
+  /* Tablet view (≤ 768px) */
+  @media (max-width: 768px) {
+    .mds-container {
+      max-width: 100%;
+      padding: 16px;
+    }
+
+    .mds-p-horizontal-lg {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    .mds-p-vertical-4xl {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 16px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .mds-m-vertical-lg {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .mds-m-vertical-2xl {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    a {
+      font-size: 14px;
+    }
+  }
+
+  /* Mobile view (≤ 576px) */
+  @media (max-width: 576px) {
+    .mds-container {
+      padding: 12px;
+    }
+
+    .mds-p-horizontal-lg {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .mds-p-vertical-4xl {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 1.5;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    .mds-m-vertical-lg {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    .mds-m-vertical-2xl {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    a {
+      font-size: 12px;
+    }
   }
 }
 </style>

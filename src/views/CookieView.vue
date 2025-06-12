@@ -7,7 +7,7 @@
       <div class="mds-p-horizontal-lg mds-p-vertical-4xl">
         <div class="layout-richtext__content">
           <h1
-            class="mds-font-weight-500 mds-font-size-3xl mds-m-bottom-xl"
+            class="mds-font-weight-500 mds-font-size-3xl mds-m-bottom-xl mds-p-top-2xl-sm"
             style="text-align: center"
           >
             Cookies Policy

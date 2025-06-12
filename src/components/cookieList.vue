@@ -38,8 +38,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>investor.vusion.com</td>
-          <td>
+          <td data-label="Cookie Subgroup">investor.vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/__uxq412__ses.580c"
               target="_blank"
@@ -53,12 +53,12 @@
               >__uxq412__id.580c</a
             >
           </td>
-          <td>First Party</td>
-          <td>A few seconds, 729 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">A few seconds, 729 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>vusion.com</td>
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/__cf_bm"
               target="_blank"
@@ -78,11 +78,11 @@
               >OptanonAlertBoxClosed</a
             >
           </td>
-          <td>First Party</td>
-          <td>A few seconds, 364 Days, 364 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">A few seconds, 364 Days, 364 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/login.q4inc.com"
               target="_blank"
@@ -90,12 +90,12 @@
               >login.q4inc.com</a
             >
           </td>
-          <td>did, did_compat</td>
-          <td>Third Party</td>
-          <td>365 Days, 365 Days</td>
+          <td data-label="Cookies">did, did_compat</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">365 Days, 365 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/us.auth0.com"
               target="_blank"
@@ -103,9 +103,9 @@
               >us.auth0.com</a
             >
           </td>
-          <td>__cf_bm</td>
-          <td>Third Party</td>
-          <td>A few seconds</td>
+          <td data-label="Cookies">__cf_bm</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">A few seconds</td>
         </tr>
       </tbody>
     </table>
@@ -132,8 +132,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>investor.vusion.com</td>
-          <td>
+          <td data-label="Cookie Subgroup">investor.vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/sp"
               target="_blank"
@@ -141,12 +141,12 @@
               >sp</a
             >
           </td>
-          <td>First Party</td>
-          <td>364 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">364 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>on.vusion.com</td>
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">on.vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/visitor_id"
               target="_blank"
@@ -166,12 +166,12 @@
               >visitor_id#####</a
             >
           </td>
-          <td>First Party</td>
-          <td>179 Days, A few seconds, 179 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">179 Days, A few seconds, 179 Days</td>
         </tr>
         <tr>
-          <td>vusion.com</td>
-          <td>
+          <td data-label="Cookie Subgroup">vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/eupubconsent-v2"
               target="_blank"
@@ -185,11 +185,11 @@
               >_gcl_au</a
             >
           </td>
-          <td>First Party</td>
-          <td>364 Days, 89 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">364 Days, 89 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/pardot.com"
               target="_blank"
@@ -197,12 +197,12 @@
               >pardot.com</a
             >
           </td>
-          <td>visitor_id, visitor_id#####</td>
-          <td>Third Party</td>
-          <td>179 Days, 179 Days</td>
+          <td data-label="Cookies">visitor_id, visitor_id#####</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">179 Days, 179 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/doubleclick.net"
               target="_blank"
@@ -210,12 +210,12 @@
               >doubleclick.net</a
             >
           </td>
-          <td>IDE, test_cookie</td>
-          <td>Third Party</td>
-          <td>729 Days, A few seconds</td>
+          <td data-label="Cookies">IDE, test_cookie</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">729 Days, A few seconds</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/youtube.com"
               target="_blank"
@@ -223,12 +223,14 @@
               >youtube.com</a
             >
           </td>
-          <td>CONSENT, YSC, VISITOR_PRIVACY_METADATA, VISITOR_INFO1_LIVE</td>
-          <td>Third Party</td>
-          <td>729 Days, Session, 179 Days, 179 Days</td>
+          <td data-label="Cookies">
+            CONSENT, YSC, VISITOR_PRIVACY_METADATA, VISITOR_INFO1_LIVE
+          </td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">729 Days, Session, 179 Days, 179 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/go.pardot.com"
               target="_blank"
@@ -236,12 +238,12 @@
               >go.pardot.com</a
             >
           </td>
-          <td>pardot</td>
-          <td>Third Party</td>
-          <td>A few seconds</td>
+          <td data-label="Cookies">pardot</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">A few seconds</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/sesimagotag.com"
               target="_blank"
@@ -249,12 +251,12 @@
               >sesimagotag.com</a
             >
           </td>
-          <td>_gcl_au</td>
-          <td>Third Party</td>
-          <td>89 Days</td>
+          <td data-label="Cookies">_gcl_au</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">89 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/pi.pardot.com"
               target="_blank"
@@ -262,12 +264,12 @@
               >pi.pardot.com</a
             >
           </td>
-          <td>pardot</td>
-          <td>Third Party</td>
-          <td>A few seconds</td>
+          <td data-label="Cookies">pardot</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">A few seconds</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www2.sesimagotag.com"
               target="_blank"
@@ -275,12 +277,12 @@
               >www2.sesimagotag.com</a
             >
           </td>
-          <td>pt_, pardot</td>
-          <td>Third Party</td>
-          <td>179 Days, A few seconds</td>
+          <td data-label="Cookies">pt_, pardot</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">179 Days, A few seconds</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/nr-data.net"
               target="_blank"
@@ -288,12 +290,12 @@
               >nr-data.net</a
             >
           </td>
-          <td>JSESSIONID</td>
-          <td>Third Party</td>
-          <td>Session</td>
+          <td data-label="Cookies">JSESSIONID</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">Session</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www.linkedin.com"
               target="_blank"
@@ -301,12 +303,12 @@
               >www.linkedin.com</a
             >
           </td>
-          <td>bscookie</td>
-          <td>Third Party</td>
-          <td>364 Days</td>
+          <td data-label="Cookies">bscookie</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">364 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www2.vusiongroup.com"
               target="_blank"
@@ -314,12 +316,12 @@
               >www2.vusiongroup.com</a
             >
           </td>
-          <td>pardot</td>
-          <td>Third Party</td>
-          <td>A few seconds</td>
+          <td data-label="Cookies">pardot</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">A few seconds</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/linkedin.com"
               target="_blank"
@@ -327,12 +329,14 @@
               >linkedin.com</a
             >
           </td>
-          <td>
+          <td data-label="Cookies">
             li_gc, li_sugr, bcookie, UserMatchHistory, lidc,
             AnalyticsSyncHistory
           </td>
-          <td>Third Party</td>
-          <td>179 Days, 89 Days, 364 Days, 29 Days, A few seconds, 29 Days</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">
+            179 Days, 89 Days, 364 Days, 29 Days, A few seconds, 29 Days
+          </td>
         </tr>
       </tbody>
     </table>
@@ -357,8 +361,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>www.vusion.com</td>
-          <td>
+          <td data-label="Cookie Subgroup">www.vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/wp-wpml_current_language"
               target="_blank"
@@ -366,12 +370,12 @@
               >wp-wpml_current_language</a
             >
           </td>
-          <td>First Party</td>
-          <td>Session</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">Session</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>investor.vusion.com</td>
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">investor.vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/cf_clearance"
               target="_blank"
@@ -379,11 +383,11 @@
               >cf_clearance</a
             >
           </td>
-          <td>First Party</td>
-          <td>364 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">364 Days</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/vimeo.com"
               target="_blank"
@@ -391,12 +395,12 @@
               >vimeo.com</a
             >
           </td>
-          <td>vuid, __cf_bm, _cfuvid</td>
-          <td>Third Party</td>
-          <td>729 Days, A few seconds, Session</td>
+          <td data-label="Cookies">vuid, __cf_bm, _cfuvid</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">729 Days, A few seconds, Session</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/ses.actusnews.com"
               target="_blank"
@@ -404,12 +408,12 @@
               >ses.actusnews.com</a
             >
           </td>
-          <td>SERVERID</td>
-          <td>Third Party</td>
-          <td>Session</td>
+          <td data-label="Cookies">SERVERID</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">Session</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www2.sesimagotag.com"
               target="_blank"
@@ -417,12 +421,12 @@
               >www2.sesimagotag.com</a
             >
           </td>
-          <td>visitor_id#####</td>
-          <td>Third Party</td>
-          <td>179 Days</td>
+          <td data-label="Cookies">visitor_id#####</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">179 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www.actusnews.com"
               target="_blank"
@@ -430,12 +434,12 @@
               >www.actusnews.com</a
             >
           </td>
-          <td>SERVERID</td>
-          <td>Third Party</td>
-          <td>Session</td>
+          <td data-label="Cookies">SERVERID</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">Session</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www2.vusiongroup.com"
               target="_blank"
@@ -443,9 +447,9 @@
               >www2.vusiongroup.com</a
             >
           </td>
-          <td>visitor_id, visitor_id#####</td>
-          <td>Third Party</td>
-          <td>179 Days, 179 Days</td>
+          <td data-label="Cookies">visitor_id, visitor_id#####</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">179 Days, 179 Days</td>
         </tr>
       </tbody>
     </table>
@@ -473,8 +477,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>vusion.com</td>
-          <td>
+          <td data-label="Cookie Subgroup">vusion.com</td>
+          <td data-label="Cookies">
             <a
               href="https://cookiepedia.co.uk/cookies/_ga_xxxxxxxxxx"
               target="_blank"
@@ -488,11 +492,11 @@
               >_ga</a
             >
           </td>
-          <td>First Party</td>
-          <td>729 Days, 729 Days</td>
+          <td data-label="Cookies used">First Party</td>
+          <td data-label="Lifespan">729 Days, 729 Days</td>
         </tr>
-        <tr class="background-light-gray">
-          <td>
+        <tr>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/pi.pardot.com"
               target="_blank"
@@ -500,12 +504,12 @@
               >pi.pardot.com</a
             >
           </td>
-          <td>pardot</td>
-          <td>Third Party</td>
-          <td>A few seconds</td>
+          <td data-label="Cookies">pardot</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">A few seconds</td>
         </tr>
         <tr>
-          <td>
+          <td data-label="Cookie Subgroup">
             <a
               href="https://cookiepedia.co.uk/host/www2.sesimagotag.com"
               target="_blank"
@@ -513,9 +517,9 @@
               >www2.sesimagotag.com</a
             >
           </td>
-          <td>visitor_id, pardot, visitor_id#####</td>
-          <td>Third Party</td>
-          <td>179 Days, A few seconds, 179 Days</td>
+          <td data-label="Cookies">visitor_id, pardot, visitor_id#####</td>
+          <td data-label="Cookies used">Third Party</td>
+          <td data-label="Lifespan">179 Days, A few seconds, 179 Days</td>
         </tr>
       </tbody>
     </table>
@@ -523,10 +527,31 @@
 </template>
 
 <style scoped>
+.cookie-policy-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .description {
   font-size: 12px;
   line-height: 1.6;
   margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .category-description {
@@ -553,9 +578,148 @@
 
 .cookie-table th {
   font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.cookie-table td a {
+  color: #0066cc;
+  text-decoration: none;
 }
 
 .cookie-table td a:hover {
   text-decoration: underline;
+}
+
+/* Tablet view (≤ 768px) */
+@media (max-width: 768px) {
+  .cookie-policy-container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  .description,
+  .category-description {
+    font-size: 11px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  .cookie-table {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 24px;
+  }
+
+  .cookie-table thead {
+    display: none; /* Hide table headers on tablet */
+  }
+
+  .cookie-table tr {
+    display: block;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .cookie-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 11px;
+    line-height: 1.4;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cookie-table td:before {
+    content: attr(data-label);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .cookie-table td a {
+    font-size: 11px;
+  }
+}
+
+/* Mobile view (≤ 576px) */
+@media (max-width: 576px) {
+  .cookie-policy-container {
+    margin: 16px;
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+
+  .description,
+  .category-description {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  .cookie-table {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 16px;
+  }
+
+  .cookie-table thead {
+    display: none; /* Hide table headers on mobile */
+  }
+
+  .cookie-table tr {
+    display: block;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .cookie-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.3;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cookie-table td:before {
+    content: attr(data-label);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+  }
+
+  .cookie-table td a {
+    font-size: 10px;
+  }
 }
 </style>
