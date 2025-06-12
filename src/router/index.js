@@ -42,9 +42,14 @@ const routes = [
     component: () => import("../views/PartnersView.vue"),
   },
   {
-    path: "/legal",
+    path: "/legal-notice",
     name: "Legal",
     component: () => import("../views/LegalView.vue"),
+  },
+  {
+    path: "/cookie-info",
+    name: "CookieView",
+    component: () => import("../views/CookieView.vue"),
   },
   {
     path: "/privacy-policy",

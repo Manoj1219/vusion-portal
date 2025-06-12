@@ -65,9 +65,9 @@
               </div>
             </li>
             <li class="mds-header-nav-item">
-              <button class="mds-button mds-button-nav">
+              <router-link to="/careers" rel="noopener noreferrer">
                 <span>{{ headerLabels.careers }}</span>
-              </button>
+              </router-link>
             </li>
             <li class="mds-header-nav-item">
               <button class="mds-button mds-button-nav">

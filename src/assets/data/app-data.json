@@ -2656,5 +2656,43 @@
       "description": "Discover how to streamline your operations, reduce costs, and enhance your security and scalability through Bluetooth LE technology.",
       "image": "https://www.vusion.com/wp-content/uploads/2024/05/SES_EdgeSense_Narrative_Stills_05-1440x1440-c-default.png"
     }
+  },
+  "career": {
+    "intro": {
+      "label": "VusionOX",
+      "header": "Interoperability made secure and scalable",
+      "description": "With Bluetooth-LE standards at its core, VusionOX is the backbone engineered for scalability, designed for upgradability and proven to integrate with over 120,000 devices in a single-store setup.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/VusionOX-Logo-L3-1440x1440-c-default.png"
+    },
+    "videos": [
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/01/career-V4.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/879705644/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4057fa0f21407903f2ae6dfc10efb38213fe22296738b05440aa310a08ad1059"
+      },
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/01/Career-V2.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/879705435/rendition/1080p/file.mp4?loc=external&log_user=0&signature=03f616407eb87b13252ba417087b5779c9cf3c8a31f7653c74fd959cc0e51e04"
+      },
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/01/V2-Career.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/879705506/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5fef024aa62305fb455bce7743e1ef53743cda7ce9632644ecc239353c21620f"
+      },
+      {
+        "poster": "https://www.vusion.com/wp-content/uploads/2024/01/Career-3.png",
+        "src": "https://player.vimeo.com/progressive_redirect/playback/879705571/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d38d136980b0b20fd414fe9060aa7dfc45148026ef4aaec952743ddbc1601dcb"
+      }
+    ],
+    "vusionCloud": {
+      "label": "VusionCloud",
+      "header": "Retail IoT platform",
+      "description": "VusionCloud uses the latest technologies to provide retailers with unparalleled performance. The platform complies with the most demanding international security standards in the industry. With VusionCloud, access your store and manage labels anytime, anywhere.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/Vusion-Pictograms_IoTCloud_white_large_rgb-1440x1440-c-default.png"
+    },
+    "vusionEnabled": {
+      "label": "Vusion Enabled",
+      "header": "Vusion OX enables a unified retail IoT ecosystem.",
+      "description": "Vusion-Enabled IoT devices benefit from a plug-n-play bridge to the Vusion IoT platform, scalability for high density areas, enhanced security for pricing information and data integration.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Vusion_Live_Hero@2x-1540x1020-c-default.png"
+    }
   }
 }
