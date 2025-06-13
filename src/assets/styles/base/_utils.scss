@@ -396,14 +396,8 @@ dl {
             &-500 {
                 height: torem(500) !important;
             }
-
-            @media (max-width: 1023px) {
-                &-500 {
-                    height: 100% !important;
-                }
-                &-600 {
-                    height: 100% !important;
-                }
+            &-125 {
+                height: torem(125) !important;
             }
             &-400 {
                 height: torem(400) !important;
@@ -419,6 +413,14 @@ dl {
             }
             &-50 {
                 height: torem(50) !important;
+            }
+            @media (max-width: 1023px) {
+                &-500 {
+                    height: 100% !important;
+                }
+                &-600 {
+                    height: 100% !important;
+                }
             }
         }
     }

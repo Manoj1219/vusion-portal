@@ -1,7 +1,9 @@
 <template>
   <div class="page-container mds-section mds-background-primary">
     <div class="mds-container">
-      <h1 class="defaultHeaderFont mds-font-size-3xsl">
+      <h1
+        class="defaultHeaderFont mds-font-size-4xl mds-p-top-4xl mds-width-70"
+      >
         {{ productContact.header }}
       </h1>
       <div
@@ -117,7 +119,7 @@
 import { ref } from "vue";
 import AppData from "@/assets/data/app-data.json";
 
-const productContact = ref(AppData.productContactUs.list);
+const productContact = ref(AppData.productContactUs);
 </script>
 <style lang="scss" scoped>
 .page-container {

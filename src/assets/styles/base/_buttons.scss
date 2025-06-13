@@ -89,6 +89,21 @@
                 background: var(--primary);
             }
         }
+        &_outlineWhiteBtn {
+            border: torem(1) solid var(--white);
+            background: transparent;
+            color: var(--white);
+            width: max-content;
+            @media (max-width: 1023px) {
+                font-size: 14px;
+            }
+            &:hover,
+            &:focus {
+                border: torem(1) solid var(--white);
+                color: var(--primary);
+                background: var(--white);
+            }
+        }
     }
     &-secondary {
         border: torem(1) solid var(--secondary);
