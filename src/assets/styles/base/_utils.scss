@@ -468,6 +468,9 @@ dl {
     }
     &-full-width-content {
         width: calc(100vw - 50%) !important;
+        @media (max-width: 1023px) {
+            width: 100% !important;
+        }
     }
 
     &-pos {

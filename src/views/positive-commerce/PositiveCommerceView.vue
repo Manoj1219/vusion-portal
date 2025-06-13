@@ -5,7 +5,7 @@
         class="mds-section-content mds-flex mds-flex-column mds-items-start mds-text-color-white mds-p-right-6xl"
       >
         <span
-          class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
+          class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500 mds-p-top-4xl-sm"
         >
           {{ positiveCommerceData.intro.label }}
         </span>
@@ -71,7 +71,7 @@
       <div>
         <div class="mds-width-15">
           <img
-            class="mds-width-45 mds-m-bottom-lg"
+            class="mds-width-50 mds-m-bottom-lg"
             src="https://www.vusion.com/wp-content/uploads/2023/11/globe-dark.svg"
             alt=""
           />
@@ -194,7 +194,9 @@
           class="mds-m-top-6xl mds-m-bottom-2xl"
         >
           <div class="mds-mobile-flex mds-height-px-500">
-            <div class="insights-content mds-width-30 mds-border-none">
+            <div
+              class="insights-content mds-width-30 mds-mob-width-100 mds-border-none"
+            >
               <div
                 class="mds-letter-spacing-1 mds-font-weight-400 mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase"
               >
