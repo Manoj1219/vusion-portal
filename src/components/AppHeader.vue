@@ -65,7 +65,11 @@
               </div>
             </li>
             <li class="mds-header-nav-item">
-              <router-link to="/careers" rel="noopener noreferrer">
+              <router-link
+                to="/careers"
+                class="career-btn"
+                rel="noopener noreferrer"
+              >
                 <span>{{ headerLabels.careers }}</span>
               </router-link>
             </li>

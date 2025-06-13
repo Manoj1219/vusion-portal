@@ -478,6 +478,9 @@ dl {
         &-top {
             top: 20%;
             color: var(--white);
+            @media (max-width: 1023px) {
+                top: 3%;
+            }
         }
     }
 }

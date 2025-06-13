@@ -227,6 +227,9 @@ $mobile: 1023px;
     display: none;
 }
 
+.mds-header-fixed .mds-header-nav-list li .career-btn {
+    color: var(--primary);
+}
 @media (max-width: $mobile) {
     @include fade-slide-transition;
     .header-desktop {
