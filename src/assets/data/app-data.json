@@ -602,7 +602,6 @@
         }
       ]
     },
-
     "SustainableRetail": {
       "intro": {
         "subHeader": "Postitive commerce",
@@ -2298,6 +2297,62 @@
     }
   },
   "ElectronicShel": {
+    "intro": {
+      "label": "V-Series ESLs",
+      "header": "Electronic Shelf Labels",
+      "description": "SESimagotag’s Electronic Shelf Labels (ESLs) are the key to transforming your physical store into a digital asset. We offer the highest quality electronic shelf labels, empowering retailers to be more agile, responsive, and accurate in all pricing operations — and beyond.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2023/12/BWRY__FullColour_Sub_00003_nobkg-1440x1440-c-default.png",
+        "alt": ""
+      },
+      "link": {
+        "text": "Watch video",
+        "href": "https://player.vimeo.com/video/891461487",
+        "target": "_blank"
+      }
+    },
+    "enhanceRetail": {
+      "label": "Enhance Retail",
+      "header": "Be Agile Beyond Pricing",
+      "description": "Bringing digital to stores, Electronic Shelf Labels allow agility beyond immediate price changes, such as delivering rich or local product information or activation campaigns for shoppers. With ESLs appreciate hassle-free pricing management in a matter of seconds.",
+      "link": {
+        "text": "Discover more",
+        "href": "",
+        "target": "_blank"
+      },
+      "features": [
+        {
+          "id": 1,
+          "title": "Automate Pricing",
+          "description": "Going beyond the core Bluetooth-LE standard, VusionOX proves scalable with 120K+ IoT at once."
+        },
+        {
+          "id": 2,
+          "title": "Shopper Engagement",
+          "description": "Communicate product information or send shoppers for purchase online via a simple NFC tag or QR code scan."
+        },
+        {
+          "id": 3,
+          "title": "Picking Performance",
+          "description": "Increase product productivity and reduce missing products with our blinking LED pick-to-light."
+        },
+        {
+          "id": 4,
+          "title": "Enhanced Productivity",
+          "description": "Enhance product restocking by guiding associates to the right location with LED blinking on-demand."
+        },
+        {
+          "id": 5,
+          "title": "Operational Data",
+          "description": "Display operational data to associates at the shelf – from ERP to inventory – for smooth operations on the shop floor."
+        },
+        {
+          "id": 6,
+          "title": "Create Touchpoints",
+          "description": "Schedule product highlights and promotions, create interactions and touchpoints for shoppers in store."
+        }
+      ]
+    },
     "testimonials": {
       "logos": [
         {
@@ -2342,6 +2397,111 @@
         }
       ]
     },
+    "cloudConnection": {
+      "label": "CLOUD CONNECTION",
+      "header": "Connect the shelves to the cloud",
+      "description": "Providing real-time accurate information on product availability and location, allowing for reduced inventory, out-of-stock, and waste, as well as improved on-shelf availability and merchandizing compliance.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2023/11/Vusion_VusionCloud_GetInfo@1x-1440x1440-c-default.png",
+        "alt": ""
+      },
+      "link": {
+        "text": "Learn more",
+        "href": "/products/vusion-cloud"
+      }
+    },
+    "whitePaper": {
+      "label": "WHITEPAPER",
+      "header": "Unlock the Power of ESLs and Store Digitalization",
+      "description": "Electronic Shelf Labels are shaping the future of retail. Through the whitepaper, discover the transformative potential and benefits of Electronic Shelf Labels in modernizing the retail landscape.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2024/05/Untitled-design-2024-05-28T140314.429-1440x1440-c-default.png",
+        "alt": ""
+      },
+      "link": {
+        "text": "Learn more here",
+        "href": "/",
+        "target": "_blank"
+      }
+    },
+    "v700Series": {
+      "label": "V 700 Series Full-Color",
+      "header": "V700 Series Redefining High-Fidelity Marketing",
+      "description": "Rethink shopper experience and engagement with full-color V700 Series Electronic Shelf Labels. Make marketing stand out more effectively with a vibrant color pallet : Black, White, Red, Yellow, Green and Blue, and high-quality images",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2023/12/Video02_01_BWRY__FullColour_Figma_Sub_00006-scaled-1540x1020-c-default.jpg",
+        "alt": ""
+      }
+    },
+    "v300Series": {
+      "label": "V300 Series 4-Color",
+      "header": "Transform your shoppers’ experience with V300 Series Electronic Shelf Labels",
+      "description": "Bring black, white, red and yellow colors to your shelves with the latest display technology. Elevate your brand visibility and differentiate products better with V-Series ESLs.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2023/12/Video02_01_BWRY__FullColour_Figma_Sub_00004-scaled-1540x1020-c-default.jpg",
+        "alt": ""
+      }
+    },
+    "v300Waterproof": {
+      "label": "V300 Series",
+      "header": "Discover the full scope of the V300 Series Electronic Shelf Labels",
+      "description": "The V300 Series Electronic Shelf Labels are perfect for a wide range of use cases. Available with simple Black and White colors or add a touch of Red to multiple the visual opportunities.<br />The V300 also exists with Waterproof resistants allowing retailers to position ESLs next to fish, meat or fruits areas without damaging the tags, and while maintaining a sanitized environment.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2023/12/Video01_02_BWRY_Sub_00003-1-scaled-1540x1020-c-default.jpg",
+        "alt": ""
+      }
+    },
+    "fixingAccessories": {
+      "label": "FIXING & ACCESSORIES",
+      "header": "We Have The Right Fixing For Your Store",
+      "description": "SESimagotag developed specific VTag fixtures to fit all retailers’ requirements. VTag fixtures are designed to be rotated, adapted and easily removable at any time. They fit perfectly with any shelf and can be tilted according to the required angle. Our fixtures and Easylock© solution are patented and proven best for a hassle-free installation.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2024/09/fixation-et-accessoires-1440x1440-c-default.png",
+        "alt": ""
+      }
+    },
+    "productsShortPresentations": {
+      "label": "Products short presentations",
+      "header": "V-Tag Series Core Specifications"
+    },
+    "relatedInsights": {
+      "label": "Related Insights",
+      "insights": [
+        {
+          "id": 1,
+          "category": "Blog",
+          "header": "Digital Price Tags for Clothing Retail",
+          "meta": "November 9, 2023 | 10 min read",
+          "href": "#",
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2023/11/price-tags-for-clothing-1-393x262-c-default.png",
+            "alt": ""
+          }
+        },
+        {
+          "id": 2,
+          "category": "Blog",
+          "header": "Digital Price Tags in Supermarkets",
+          "meta": "November 9, 2023 | 10 min read",
+          "href": "#",
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2023/11/Grocery-393x262-c-default.png",
+            "alt": ""
+          }
+        },
+        {
+          "id": 3,
+          "category": "Blog",
+          "header": "Digital Furniture Tags",
+          "meta": "November 9, 2023 | 8 min read",
+          "href": "#",
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2023/11/furniture-tags-393x262-c-default.png",
+            "alt": ""
+          }
+        }
+      ]
+    },
     "videos": [
       {
         "poster": "https://www.vusion.com/wp-content/uploads/2024/09/pricing-to-promotion.png",
@@ -2366,7 +2526,7 @@
           {
             "id": 1,
             "title": "DESCRIPTION",
-            "description": "The V100 Series is the accessible solution for all verticals and in-store uses, focusing on fast price and promotion automation. Rugged and built from strong materials, ensuring the best price/performance ratio on the market. "
+            "description": "The V100 Series is the accessible solution for all verticals and in-store uses, focusing on fast price and promotion automation. Rugged and built from strong materials, ensuring the best price/performance ratio on the market."
           },
           {
             "id": 2,
@@ -2389,7 +2549,7 @@
           {
             "id": 1,
             "title": "DESCRIPTION",
-            "description": "The V300 BWR Series offers a wider range of sizes with up to 15 years of battery lifetime to meet all retailers needs. Equipped with NFC capabilities and 7-color LEDs, they enable deeper information sharing and enhance responsiveness at the shelf. "
+            "description": "The V300 BWR Series offers a wider range of sizes with up to 15 years of battery lifetime to meet all retailers needs. Equipped with NFC capabilities and 7-color LEDs, they enable deeper information sharing and enhance responsiveness at the shelf."
           },
           {
             "id": 2,
@@ -2622,6 +2782,116 @@
       ]
     }
   },
+  "IoTInfrastructure": {
+    "intro": {
+      "label": "IOT INFRASTRUCTURE",
+      "header": "Combine the power of infraless and Smart Coexistence with SESimagotag",
+      "description": "SESimagotag’s IoT infrastructure is the combined power of infraless and Smart Coexistence to deliver fast integration and turnaround time in existing environments, easy in-store installation and maintenance with hardware infrastructure reduction, and a lower Total Cost of Ownership (TCO) and Capex. Through 3rd party integrations across a leading partner ecosystem, SESimagotag provides retailers with a truly infraless offering.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-23T133739.340-1440x1440-c-default.png",
+        "alt": ""
+      },
+      "link": {
+        "text": "Learn more about our partners",
+        "href": "",
+        "target": "_blank"
+      }
+    },
+    "smartCoexistence": {
+      "header": "SESimagotag’s Unique Smart Coexistence",
+      "description": "Excellence in service is delivered, leveraging the expertise of VusionGroup and our partners to digitize physical commerce and respond to each customer’s needs — immediately and everywhere.",
+      "features": [
+        {
+          "id": 1,
+          "title": "Integrate easily with existing Access Points partners",
+          "description": "Thanks to its leading partner ecosystem, SESimagotag offers a comprehensive offering of 3rd parties native integrations and plug-and-play connectors."
+        },
+        {
+          "id": 2,
+          "title": "Connect your In-Store retail network solution with minimal effort",
+          "description": "SESimagotag’s IoT infrastructure is made simple by design, connecting your in-store IoT requires minimal effort and quick turnaround times."
+        },
+        {
+          "id": 3,
+          "title": "Manage At Scale, leave the upgrades to us",
+          "description": "SESimagotag’s Access Points manage up to 10 000 ESLs each, requiring less hardware than traditional routers for a larger number of connected endpoints."
+        },
+        {
+          "id": 4,
+          "title": "Zero interference, even in busy retail network environments",
+          "description": "Through its unique and patented Smart Coexistence or automated channel selection and low ESL emission SESimagotag’s infrastructure is designed to prevent radio interferences or deliver a strong network in all busy retail environments."
+        },
+        {
+          "id": 5,
+          "title": "Lower your carbon footprint with a lightweight infrastructure",
+          "description": "SESimagotag’s infraless solutions leverage existing leading Wi-Fi infrastructures to connect ESLs to the Cloud eliminating the need for additional hardware deployments, cabling or power consumption associated with dedicated Access Points."
+        },
+        {
+          "id": 6,
+          "title": "Choose the best fitting infrastructure for your retail environment",
+          "description": "With SESimagotag benefit from three integration options, from complete integration and Smart Coexistence with access points partners to simple plug-and-play standalone connectivity with V:Gate."
+        }
+      ]
+    },
+    "strategicAllies": {
+      "header": "Strategic Technology Allies",
+      "description": "Infrastructure-less (infraless) offering with leading wireless technology partners. VusionGroup has been working with all major wireless technology partners to seamlessly integrate its patented technologies. VusionGroup is able to provide retailers with a scalable and easy-to-deploy platform, enabling them to spend most of their time leveraging the benefits of our solutions, rather than on deployment.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-23T105337.957-1540x1020-c-default.png",
+        "alt": ""
+      },
+      "link": {
+        "text": "Learn more about our partners",
+        "href": "/products"
+      }
+    },
+    "iotSolutions": {
+      "header": "IoT Infrastructure Solutions",
+      "description": "Comprehensive offering of native integrations, plug-n-play connectors and dedicated hardware, connecting ESLs to the VusionCloud Retail IoT Platform is hassle-free, easy to maintain and comes without a heavy financial burden.",
+      "solutions": [
+        {
+          "id": 1,
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-23T105544.773-784x522-c-default.png",
+            "alt": ""
+          },
+          "header": "Get the most of your infrastructure with our Native Integration",
+          "description": "Benefit from Smart Coexistence through Native integration, enabling access points to perform tasks seamlessly without interference."
+        },
+        {
+          "id": 2,
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-23T133927.832-784x522-c-default.png",
+            "alt": ""
+          },
+          "header": "Upgrade your existing installation with our simple Integration",
+          "description": "SESimagotag offers two different options of simple integration for pre-existing infrastructure in stores. Simply plug a dongle in or have a IoT card integrated in the access point."
+        },
+        {
+          "id": 3,
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2024/04/Untitled-design-2024-04-23T133918.563-784x522-c-default.png",
+            "alt": ""
+          },
+          "header": "Focus only on the essential with a Standalone Access Point",
+          "description": "With V:Gate Electronic Shelf Labels connectivity is as easy as plug-n-play. V:Gate ensures top-tier security using standards like JSON Web Token, Signature and Encryption as well as secure boot. This prevents data interception or tampering."
+        }
+      ]
+    },
+    "carbonFootprint": {
+      "label": "Reduced carbon footprint",
+      "header": "Reduced carbon footprint across entire retails chains through savings in electricity consumption.",
+      "description": "Through 3rd party integrations across a leading partner ecosystem, SESimagotag’s retail network solutions reduces the need for cabling, hardware and power consumption across entire store chains.",
+      "image": {
+        "src": "https://www.vusion.com/wp-content/uploads/2024/04/3047d462-f6a2-44fa-8a85-55389f359cae-1540x1020-c-default.jpg",
+        "alt": ""
+      },
+      "link": {
+        "text": "Learn more about our sustainability commitments",
+        "href": "/products"
+      }
+    }
+  },
   "enquirySeciton": {
     "header": "We’re here to help make your store smarter and more efficient."
   },
@@ -2837,7 +3107,11 @@
       "label": "VusionOX",
       "header": "Interoperability made secure and scalable",
       "description": "With Bluetooth-LE standards at its core, VusionOX is the backbone engineered for scalability, designed for upgradability and proven to integrate with over 120,000 devices in a single-store setup.",
-      "image": "https://www.vusion.com/wp-content/uploads/2023/12/VusionOX-Logo-L3-1440x1440-c-default.png"
+      "image": "https://www.vusion.com/wp-content/uploads/2023/12/VusionOX-Logo-L3-1440x1440-c-default.png",
+      "link": {
+        "text": "Learn more about the technology",
+        "href": "https://www.bluetooth.com/blog/ses-imagotag-outlines-what-you-need-to-know-about-electronic-shelf-labels/"
+      }
     },
     "bluetooth": {
       "label": "Bluetooth-LE at its core",
@@ -2866,6 +3140,50 @@
         }
       ]
     },
+    "testimonials": {
+      "logos": [
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Image3-0x80-c-default.png",
+          "alt": "JUNIPER Network"
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Image2-removebg-preview-0x80-c-default.png",
+          "alt": "Cisco Meraki logo"
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/bluetooth-sig-logos-id2cntmhEl-0x80-c-default.png",
+          "alt": "Bluetooth logo"
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/qualcomm-logos-idPbH11v4g-0x80-c-default.png",
+          "alt": "Qualcomm logo - vusionOX"
+        },
+        {
+          "id": 1,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Image3-0x80-c-default.png",
+          "alt": "JUNIPER Network"
+        },
+        {
+          "id": 2,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Image2-removebg-preview-0x80-c-default.png",
+          "alt": "Cisco Meraki logo"
+        },
+        {
+          "id": 3,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/bluetooth-sig-logos-id2cntmhEl-0x80-c-default.png",
+          "alt": "Bluetooth logo"
+        },
+        {
+          "id": 4,
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/qualcomm-logos-idPbH11v4g-0x80-c-default.png",
+          "alt": "Qualcomm logo - vusionOX"
+        }
+      ]
+    },
     "vusionCloud": {
       "label": "VusionCloud",
       "header": "Retail IoT platform",
@@ -2878,7 +3196,6 @@
       "description": "Vusion-Enabled IoT devices benefit from a plug-n-play bridge to the Vusion IoT platform, scalability for high density areas, enhanced security for pricing information and data integration.",
       "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Vusion_Live_Hero@2x-1540x1020-c-default.png"
     },
-
     "completeSolution": {
       "label": "Complete solution",
       "header": "Cloud-to-edge connectivity serving physical retail",
@@ -2897,7 +3214,7 @@
         },
         {
           "id": "3",
-          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_UpdatePrices-170x170-c-default.png",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/11/SESimagotag_Update-SESimagotag.png",
           "title": "Bluetooth-LE standards at its core",
           "description": "Industry-standard BLE integration, designed for demanding and enterprise-level retail networks."
         }
@@ -2907,7 +3224,46 @@
       "label": "WHITEPAPER",
       "header": "Security & scalability: Navigating the Bluetooth LE Landscape for Retail",
       "description": "Discover how to streamline your operations, reduce costs, and enhance your security and scalability through Bluetooth LE technology.",
-      "image": "https://www.vusion.com/wp-content/uploads/2024/05/SES_EdgeSense_Narrative_Stills_05-1440x1440-c-default.png"
+      "image": "https://www.vusion.com/wp-content/uploads/2024/05/SES_EdgeSense_Narrative_Stills_05-1440x1440-c-default.png",
+      "link": {
+        "text": "Download whitepaper",
+        "href": "https://www.vusion.com/wp-content/uploads/2024/04/Navigating-the-Bluetooth-LE-Landscape-for-Retail.pdf"
+      }
+    },
+    "relatedInsights": {
+      "label": "Related Insights",
+      "insights": [
+        {
+          "id": "1",
+          "category": "Announcements",
+          "header": "SES-imagotag launches VusionOX, a Cloud-to-Edge protocol to accelerate the digitalization of physical commerce",
+          "meta": "December 18, 2023 | 5 min read",
+          "href": "#",
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2023/12/MicrosoftTeams-image-1-393x262-c-default.png",
+            "alt": ""
+          }
+        },
+        {
+          "id": "2",
+          "category": "Announcements",
+          "header": "VusionGroup reinvents the Shelf-Edge with EdgeSense™",
+          "intro": "VusionGroup introduces today EdgeSense™, a highly innovative digital shelf system to reinvent the shelf-edge. This unique innovation is the result of more than ten years of research and development in",
+          "meta": "January 12, 2025 | 5 min read",
+          "href": "#"
+        },
+        {
+          "id": "3",
+          "category": "Blog",
+          "header": "Digital Price Tags: Improving Pricing Accuracy & Integrity",
+          "meta": "December 5, 2023 | 4 min read",
+          "href": "#",
+          "image": {
+            "src": "https://www.vusion.com/wp-content/uploads/2023/11/3.99-1-393x262-c-default.png",
+            "alt": ""
+          }
+        }
+      ]
     }
   },
   "career": {
@@ -3260,6 +3616,250 @@
       "header": "We listen. <br/> We respect one another.",
       "description": "VusionGroup is large enough to offer stability, yet human enough to know you and your work. Here, you’ll be part of a globally distributed team that builds trust-based relationships. Your co-workers are intellectually curious, committed, and collaborative. The work is fast-paced, challenging, and ambitious. It will take agility and flexibility to keep up with our pace of change. You will move confidently in and out of autonomous and team work. Each day, you will feel valued for your contributions and make a positive impact.",
       "image": "https://www.vusion.com/wp-content/uploads/2023/10/LEA170423C0068-1540x1020-c-default.jpg"
+    }
+  },
+  "ContactUs": {
+    "intro": {
+      "header": "Contact VusionGroup",
+      "description": "Let’s connect. We’re here to help make your store smarter and more efficient. Every business and brand has unique needs and we’ll create a plan that helps you achieve your goals. From supply chain optimization to business intelligence solutions and everything in between, we can help you make an impact with sustainable commerce.",
+      "links": [
+        {
+          "id": 1,
+          "text": "View global office locations",
+          "href": "#global-locations",
+          "target": "_self"
+        },
+        {
+          "id": 2,
+          "text": "Find help and support contacts",
+          "href": "#support",
+          "target": "_self"
+        }
+      ]
+    },
+    "form": {
+      "description": "Our team is happy to answer your questions. Fill out the form and we’ll be in touch as soon as possible.",
+      "fields": [
+        {
+          "id": 1,
+          "label": "Request type *",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 2,
+          "label": "First Name *",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 3,
+          "label": "Last Name *",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 4,
+          "label": "Email *",
+          "type": "email",
+          "required": true
+        },
+        {
+          "id": 5,
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "id": 6,
+          "label": "Company *",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 7,
+          "label": "Job Title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": 8,
+          "label": "Country *",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 9,
+          "label": "Industry",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": 10,
+          "label": "How can we help you?",
+          "type": "textarea",
+          "rows": 4,
+          "required": false
+        }
+      ],
+      "marketingConsent": {
+        "label": "Yes, I would like to receive email communications about your products and services",
+        "type": "checkbox",
+        "required": false
+      },
+      "privacyAgreement": {
+        "label": "I have read, agree and accept that the information that I provide will be used as detailed in the",
+        "linkText": "privacy policy",
+        "linkHref": "/privacy-policy",
+        "linkTarget": "_blank",
+        "required": true
+      },
+      "submitButton": {
+        "text": "Get in touch"
+      }
+    },
+    "headquarters": {
+      "iconSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" width=\"48\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 42V6h19.5v8.25H44V42H4zm3-3h13.5v-5.25H7V39zm0-8.25h13.5V25.5H7v5.25zm0-8.25h13.5v-5.25H7v5.25zm0-8.25h13.5V9H7v5.25zM23.5 39H41V17.25H23.5V39zm4-13.5v-3h8.25v3H27.5zm0 8.25v-3h8.25v3H27.5z\" fill=\"#000\"></path></svg>",
+      "header": "Connect with our headquarter",
+      "name": "VusionGroup S.A. HQ",
+      "address": "55 Place Nelson Mandela, CS 60106, 92024 Nanterre Cedex, France",
+      "phone": {
+        "number": "+33 1 34 34 61 61",
+        "href": "tel:+33 1 34 34 61 61"
+      }
+    },
+    "globalOffices": {
+      "header": "Our global office locations across Europe, North America, and Asia",
+      "iconSvg": "<svg viewBox=\"0 0 20 20\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.764 17.833a8.115 8.115 0 01-3.25-.656 8.416 8.416 0 01-2.646-1.781 8.415 8.415 0 01-1.781-2.646A8.115 8.115 0 011.43 9.5c0-1.153.218-2.236.656-3.25a8.415 8.415 0 011.781-2.646 8.415 8.415 0 012.646-1.781 8.115 8.115 0 013.25-.656c1.153 0 2.236.218 3.25.656a8.415 8.415 0 012.646 1.781A8.416 8.416 0 0117.44 6.25a8.115 8.115 0 01.656 3.25 8.115 8.115 0 01-.656 3.25 8.415 8.415 0 01-1.781 2.646 8.415 8.415 0 01-2.646 1.781 8.115 8.115 0 01-3.25.656zm-.896-1.27v-1.709c-.486 0-.896-.18-1.229-.541a1.813 1.813 0 01-.5-1.271v-.917l-4.27-4.27c-.07.277-.119.551-.147.822a8.06 8.06 0 00-.041.823c0 1.806.586 3.382 1.76 4.73 1.174 1.346 2.65 2.124 4.427 2.332zm6.125-2.25c.306-.334.573-.688.802-1.063a7.42 7.42 0 00.584-1.177c.16-.41.277-.83.354-1.26a7.55 7.55 0 00.114-1.313 7.043 7.043 0 00-1.208-4.01 7.029 7.029 0 00-3.23-2.636v.375c0 .486-.166.91-.5 1.271a1.607 1.607 0 01-1.228.542H8.868v1.812a.72.72 0 01-.281.583.98.98 0 01-.635.23h-1.73V9.5h5.375c.236 0 .43.09.584.27a.94.94 0 01.229.626v2.646h.896c.402 0 .757.118 1.062.354.306.236.514.541.625.916z\"></path></svg>",
+      "asia": {
+        "title": "Asia",
+        "offices": [
+          {
+            "id": 1,
+            "name": "VusionGroup Melbourne",
+            "address": "Level 7, 276 Flinders street Melbourne 3000 VIC Australia"
+          },
+          {
+            "id": 2,
+            "name": "Pervasive Displays Inc.",
+            "address": "4F, No. 28, Chuangye Rd., Tainan Science Park, Tainan City (74144) Taiwan",
+            "phone": {
+              "number": "+886-6279-5399",
+              "href": "tel:+886-6279-5399"
+            }
+          },
+          {
+            "id": 3,
+            "name": "VusionGroup Melbourne",
+            "address": "Level 7, 276 Flinders street Melbourne 3000 VIC Australia"
+          },
+          {
+            "id": 4,
+            "name": "Pervasive Displays Inc.",
+            "address": "4F, No. 28, Chuangye Rd., Tainan Science Park, Tainan City (74144) Taiwan",
+            "phone": {
+              "number": "+886-6279-5399",
+              "href": "tel:+886-6279-5399"
+            }
+          }
+        ]
+      },
+      "europe": {
+        "title": "Europe",
+        "offices": [
+          {
+            "id": 1,
+            "name": "VusionGroup Lisbon",
+            "address": "Avenida da Liberdade 110, 1269-046 Lisboa, Portugal"
+          },
+          {
+            "id": 2,
+            "name": "VusionGroup Berlin",
+            "address": "Unter den Linden 21, 10117 Berlin, Germany",
+            "phone": {
+              "number": "+49-30-12345678",
+              "href": "tel:+49-30-12345678"
+            }
+          },
+          {
+            "id": 3,
+            "name": "VusionGroup Lisbon",
+            "address": "Avenida da Liberdade 110, 1269-046 Lisboa, Portugal"
+          },
+          {
+            "id": 4,
+            "name": "VusionGroup Berlin",
+            "address": "Unter den Linden 21, 10117 Berlin, Germany",
+            "phone": {
+              "number": "+49-30-12345678",
+              "href": "tel:+49-30-12345678"
+            }
+          }
+        ]
+      },
+      "northAmerica": {
+        "title": "North America",
+        "offices": [
+          {
+            "id": 1,
+            "name": "VusionGroup New York",
+            "address": "123 5th Avenue, New York, NY 10003, USA"
+          },
+          {
+            "id": 2,
+            "name": "VusionGroup Toronto",
+            "address": "200 Bay Street, Toronto, ON M5J 2J5, Canada",
+            "phone": {
+              "number": "+1-416-555-1234",
+              "href": "tel:+1-416-555-1234"
+            }
+          },
+          {
+            "id": 3,
+            "name": "VusionGroup New York",
+            "address": "123 5th Avenue, New York, NY 10003, USA"
+          },
+          {
+            "id": 4,
+            "name": "VusionGroup Toronto",
+            "address": "200 Bay Street, Toronto, ON M5J 2J5, Canada",
+            "phone": {
+              "number": "+1-416-555-1234",
+              "href": "tel:+1-416-555-1234"
+            }
+          }
+        ]
+      }
+    },
+    "support": {
+      "iconSvg": "<svg viewBox=\"0 0 38 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M19.104 44.515v-3.23h15.313v-2.864h-7.709V22.9h7.709v-3.334c0-4.202-1.493-7.839-4.48-10.912-2.986-3.073-6.597-4.61-10.833-4.61s-7.882 1.537-10.937 4.61c-3.056 3.073-4.584 6.71-4.584 10.912V22.9h7.709v15.52H3.583c-.902 0-1.692-.338-2.37-1.015-.677-.677-1.015-1.484-1.015-2.422V19.62c0-2.604.495-5.06 1.484-7.37.99-2.309 2.335-4.332 4.037-6.068 1.701-1.736 3.706-3.099 6.015-4.088 2.31-.99 4.766-1.485 7.37-1.485s5.044.495 7.318 1.485a18.933 18.933 0 015.963 4.062c1.702 1.719 3.039 3.733 4.01 6.042.973 2.309 1.46 4.766 1.46 7.37v21.51c0 .938-.34 1.745-1.016 2.422-.678.677-1.485 1.016-2.422 1.016H19.104zm-15.52-9.532h4.27v-8.645h-4.27v8.645zm26.562 0h4.27v-8.645h-4.27v8.645z\" fill=\"#0D2126\"></path></svg>",
+      "header": "Contact our support team",
+      "dropdownOptions": [
+        "America’s support",
+        "English EMEA support",
+        "French EMEA support",
+        "Italian EMEA support",
+        "Spanish EMEA support",
+        "German CEE support",
+        "Asian support"
+      ],
+      "defaultOption": "America’s support",
+      "supportDetails": {
+        "header": "America’s support",
+        "email": {
+          "address": "support.na@vusion.com",
+          "href": "mailto:support.na@vusion.com"
+        },
+        "phone": {
+          "number": "+1-844-737-0600",
+          "href": "tel:+1-844-737-0600"
+        }
+      }
+    },
+    "newsletter": {
+      "header": "Suscribe to our newsletter",
+      "iframeSrc": "https://www2.vusiongroup.com/l/192552/2024-03-29/2q1h13",
+      "imageSrc": "https://www.vusion.com/wp-content/themes/vusion_theme/static/img/automation-white.png"
     }
   }
 }
