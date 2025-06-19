@@ -3266,6 +3266,153 @@
       ]
     }
   },
+
+  "aboutUs": {
+    "about": {
+      "label": "About VusionGroup",
+      "header": "Technologies for Positive Commerce",
+      "description": "We invent digital solutions for sustainable and human-centered commerce",
+      "image": "https://www.vusion.com/wp-content/uploads/2024/01/Stocksy_txp2ca12c25Y3r300_OriginalDelivery_4632422-1-e1704797385937-1440x1440-c-default.jpg"
+    },
+    "mission": {
+      "label": "Our mission",
+      "header": "At VusionGroup, we invent technologies that create a positive impact on society by enabling sustainable and human-centered commerce.",
+      "textColor": "white",
+      "background": "primary"
+    },
+    "keyFigures": {
+      "label": "Key figures",
+      "header": "VusionGroup by the numbers as of 12/31/2024",
+      "description": "We are the global leader in <a href=\"/solutions\" class=\"mds-underline-link mds-font-weight-800 mds-text-color-dark\">smart digital labels</a> and <a href=\"/solutions\" class=\"mds-underline-link mds-font-weight-800 mds-text-color-dark\">Retail IoT</a> solutions for physical commerce, serving over 350 large retailers around the world in Europe, Asia, and America.",
+      "figures": [
+        {
+          "id": 1,
+          "value": "1000",
+          "label": "Employees",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Employees_Icon-1.svg"
+        },
+        {
+          "id": 2,
+          "value": "25",
+          "label": "Worldwide offices",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Offices_Icon.svg"
+        },
+        {
+          "id": 3,
+          "value": "€1B",
+          "label": "Results (2024)",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/12/Euro-Icons-15-170x170-c-default.png"
+        },
+        {
+          "id": 4,
+          "value": "500M",
+          "label": "Electronic shelf labels",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/12/esl-picto-170x170-c-default.png"
+        },
+        {
+          "id": 5,
+          "value": "50,000",
+          "label": "Stores",
+          "icon": "https://www.vusion.com/wp-content/uploads/2023/10/Store_Icon.svg"
+        }
+      ]
+    },
+    "vision": {
+      "label": "Our vision",
+      "header": "Transform physical stores into digital assets",
+      "description": "Retail is the world’s largest industry, representing over 20% of global GDP and employment. It is amongst human activities with the highest impact on our societies. However, it is faced with critical sustainability challenges: food safety is a growing concern, food waste is exploding, as well as retail’s carbon footprint, driven by an unsustainable upward trend of logistics and packaging needs. Today, consumers strongly express aspirations to a new and positive commerce — omnichannel, sustainable, transparent, safe, fair, and respectful of personal data.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/11/Stocksy_txpe6dcc77eWGk300_OriginalDelivery_3035098-scaled-1540x1020-c-default.jpg"
+    },
+    "visionTwo": {
+      "descriptionOne": "In this context, there is a major need to put technology at the service of commerce and consumers. Retailers and brands can now harness the power of IoT, Cloud, and AI technologies to turn physical stores into high-value digital assets. Stores become more automated, data-driven, and connected to consumers and suppliers and are able to provide better service and information, for a frictionless, ubiquitous, and personalized shopping experience, while ensuring utmost data integrity and personal data privacy. Retail digitalization will also produce accurate in-store data analytics in real time, opening an era of enhanced collaboration between suppliers and retailers to improve the overall chain’s efficiency, transparency, safety, and sustainability.",
+      "descriptionTwo": "As a global leading retail technology provider, VusionGroup’s core mission is to help retailers and brands achieve this digital transformation of physical commerce.",
+      "image": "https://www.vusion.com/wp-content/uploads/2024/01/Stocksy_txpa108b1dee3r300_OriginalDelivery_5093245-scaled-1540x1020-c-default.jpg"
+    },
+    "solutions": {
+      "label": "Our solutions",
+      "header": "We invent retail IoT solutions",
+      "descriptionOne": "For over 30 years, VusionGroup has been the trusted partner for retailers and brands for the use of digital technology in stores.",
+      "descriptionTwo": "Our technologies improve pricing agility, accuracy, and integrity, enable omnichannel synchronization of prices, product information, and marketing content, and increase the productivity of shelf replenishment and in-store picking for online orders.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Homepage_About_Solutions_IMG@2x-1540x1020-c-default.png"
+    },
+    "solutionsTwo": {
+      "description": "Our solutions improve employee satisfaction by freeing up time from cumbersome low-value-added tasks and allowing employees to focus on customer service and merchandising tasks. Our solutions connect shelves to the cloud, providing real-time, accurate information about product availability and location. This allows retailers to reduce their inventory and avoid out-of-stock and waste and ensures improved on-shelf availability and merchandising compliance. We empower consumers with better product, nutritional, and traceability information at the shelf, enabling a frictionless in-store shopping experience, with features such as product search and way-finding.",
+      "image": "https://www.vusion.com/wp-content/uploads/2024/01/Resize-solutions-1540x1020-c-default.png"
+    },
+    "team": {
+      "label": "Our team",
+      "header": "Meet our leadership team",
+      "members": [
+        {
+          "id": 1,
+          "name": "Thierry Gadou",
+          "position": "Group Chairman & CEO",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/Thierry-Gadou-495x0-c-default.jpg",
+          "linkedin": "https://www.linkedin.com/in/thierrygadou?originalSubdomain=fr"
+        },
+        {
+          "id": 2,
+          "name": "Thierry Lemaitre",
+          "position": "CFO",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/ThierryLemaitre-495x0-c-default.jpg",
+          "linkedin": "https://www.linkedin.com/in/thierrylemaitre?originalSubdomain=fr"
+        },
+        {
+          "id": 3,
+          "name": "Andreas Rössl",
+          "position": "CTO",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/AndreasRossl-495x0-c-default.jpg",
+          "linkedin": "#"
+        },
+        {
+          "id": 4,
+          "name": "Pierre Demoures",
+          "position": "SEVP & COO (Global Sales and Customer Services)",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/pierre-demoures-495x0-c-default.jpg",
+          "linkedin": "https://www.linkedin.com/in/pierre-demoures-0662b81%5D?originalSubdomain=fr"
+        },
+        {
+          "id": 5,
+          "name": "Marianne Noel",
+          "position": "SEVP – Human Resources",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/03/Portrait-Marianne-2018-2-NB-495x0-c-default.jpg",
+          "linkedin": "#"
+        },
+        {
+          "id": 6,
+          "name": "Roy Horgan",
+          "position": "SEVP Strategy, Marketing & Communications",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/220x-305-px-roy-495x0-c-default.png",
+          "linkedin": "#"
+        },
+        {
+          "id": 7,
+          "name": "Pascale Dubreuil",
+          "position": "Group Chief Sustainability Officer",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/pascale-dubreuil-495x0-c-default.jpg",
+          "linkedin": "#"
+        },
+        {
+          "id": 8,
+          "name": "Jérôme Hamrit",
+          "position": "SEVP Business Development",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/Jerome-Hamrit-495x0-c-default.png",
+          "linkedin": "#"
+        }
+      ]
+    },
+    "careers": {
+      "label": "Careers",
+      "header": "Ready for whatever comes next",
+      "description": "Join our talented, multidisciplinary, multicultural team and help build the future of retail IoT.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/Frame-164156-1440x1440-c-default.png",
+      "link": "/careers",
+      "linkText": "Explore Open roles"
+    },
+    "newsletter": {
+      "component": "NewsLetter"
+    }
+  },
   "career": {
     "intro": {
       "label": "VusionOX",
