@@ -7,28 +7,23 @@
             class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-p-top-4xl-sm"
           >
             <img
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Digital-In-Store-Media.png"
+              :src="digitalInStoreMedia.digitalInStoreMedia.labelImage"
               alt=""
             />
           </div>
-          <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-            Digital In-Store Retail Media
+          <h2
+            class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+          >
+            {{ digitalInStoreMedia.digitalInStoreMedia.header }}
           </h2>
           <p
             class="mds-font-size-base-2 mds-font-weight-600 mds-line-height-xl"
           >
-            VusionGroup’s Digital In-Store Retail Media transforms physical
-            retail locations into dynamic media channels, turning foot traffic
-            into revenue opportunities by enabling targeted promotions,
-            real-time campaign insights, and unparalleled CPG access to shoppers
-            at the point of sale.
+            {{ digitalInStoreMedia.digitalInStoreMedia.description }}
           </p>
         </div>
         <div class="mds-section-image mds-self-center">
-          <img
-            src="https://www.vusion.com/wp-content/uploads/2025/01/7.png"
-            alt=""
-          />
+          <img :src="digitalInStoreMedia.digitalInStoreMedia.image" alt="" />
         </div>
       </div>
       <div class="mds-m-top-4xl mds-p-bottom-7xl">
@@ -38,24 +33,21 @@
           <div
             class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mob-p-left-xl"
           >
-            <h2 class="mds-m-bottom-lg mds-font-size-4xl">
-              Our unique expertise in Digital In-Store Retail Media
+            <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+              {{ digitalInStoreMedia.digitalInStoreMedia.expertise.header }}
             </h2>
             <p
               class="mds-font-size-base-2 mds-font-weight-400 mds-line-height-xl"
             >
-              VusionGroup’s Digital In-Store Retail Media works by deploying
-              interactive touchpoints in high-traffic areas, running real-time
-              campaigns tailored to shopper behavior. These touchpoints display
-              dynamic content, collect engagement data, and analyze foot
-              traffic, turning physical spaces into optimized revenue-generating
-              media channels.
+              {{
+                digitalInStoreMedia.digitalInStoreMedia.expertise.description
+              }}
             </p>
           </div>
-          <div class="">
+          <div>
             <img
               class="mds-height-100"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_21_14.Still010-1440x1440-c-default.png"
+              :src="digitalInStoreMedia.digitalInStoreMedia.expertise.image"
               alt=""
             />
           </div>
@@ -68,7 +60,7 @@
   >
     <div class="mds-container">
       <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-width-85">
-        Why consider Digital In-Store Media?
+        {{ digitalInStoreMedia.whyConsider.header }}
       </h2>
       <div
         class="mds-grid mds-grid-size-2 mds-gap-around-4xl mds-m-vertical-6xl"
@@ -80,7 +72,7 @@
             >
               <img
                 class="mds-width-50"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/trend-50x50-c-default.png"
+                :src="digitalInStoreMedia.whyConsider.items[0].icon"
                 alt=""
               />
             </div>
@@ -89,14 +81,12 @@
             class="mds-mobile-flex mds-flex-column mds-gap-around-lg mds-width-85"
           >
             <h4 class="mds-font-size-lg mds-font-weight-600">
-              Drive sales with in-store activations
+              {{ digitalInStoreMedia.whyConsider.items[0].title }}
             </h4>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
             >
-              Use in-store digital media and real-time campaigns to boost
-              shopper interaction and convert high-traffic areas into
-              revenue-generating spaces
+              {{ digitalInStoreMedia.whyConsider.items[0].description }}
             </p>
           </div>
         </div>
@@ -107,20 +97,19 @@
             >
               <img
                 class="mds-width-50"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/analytics-50x50-c-default.png"
+                :src="digitalInStoreMedia.whyConsider.items[1].icon"
                 alt=""
               />
             </div>
           </div>
           <div class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85">
             <h4 class="mds-font-size-lg mds-font-weight-600">
-              Monetize stores as media hubs
+              {{ digitalInStoreMedia.whyConsider.items[1].title }}
             </h4>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-85"
             >
-              Transform physical locations into agile and dynamic media
-              touchpoints, and maximize the value of in-store foot traffic
+              {{ digitalInStoreMedia.whyConsider.items[1].description }}
             </p>
           </div>
         </div>
@@ -130,7 +119,9 @@
   <section class="mds-section">
     <div class="mds-container">
       <div class="mds-section-content">
-        <h2 class="mds-m-bottom-lg mds-font-size-4xl">Key figures</h2>
+        <h2 class="mds-m-bottom-lg mds-font-size-4xl">
+          {{ digitalInStoreMedia.keyFigures.header }}
+        </h2>
         <div class="mds-grid mds-grid-size-2 mds-gap-around-4xl mds-m-top-6xl">
           <div class="mds-mobile-flex mds-gap-around-lg">
             <div class="mds-width-15">
@@ -139,7 +130,7 @@
               >
                 <img
                   class="mds-width-70"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-2-1-50x50-c-default.png"
+                  :src="digitalInStoreMedia.keyFigures.figures[0].icon"
                   alt=""
                 />
               </div>
@@ -148,16 +139,18 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Increase brand visibility with dynamic media
+                {{ digitalInStoreMedia.keyFigures.figures[0].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
+                v-html="
+                  digitalInStoreMedia.keyFigures.figures[0].descriptionOne
+                "
+              ></p>
+              <p
+                class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
               >
-                Increase EndCap sales by up to 5% with dynamic, interactive
-                media displays.<br />
-                Enhance shopper experience with engaging, content that draws
-                attention, builds brand visibility, and improves in-store
-                interaction.
+                {{ digitalInStoreMedia.keyFigures.figures[0].descriptionTwo }}
               </p>
             </div>
           </div>
@@ -168,7 +161,7 @@
               >
                 <img
                   class="mds-width-70"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-1-50x50-c-default.png"
+                  :src="digitalInStoreMedia.keyFigures.figures[1].icon"
                   alt=""
                 />
               </div>
@@ -177,14 +170,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Drive personalization to enhance engagement
+                {{ digitalInStoreMedia.keyFigures.figures[1].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-85"
               >
-                Boost Revenue through monetization of high-traffic locations,
-                generating an additional 0.1-0.2% of sales from branded media
-                campaigns.
+                {{ digitalInStoreMedia.keyFigures.figures[1].descriptionOne }}
               </p>
             </div>
           </div>
@@ -192,7 +183,7 @@
       </div>
       <div class="mds-section-content">
         <h2 class="mds-m-bottom-lg mds-width-65 mds-font-size-4xl">
-          What Digital In-Store Retail Media can do for your store
+          {{ digitalInStoreMedia.mediaDetails.header }}
         </h2>
         <div class="mds-flex mds-flex-column">
           <div
@@ -201,13 +192,13 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_25_04.Still011-1540x1020-c-default.png"
+                :src="digitalInStoreMedia.mediaDetails.sections[0].image"
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                In-store Retail Media network
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{ digitalInStoreMedia.mediaDetails.sections[0].header }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -215,39 +206,48 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Monetize high-traffic areas like end caps and aisles with
-                    targeted media.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[0].items[0]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Push real-time, personalized offers using geolocation and
-                    shopper data.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[0].items[1]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Boost conversion rates with tailored offers and promotions.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[0].items[2]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Enhance shopper experience with interactive digital
-                    touchpoints.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[0].items[3]
+                        .description
+                    }}
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
+            class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl mds-p-top-6xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Personalized in-store activations
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{ digitalInStoreMedia.mediaDetails.sections[1].header }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -255,27 +255,37 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Drive shopper attraction with interactive digital signage
-                    and displays.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[1].items[0]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Boost end cap sales up to 5% with dynamic media content.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[1].items[1]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Run and adjust automated campaigns in real-time across store
-                    with a dedicated CMS.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[1].items[2]
+                        .description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Increase shopper interaction with engaging, digital content.
+                    {{
+                      digitalInStoreMedia.mediaDetails.sections[1].items[3]
+                        .description
+                    }}
                   </p>
                 </div>
               </div>
@@ -283,7 +293,7 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/SES_Edm_386_92723_CCPV-scaled-1540x1020-c-default.jpg"
+                :src="digitalInStoreMedia.mediaDetails.sections[1].image"
                 alt=""
               />
             </div>
@@ -295,7 +305,12 @@
   <AppEnquiry />
   <AppFooterHelp />
 </template>
+
 <script setup>
+import { ref } from "vue";
 import AppEnquiry from "@/components/AppEnquiry.vue";
 import AppFooterHelp from "@/components/AppFooterHelp.vue";
+import AppData from "@/assets/data/app-data.json";
+
+const digitalInStoreMedia = ref(AppData.allSolutions.digitalInStoreMedia || {});
 </script>

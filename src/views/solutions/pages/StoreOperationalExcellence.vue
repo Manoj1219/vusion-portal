@@ -7,25 +7,24 @@
             class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-p-top-4xl-sm"
           >
             <img
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Store-Performance.png"
+              :src="storeOperationalExcellence.operationalExcellence.labelImage"
               alt=""
             />
           </div>
-          <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-            Store Operational Excellence
+          <h2
+            class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+          >
+            {{ storeOperationalExcellence.operationalExcellence.header }}
           </h2>
           <p
             class="mds-font-size-base-2 mds-font-weight-600 mds-line-height-xl"
           >
-            VusionGroup’s Store Operational Excellence helps retailers
-            streamline in-store workflows, improve store performance, and drive
-            seamless execution, delivering sustainable and efficient processes
-            that effectively support store teams.
+            {{ storeOperationalExcellence.operationalExcellence.description }}
           </p>
         </div>
         <div class="mds-section-image mds-self-center">
           <img
-            src="https://www.vusion.com/wp-content/uploads/2025/01/3-1.png"
+            :src="storeOperationalExcellence.operationalExcellence.image"
             alt=""
           />
         </div>
@@ -38,24 +37,26 @@
             class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mob-p-left-xl"
           >
             <h2 class="mds-m-bottom-lg mds-font-size-4xl">
-              Our unique expertise in store Store Operational Excellence
+              {{
+                storeOperationalExcellence.operationalExcellence.expertise
+                  .header
+              }}
             </h2>
             <p
               class="mds-font-size-base-2 mds-font-weight-400 mds-line-height-xl"
             >
-              VusionGroup’s Store Operational Excellence utilizes in-store IoT
-              and computer vision to digitize manual processes, generate rich,
-              shelf-level insights, and simplify tasks for store associates. By
-              providing real-time guidance for daily activities, optimizing
-              workflows, and monitoring execution and compliance, it transforms
-              operations into streamlined, efficient systems that drive
-              productivity and ensure consistent store performance.
+              {{
+                storeOperationalExcellence.operationalExcellence.expertise
+                  .description
+              }}
             </p>
           </div>
-          <div class="">
+          <div>
             <img
               class="mds-height-100"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/VusionGroup-Store-Operational-Excellence-scaled-1440x1440-c-default.jpg"
+              :src="
+                storeOperationalExcellence.operationalExcellence.expertise.image
+              "
               alt=""
             />
           </div>
@@ -63,155 +64,172 @@
       </div>
     </div>
   </section>
+
   <section
-    class="mds-section mds-background-secondary-gradient mds-p-top-5xl mds-p-bottom-7xl"
+    class="mds-section mds-background-secondary-shade mds-p-top-5xl mds-p-bottom-7xl"
   >
     <div class="mds-container">
       <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-width-85">
-        Why consider Store Operational Excellence?
+        {{ storeOperationalExcellence.whyConsider.header }}
       </h2>
       <div class="mds-grid mds-grid-size-4 mds-m-vertical-6xl">
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/history-170x170-c-default.png"
+            :src="storeOperationalExcellence.whyConsider.items[0].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Eliminate pricing minutiae
+            {{ storeOperationalExcellence.whyConsider.items[0].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Automate pricing updates to match product life cycle and ensure
-            timely promotions.
+            {{ storeOperationalExcellence.whyConsider.items[0].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/shelves-170x170-c-default.png"
+            :src="storeOperationalExcellence.whyConsider.items[1].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Confirm shelf execution
+            {{ storeOperationalExcellence.whyConsider.items[1].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Ensure product placements and planograms are aligned with demand and
-            executed efficiently.
+            {{ storeOperationalExcellence.whyConsider.items[1].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/checked-170x170-c-default.png"
+            :src="storeOperationalExcellence.whyConsider.items[2].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Facilitate product availability
+            {{ storeOperationalExcellence.whyConsider.items[2].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Inform on-shelf availability through customer demand and prioritized
-            needs.
+            {{ storeOperationalExcellence.whyConsider.items[2].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/download-file-170x170-c-default.png"
+            :src="storeOperationalExcellence.whyConsider.items[3].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Unlock supply chain visibility
+            {{ storeOperationalExcellence.whyConsider.items[3].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Digitalize end-to-end product tracking to increase supply chain
-            visibility and improve product turnover.
+            {{ storeOperationalExcellence.whyConsider.items[3].description }}
           </p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Key Figures Section -->
   <section class="mds-section">
     <div class="mds-container">
       <div class="mds-section-content">
-        <h2 class="mds-m-bottom-lg mds-font-size-4xl">Key figures</h2>
+        <h2 class="mds-m-bottom-lg mds-font-size-4xl">
+          {{ storeOperationalExcellence.keyFigures.header }}
+        </h2>
         <div class="mds-grid mds-grid-size-3 mds-gap-around-6xl mds-m-top-3xl">
           <div class="mds-flex mds-flex-column mds-gap-around-lg">
             <img
               class="mds-width-15 mds-m-bottom-lg"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-7-1-170x170-c-default.png"
+              :src="storeOperationalExcellence.keyFigures.figures[0].icon"
               alt=""
             />
             <h4 class="mds-font-size-lg mds-font-weight-600">
-              Eliminate pricing errors efficiently
+              {{ storeOperationalExcellence.keyFigures.figures[0].title }}
             </h4>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Update pricing 8x faster than without a digital system. (Lee’s
-              Discount Liquor)
+              {{
+                storeOperationalExcellence.keyFigures.figures[0].descriptionOne
+              }}
             </p>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Save up to 10 hrs/week on ticket changes (Kavanagh’s)
+              {{
+                storeOperationalExcellence.keyFigures.figures[0].descriptionTwo
+              }}
             </p>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Eliminate pricing errors (Westside Market)
+              {{
+                storeOperationalExcellence.keyFigures.figures[0]
+                  .descriptionThree
+              }}
             </p>
           </div>
           <div class="mds-flex mds-flex-column mds-gap-around-lg">
             <img
               class="mds-width-15 mds-m-bottom-lg"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-15-170x170-c-default.png"
+              :src="storeOperationalExcellence.keyFigures.figures[1].icon"
               alt=""
             />
             <h4 class="mds-font-size-lg mds-font-weight-600">
-              Save hours daily on gap scans
+              {{ storeOperationalExcellence.keyFigures.figures[1].title }}
             </h4>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Save 2 hours per day on gap scans
+              {{
+                storeOperationalExcellence.keyFigures.figures[1].descriptionOne
+              }}
             </p>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Increase OSA by up to 7% through prioritized replenishment
+              {{
+                storeOperationalExcellence.keyFigures.figures[1].descriptionTwo
+              }}
             </p>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Increase sales by up to 2%
+              {{
+                storeOperationalExcellence.keyFigures.figures[1]
+                  .descriptionThree
+              }}
             </p>
           </div>
           <div class="mds-flex mds-flex-column mds-gap-around-lg">
             <img
               class="mds-width-15 mds-m-bottom-lg"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-1-170x170-c-default.png"
+              :src="storeOperationalExcellence.keyFigures.figures[2].icon"
               alt=""
             />
             <h4 class="mds-font-size-lg mds-font-weight-600">
-              Enhance inventory accuracy
+              {{ storeOperationalExcellence.keyFigures.figures[2].title }}
             </h4>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Streamline ordering process, saving approximately 30 seconds per
-              SKU
+              {{
+                storeOperationalExcellence.keyFigures.figures[2].descriptionOne
+              }}
             </p>
             <p
               class="mds-font-size-base mds-font-weight-400 mds-line-height-xl"
             >
-              Increase the accuracy of inventory levels
+              {{
+                storeOperationalExcellence.keyFigures.figures[2].descriptionTwo
+              }}
             </p>
           </div>
         </div>
       </div>
       <div class="mds-section-content">
         <h2 class="mds-m-bottom-lg mds-width-65 mds-font-size-4xl">
-          What Store Operational Excellence can do for your store
+          {{ storeOperationalExcellence.excellenceDetails.header }}
         </h2>
         <div class="mds-flex mds-flex-column">
           <div
@@ -220,13 +238,18 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/031A6321-scaled-1540x1020-c-default.jpg"
+                :src="
+                  storeOperationalExcellence.excellenceDetails.sections[0].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Automated pricing & promotion
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  storeOperationalExcellence.excellenceDetails.sections[0]
+                    .header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -234,20 +257,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Replace manual pricing with electronic shelf labels
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[0]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Create agile pricing templates easily
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[0]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Integrate labels with operational data and LED cues for
-                    in-store processes
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[0]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -257,8 +288,11 @@
             class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Enhanced merchandising & assortment
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  storeOperationalExcellence.excellenceDetails.sections[1]
+                    .header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -266,15 +300,19 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Guide associates to execute planogram through IoT cues based
-                    on designed planogram
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[1]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Assist with in-store navigation, guiding associates to given
-                    tasks in the store
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[1]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -282,7 +320,9 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2199363735-1540x1020-c-default.jpg"
+                :src="
+                  storeOperationalExcellence.excellenceDetails.sections[1].image
+                "
                 alt=""
               />
             </div>
@@ -293,13 +333,18 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_25_01_02.Still015-1540x1020-c-default.png"
+                :src="
+                  storeOperationalExcellence.excellenceDetails.sections[2].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Streamlined inventory & availability
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  storeOperationalExcellence.excellenceDetails.sections[2]
+                    .header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -307,20 +352,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Use shelf cameras to trigger automatic restocking tasks
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[2]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Create agile pricing templatesAutomatically detect gaps and
-                    alert associates for replenishment
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[2]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Prioritize replenishment based on actual shelf data
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[2]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -330,8 +383,11 @@
             class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Precision supply chain & tracking
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  storeOperationalExcellence.excellenceDetails.sections[3]
+                    .header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -339,21 +395,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Digitalize paper labels on Reusable Transport Packaging
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[3]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Adapt content on Digital Display and according to location,
-                    status etc.
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[3]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track and trace your RTP’s across the Supply Chain to
-                    optimize inventory flows
+                    {{
+                      storeOperationalExcellence.excellenceDetails.sections[3]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -361,7 +424,9 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/young-man-working-warehouse-with-boxes-1-2048x1365-1-1540x1020-c-default.jpg"
+                :src="
+                  storeOperationalExcellence.excellenceDetails.sections[3].image
+                "
                 alt=""
               />
             </div>
@@ -370,10 +435,18 @@
       </div>
     </div>
   </section>
+
   <AppEnquiry />
   <AppFooterHelp />
 </template>
+
 <script setup>
+import { ref } from "vue";
 import AppEnquiry from "@/components/AppEnquiry.vue";
 import AppFooterHelp from "@/components/AppFooterHelp.vue";
+import AppData from "@/assets/data/app-data.json";
+
+const storeOperationalExcellence = ref(
+  AppData.allSolutions.storeOperationalExcellence || {}
+);
 </script>

@@ -2296,6 +2296,850 @@
       }
     }
   },
+  "allSolutions": {
+    "storeOperationalExcellence": {
+      "operationalExcellence": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Store-Performance.png",
+        "header": "Store Operational Excellence",
+        "description": "VusionGroup’s Store Operational Excellence helps retailers streamline in-store workflows, improve store performance, and drive seamless execution, delivering sustainable and efficient processes that effectively support store teams.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/3-1.png",
+        "expertise": {
+          "header": "Our unique expertise in store Store Operational Excellence",
+          "description": "VusionGroup’s Store Operational Excellence utilizes in-store IoT and computer vision to digitize manual processes, generate rich, shelf-level insights, and simplify tasks for store associates. By providing real-time guidance for daily activities, optimizing workflows, and monitoring execution and compliance, it transforms operations into streamlined, efficient systems that drive productivity and ensure consistent store performance.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/VusionGroup-Store-Operational-Excellence-scaled-1440x1440-c-default.jpg"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Store Operational Excellence?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/history-170x170-c-default.png",
+            "title": "Eliminate pricing minutiae",
+            "description": "Automate pricing updates to match product life cycle and ensure timely promotions."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/shelves-170x170-c-default.png",
+            "title": "Confirm shelf execution",
+            "description": "Ensure product placements and planograms are aligned with demand and executed efficiently."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/checked-170x170-c-default.png",
+            "title": "Facilitate product availability",
+            "description": "Inform on-shelf availability through customer demand and prioritized needs."
+          },
+          {
+            "id": 4,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/download-file-170x170-c-default.png",
+            "title": "Unlock supply chain visibility",
+            "description": "Digitalize end-to-end product tracking to increase supply chain visibility and improve product turnover."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-7-1-170x170-c-default.png",
+            "title": "Eliminate pricing errors efficiently",
+            "descriptionOne": "Update pricing 8x faster than without a digital system. (Lee’s Discount Liquor)",
+            "descriptionTwo": "Save up to 10 hrs/week on ticket changes (Kavanagh’s)",
+            "descriptionThree": "Eliminate pricing errors (Westside Market)"
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-15-170x170-c-default.png",
+            "title": "Save hours daily on gap scans",
+            "descriptionOne": "Save 2 hours per day on gap scans",
+            "descriptionTwo": "Increase OSA by up to 7% through prioritized replenishment",
+            "descriptionThree": "Increase sales by up to 2%"
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-1-170x170-c-default.png",
+            "title": "Enhance inventory accuracy",
+            "descriptionOne": "Streamline ordering process, saving approximately 30 seconds per SKU",
+            "descriptionTwo": "Increase the accuracy of inventory levels"
+          }
+        ]
+      },
+      "excellenceDetails": {
+        "header": "What Store Operational Excellence can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Automated pricing & promotion",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/031A6321-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Replace manual pricing with electronic shelf labels"
+              },
+              {
+                "id": 2,
+                "description": "Create agile pricing templates easily"
+              },
+              {
+                "id": 3,
+                "description": "Integrate labels with operational data and LED cues for in-store processes"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Enhanced merchandising & assortment",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2199363735-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Guide associates to execute planogram through IoT cues based on designed planogram"
+              },
+              {
+                "id": 2,
+                "description": "Assist with in-store navigation, guiding associates to given tasks in the store"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "header": "Streamlined inventory & availability",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_25_01_02.Still015-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Use shelf cameras to trigger automatic restocking tasks"
+              },
+              {
+                "id": 2,
+                "description": "Automatically detect gaps and alert associates for replenishment"
+              },
+              {
+                "id": 3,
+                "description": "Prioritize replenishment based on actual shelf data"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "header": "Precision supply chain & tracking",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/young-man-working-warehouse-with-boxes-1-2048x1365-1-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Digitalize paper labels on Reusable Transport Packaging"
+              },
+              {
+                "id": 2,
+                "description": "Adapt content on Digital Display and according to location, status etc."
+              },
+              {
+                "id": 3,
+                "description": "Track and trace your RTP’s across the Supply Chain to optimize inventory flows"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "shopperServices": {
+      "shopperServices": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Guided-Shopper-Experience.png",
+        "header": "Shopper Services",
+        "description": "VusionGroup’s Shopper Services engages in-aisle customers with dynamic marketing, bridging the gap between online and offline shopping, and delivering tailored, guided in-store experiences to enhance the shopping journey.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/4.png",
+        "expertise": {
+          "header": "Our unique expertise in Shopper Services",
+          "description": "VusionGroup’s Shopper Services leverages in-store IoT, locationing and data to create personalized shopping journeys from guiding shoppers to their desired products, displaying enhanced product information, and inventory levels, to offering alternative shopping methods for out-of-stock items. By identifying products based on shopper preferences, it creates a seamless, personalized shopping journey that bridges digital and physical retail.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/VusionGroup-Positive-Commerce-1440x1440-c-default.jpg"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Shopper Services?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/trend-50x50-c-default.png",
+            "title": "Elevate the shopper journey with digital tools",
+            "description": "Leverage digital potential to highlight product benefits throughout the shopper’s journey to drive meaningful connection and purchase decisions."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/analytics-50x50-c-default.png",
+            "title": "Bridge digital and physical shopping experiences",
+            "description": "Engage in-aisle customers with agility using dynamic displays, bridging the gap between online and offline shopping."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-4-1-50x50-c-default.png",
+            "title": "Personalize the shopper journey with localized promotions",
+            "descriptionOne": "Digitalize the in-store experience for shoppers by guiding them in their shopping trips."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-1-1-50x50-c-default.png",
+            "title": "Deploy marketing and promotional campaigns",
+            "descriptionOne": "Deploy marketing and promotional campaigns effectively with increased agility.",
+            "descriptionTwo": "Improve your NPS score by 1pt."
+          }
+        ]
+      },
+      "servicesDetails": {
+        "header": "What Shopper Services can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Personalized shopper journey",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_25_04.Still011-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Guide Shoppers to their products through retailers' app or web app"
+              },
+              {
+                "id": 2,
+                "description": "Offer alternative products or shopping methods in case of out-of-stock"
+              },
+              {
+                "id": 3,
+                "description": "Identify products in store for shoppers based on their shopper preferences : on promotion, vegan, Nutriscore…"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Cross-channel engagement",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES-16-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Display enhanced content information through NFC tap of QR Code"
+              },
+              {
+                "id": 2,
+                "description": "Propose in-store substitute, link to online alternative"
+              },
+              {
+                "id": 3,
+                "description": "Highlight products in store based on shopper’s criteria"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "localEcommerce": {
+      "localEcommerce": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Integrated-Local-eCommerce.png",
+        "header": "Local eCommerce",
+        "description": "VusionGroup's Local eCommerce streamlines eCommerce fulfillment operations and last-mile delivery, enabling stores and associates to process orders faster and more accurately.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/5.png",
+        "expertise": {
+          "header": "Our unique expertise in Local eCommerce",
+          "description": "VusionGroup’s Local eCommerce leverages locationing technology and AI to improve in-stock signals and feeds e-commerce platforms with accurate inventory data. With IoT touchpoints in-store and precise product location, it guides associate in their picking processes with pick-to-light systems, and helps prioritize and sequence orders for delivery.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/VusionGroup-Efficiency-1440x1440-c-default.jpg"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Local eCommerce?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/loop-170x170-c-default.png",
+            "title": "Align inventory across channels",
+            "description": "Synchronize in-store and online inventory for real-time stock accuracy on eCom platforms."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/checklist-170x170-c-default.png",
+            "title": "Simplify online orders fulfillment",
+            "description": "Improve order processing while reducing error frequency using product locationing and pick-to-light functions."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/gear-170x170-c-default.png",
+            "title": "Optimize staging operations",
+            "description": "Digitalize order staging of eCom orders to reduce paper-based processes and accelerate customer delivery."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/3-1-170x170-c-default.png",
+            "title": "Boost accuracy with pick & put-to-light",
+            "descriptionOne": "Reduce errors through pick & put-to-light, reaching up to 85% of fully compliant orders.",
+            "descriptionTwo": "Generate a 5€/$ increase of basket value and an average 1pt margin increase."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/2-1-170x170-c-default.png",
+            "title": "Streamline picking to cut labor costs",
+            "descriptionOne": "Increase picking productivity by 30%.",
+            "descriptionTwo": "Decreases labor costs by streamlining picking."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/3-170x170-c-default.png",
+            "title": "Enhance customer experience with faster service",
+            "descriptionOne": "Reduces errors and delays by guiding colleagues.",
+            "descriptionTwo": "Reduce customer follow-up with call centers.",
+            "descriptionThree": "Enhances customer experience with faster service."
+          }
+        ]
+      },
+      "ecommerceDetails": {
+        "header": "What Local eCommerce can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Streamlined order fulfillment",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2162067345-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Streamline picking and sorting processes with Pick-by-Light & Put-to-Light"
+              },
+              {
+                "id": 2,
+                "description": "Track and Trace misplaced E-Commerce Totes across your store"
+              },
+              {
+                "id": 3,
+                "description": "Adapt content on Digital Display according to associates’ needs and customers' orders"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Streamlined sequencing & staging",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_1728090370-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Direct colleagues on where to stage products"
+              },
+              {
+                "id": 2,
+                "description": "Use tote location and LED lights to reduce time to collect customer orders"
+              },
+              {
+                "id": 3,
+                "description": "Adapt content on Digital Display according to associates’ needs and customers orders"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "header": "Omnichannel stock accuracy",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES_Edm_094_92723_CCPV-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Feed your e-commerce platform with stock-out information from your fulfillment location"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "foodWasteManagement": {
+      "foodWasteManagement": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Food-Waste-Management.png",
+        "header": "Food Waste Management",
+        "description": "VusionGroup’s Food Waste Management enables retailers to reduce waste, enhance the consumer and associate experience, and maximize profitability through advanced inventory tracking, shelf-life management, and AI-driven forecasting.",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/12/Food_Waste_Hero_L2.png",
+        "expertise": {
+          "header": "Our unique expertise in Food Waste Management",
+          "description": "VusionGroup’s Food Waste Management integrates real-time expiration tracking, AI-driven demand forecasting, and agile pricing to reduce waste. These tools enable retailers to optimize inventory levels, align production with demand, and prioritize the sale of near-expiry products, ultimately improving profitability and sustainability.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/patrycja-jadach-jLqF5HX-ytQ-unsplash-2048x1365-1-1440x1440-c-default.webp"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Food Waste Management?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/clock-170x170-c-default.png",
+            "title": "Optimize daily-prepared food management",
+            "description": "Align the production plan with demand, automate agile pricing, and simplify the preparation of surprise bags to reduce waste, attract consumers, and drive profitability."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/date-and-time-170x170-c-default.png",
+            "title": "Automate expiration tracking for short shelf-life items",
+            "description": "Track expiration dates, automate markdowns, and assist associates to enhance their daily tasks, reducing waste and boosting profitability."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/orange-170x170-c-default.png",
+            "title": "Improve inventory for fruits & vegetables",
+            "description": "Utilize dynamic inventory management and real-time monitoring to enhance stock rotation, ordering accuracy, product freshness, and operational efficiency."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/5-50x50-c-default.png",
+            "descriptionOne": "Increase profit by 21%* and reduce category waste by 56%* with self-learning bake plans, real-time monitoring, and agile pricing for daily prepared foods."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/7-50x50-c-default.png",
+            "title": "Streamline processes & recover value",
+            "descriptionOne": "Achieve up to a 78% reduction in time spent by associates on shelf-life tracking and automated markdowns, while recovering 50% to 80% of the products’ value."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/6-50x50-c-default.png",
+            "title": "Reduce waste & enhance freshness",
+            "descriptionOne": "Achieve up to 15% reduction in food waste through real-time shelf-life tracking and automated markdowns."
+          },
+          {
+            "id": 4,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-50x50-c-default.png",
+            "title": "Optimize staff time & operational efficency",
+            "descriptionOne": "Free up staff for customer service by minimizing manual stock management and ensure product freshness with real-time inventory."
+          }
+        ]
+      },
+      "wasteManagementDetails": {
+        "header": "What Food Waste Management can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Daily-prepared foods",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/mink-mingle-qZ5lPCPvdXE-unsplash-scaled-1-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Forecast production, automate planning, and control execution to maintain stock and avoid extra bakes."
+              },
+              {
+                "id": 2,
+                "description": "Use agile pricing to boost near-expiry sales and communicate discounts."
+              },
+              {
+                "id": 3,
+                "description": "Help associates add expiring items to surprise bags, saving time and reducing waste."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Short shelf-life",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2376025055-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Track expiration dates in real-time to prioritize and encourage shoppers to buy expiring items first."
+              },
+              {
+                "id": 2,
+                "description": "Automate markdown, surprise bag, or donation recommendations based on shelf life."
+              },
+              {
+                "id": 3,
+                "description": "Use AI to optimize discounts and boost profitability."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "header": "Fruits & vegetables",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_27_27_20.Still005-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Use AI for dynamic forecasting to optimize fruit and veg orders, preventing stockouts and overstocking."
+              },
+              {
+                "id": 2,
+                "description": "Monitor stock levels in real-time to ensure timely restocking and better product freshness."
+              },
+              {
+                "id": 3,
+                "description": "Track inventory discrepancies and shrinkage to reduce stock inconsistencies and product loss."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "digitalInStoreMedia": {
+      "digitalInStoreMedia": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Digital-In-Store-Media.png",
+        "header": "Digital In-Store Retail Media",
+        "description": "VusionGroup’s Digital In-Store Retail Media transforms physical retail locations into dynamic media channels, turning foot traffic into revenue opportunities by enabling targeted promotions, real-time campaign insights, and unparalleled CPG access to shoppers at the point of sale.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/7.png",
+        "expertise": {
+          "header": "Our unique expertise in Digital In-Store Retail Media",
+          "description": "VusionGroup’s Digital In-Store Retail Media works by deploying interactive touchpoints in high-traffic areas, running real-time campaigns tailored to shopper behavior. These touchpoints display dynamic content, collect engagement data, and analyze foot traffic, turning physical spaces into optimized revenue-generating media channels.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_21_14.Still010-1440x1440-c-default.png"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Digital In-Store Media?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/trend-50x50-c-default.png",
+            "title": "Drive sales with in-store activations",
+            "description": "Use in-store digital media and real-time campaigns to boost shopper interaction and convert high-traffic areas into revenue-generating spaces"
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/analytics-50x50-c-default.png",
+            "title": "Monetize stores as media hubs",
+            "description": "Transform physical locations into agile and dynamic media touchpoints, and maximize the value of in-store foot traffic"
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-2-1-50x50-c-default.png",
+            "title": "Increase brand visibility with dynamic media",
+            "descriptionOne": "Increase EndCap sales by up to 5% with dynamic, interactive media displays.",
+            "descriptionTwo": "Enhance shopper experience with engaging, content that draws attention, builds brand visibility, and improves in-store interaction."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-1-50x50-c-default.png",
+            "title": "Drive personalization to enhance engagement",
+            "descriptionOne": "Boost Revenue through monetization of high-traffic locations, generating an additional 0.1-0.2% of sales from branded media campaigns."
+          }
+        ]
+      },
+      "mediaDetails": {
+        "header": "What Digital In-Store Retail Media can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "In-store Retail Media network",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_25_04.Still011-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Monetize high-traffic areas like end caps and aisles with targeted media."
+              },
+              {
+                "id": 2,
+                "description": "Push real-time, personalized offers using geolocation and shopper data."
+              },
+              {
+                "id": 3,
+                "description": "Boost conversion rates with tailored offers and promotions."
+              },
+              {
+                "id": 4,
+                "description": "Enhance shopper experience with interactive digital touchpoints."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Personalized in-store activations",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES_Edm_386_92723_CCPV-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Drive shopper attraction with interactive digital signage and displays."
+              },
+              {
+                "id": 2,
+                "description": "Boost end cap sales up to 5% with dynamic media content."
+              },
+              {
+                "id": 3,
+                "description": "Run and adjust automated campaigns in real-time across store with a dedicated CMS."
+              },
+              {
+                "id": 4,
+                "description": "Increase shopper interaction with engaging, digital content."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "collaborationDataMonetization": {
+      "collaborationDataMonetization": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_CPG-Insights-Monetization.png",
+        "header": "Collaboration & Data Monetization",
+        "description": "VusionGroup’s Collaboration & Data Monetization solution set empowers CPGs with performance insights, ensures retail compliance tracking, and facilitates partnerships across category management to drive additional revenue.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/1.png",
+        "expertise": {
+          "header": "Our unique expertise in Collaboration & Data Monetization",
+          "description": "VusionGroup’s Collaboration & Data Monetization combines data sources to enhance datasets and provide CPGs with upgraded KPIs and performance insights. It tracks compliance with retail agreements, assesses revenue impacts from execution gaps, and facilitates collaboration on a single platform.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES-06-scaled-1440x1440-c-default.jpg"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Collaboration & Data Monetization?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/trend-170x170-c-default.png",
+            "title": "Boost category performance",
+            "description": "Provide CPGs with actionable performance metrics to enhance category growth and improve negotiations."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/analytics-170x170-c-default.png",
+            "title": "Track execution compliance",
+            "description": "Enable CPGs to track compliance with retail agreement execution and revenue impact, thereby informing next-step approaches."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/handshake-170x170-c-default.png",
+            "title": "Foster winning partnerships",
+            "description": "Facilitate CPG-retailer partnerships that expand category growth and unlock additional revenue for both parties."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/2-2-170x170-c-default.png",
+            "title": "Improve negotiation meetings preparation",
+            "descriptionOne": "Grow sales up to 4% through collaborating on assortment optimization"
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-3-1-170x170-c-default.png",
+            "title": "Gain visibility on retail compliance",
+            "descriptionOne": "Get clear visibility on the compliance of negotiated agreements with retailers vs in-store reality"
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/1-1-170x170-c-default.png",
+            "title": "Boost product availability",
+            "descriptionOne": "Increase by up to +15pts product availability",
+            "descriptionTwo": "Increase promotions profitability by 15% to 30%"
+          }
+        ]
+      },
+      "dataMonetizationDetails": {
+        "header": "What collaboration & data monetization can do for you & your suppliers",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Category data & insights",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES_Edm_103_92723_CCPV-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Easily extract data and KPIs on category performance from actual retailer data with high granularity"
+              },
+              {
+                "id": 2,
+                "description": "Get immediate access to categorized and legible shopper insights to better understand category and brand performance through the shopper’s lens"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Real-time collaboration",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_28_03_15.Still007-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Collaborate with retailers around projects aiming at optimizing assortment, merchandising plans, promotional plans, with projections based on transactions and shopper behaviors"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "header": "Execution data & insights",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/VusionGroup-Careers-scaled-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Get alerts & recommended action to prioritize corrective actions with retailers to improve in-store execution"
+              },
+              {
+                "id": 2,
+                "description": "Get reporting on the retailer assortment compliance in store for CPG products"
+              },
+              {
+                "id": 3,
+                "description": "Get visibility on retailers' out-of-stocks, understand the origins (shelf, store, warehouse)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "categoryOptimization": {
+      "categoryOptimization": {
+        "labelImage": "https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Category-Performance.png",
+        "header": "Category Optimization",
+        "description": "VusionGroup’s Category Optimization empowers retailers to enhance decision-making processes related to assortment, merchandising, promotions, and inventory, helping both retailers and CPGs save time and boost performance.",
+        "image": "https://www.vusion.com/wp-content/uploads/2025/01/2-1.png",
+        "expertise": {
+          "header": "Our unique expertise in Category Optimization",
+          "description": "VusionGroup’s Category Optimization analyzes transactional, loyalty card, supply chain, and external data to generate a comprehensive view of product consumption and performance to uncover optimization opportunities, model predictive scenarios, and provide actionable recommendations to elevate product categories.",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES-18-scaled-1-1440x1440-c-default.jpg"
+        }
+      },
+      "whyConsider": {
+        "header": "Why consider Category Optimization?",
+        "items": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/shelves-170x170-c-default.png",
+            "title": "Build your assortments effectively",
+            "description": "Leverage shopper data to efficiently and quickly refine product selection and maximize category performance."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/trend-170x170-c-default.png",
+            "title": "Maximize your sales potential",
+            "description": "Use AI to customize planograms per store, boosting sales by enhancing local relevance."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/euro-170x170-c-default.png",
+            "title": "Construct effective pricing & promotions strategies",
+            "description": "Implement flexible pricing adjustments to optimize profitability and reduce ineffective promotions."
+          },
+          {
+            "id": 4,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/stopwatch-170x170-c-default.png",
+            "title": "Monitor inventory proactively",
+            "description": "Monitor inventory in real-time to avoid stock issues and improve product availability."
+          }
+        ]
+      },
+      "keyFigures": {
+        "header": "Key figures",
+        "figures": [
+          {
+            "id": 1,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/7-1-50x50-c-default.png",
+            "title": "Plan assortments efficiently",
+            "descriptionOne": "Achieve a 50% time reduction in assortment planning, up to +5% margin impact on processed categories, and an average +3-point increase in sales share."
+          },
+          {
+            "id": 2,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/6-1-50x50-c-default.png",
+            "title": "Streamline merchandising efforts",
+            "descriptionOne": "Reduce merchandising time by 30%, boost sales by +0.3% with tailored placements, and achieve +80% planogram compliance, with each point adding +0.02% to sales."
+          },
+          {
+            "id": 3,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/5-1-50x50-c-default.png",
+            "title": "Optimize pricing & promotions",
+            "descriptionOne": "Boost sales by 0.5% with flexible pricing, increase promotional sales by 3%, and improve margins by 0.75 points."
+          },
+          {
+            "id": 4,
+            "icon": "https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-50x50-c-default.png",
+            "title": "Manage inventory proactively",
+            "descriptionOne": "Save time on inventory management and reduce losses by identifying out-of-stock causes."
+          }
+        ]
+      },
+      "optimizationDetails": {
+        "header": "What Category Optimization can do for your store",
+        "sections": [
+          {
+            "id": 1,
+            "header": "Assortment optimization",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Grocery-shopping-with-cart-1540x1020-c-default.jpeg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Optimize category clustering to meet consumer needs."
+              },
+              {
+                "id": 2,
+                "description": "Tailor assortments by store for optimal performance."
+              },
+              {
+                "id": 3,
+                "description": "Track in-store assortment effectiveness for sales impact."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "header": "Merchandising optimization",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/SES-05-scaled-1-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Develop category-specific merchandising strategies."
+              },
+              {
+                "id": 2,
+                "description": "Track in-store merchandising performance."
+              },
+              {
+                "id": 3,
+                "description": "Pinpoint consumer demand within categories."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "header": "Pricing & promotions optimization",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_43_07.Still013-1540x1020-c-default.png",
+            "items": [
+              {
+                "id": 1,
+                "description": "Automate promotional selections to achieve your goals."
+              },
+              {
+                "id": 2,
+                "description": "Anticipate promo-driven demand and adjust selection with suppliers."
+              },
+              {
+                "id": 3,
+                "description": "Track and assess the promotional impact on category growth."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "header": "Inventory & availability optimization",
+            "image": "https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2472031145-1540x1020-c-default.jpg",
+            "items": [
+              {
+                "id": 1,
+                "description": "Identify out-of-stock causes and assess lost revenue."
+              },
+              {
+                "id": 2,
+                "description": "Monitor product availability across channels, minimizing revenue losses."
+              },
+              {
+                "id": 3,
+                "description": "Forecast inventory needs to prevent stock imbalances."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
   "ElectronicShel": {
     "intro": {
       "label": "V-Series ESLs",
@@ -3266,7 +4110,6 @@
       ]
     }
   },
-
   "aboutUs": {
     "about": {
       "label": "About VusionGroup",

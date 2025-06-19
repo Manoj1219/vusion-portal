@@ -7,27 +7,23 @@
             class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-p-top-4xl-sm"
           >
             <img
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Food-Waste-Management.png"
+              :src="foodWasteManagement.foodWasteManagement.labelImage"
               alt=""
             />
           </div>
-          <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-            Food Waste Management
+          <h2
+            class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+          >
+            {{ foodWasteManagement.foodWasteManagement.header }}
           </h2>
           <p
             class="mds-font-size-base-2 mds-font-weight-600 mds-line-height-xl"
           >
-            VusionGroup’s Food Waste Management enables retailers to reduce
-            waste, enhance the consumer and associate experience, and maximize
-            profitability through advanced inventory tracking, shelf-life
-            management, and AI-driven forecasting.
+            {{ foodWasteManagement.foodWasteManagement.description }}
           </p>
         </div>
         <div class="mds-section-image mds-self-center">
-          <img
-            src="https://www.vusion.com/wp-content/uploads/2024/12/Food_Waste_Hero_L2.png"
-            alt=""
-          />
+          <img :src="foodWasteManagement.foodWasteManagement.image" alt="" />
         </div>
       </div>
       <div class="mds-m-top-4xl mds-p-bottom-7xl">
@@ -38,23 +34,20 @@
             class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mob-p-left-xl"
           >
             <h2 class="mds-m-bottom-lg mds-font-size-4xl">
-              Our unique expertise in Food Waste Management
+              {{ foodWasteManagement.foodWasteManagement.expertise.header }}
             </h2>
             <p
               class="mds-font-size-base-2 mds-font-weight-400 mds-line-height-xl"
             >
-              VusionGroup’s Food Waste Management integrates real-time
-              expiration tracking, AI-driven demand forecasting, and agile
-              pricing to reduce waste. These tools enable retailers to optimize
-              inventory levels, align production with demand, and prioritize the
-              sale of near-expiry products, ultimately improving profitability
-              and sustainability.
+              {{
+                foodWasteManagement.foodWasteManagement.expertise.description
+              }}
             </p>
           </div>
-          <div class="">
+          <div>
             <img
               class="mds-height-100"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/patrycja-jadach-jLqF5HX-ytQ-unsplash-2048x1365-1-1440x1440-c-default.webp"
+              :src="foodWasteManagement.foodWasteManagement.expertise.image"
               alt=""
             />
           </div>
@@ -67,7 +60,7 @@
   >
     <div class="mds-container">
       <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-width-55">
-        Why consider Food Waste Management?
+        {{ foodWasteManagement.whyConsider.header }}
       </h2>
       <div
         class="mds-grid mds-grid-size-3 mds-m-vertical-6xl mds-gap-around-6xl"
@@ -75,46 +68,40 @@
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-15 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/clock-170x170-c-default.png"
+            :src="foodWasteManagement.whyConsider.items[0].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Optimize daily-prepared food management
+            {{ foodWasteManagement.whyConsider.items[0].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Align the production plan with demand, automate agile pricing, and
-            simplify the preparation of surprise bags to reduce waste, attract
-            consumers, and drive profitability.
+            {{ foodWasteManagement.whyConsider.items[0].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-15 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/date-and-time-170x170-c-default.png"
+            :src="foodWasteManagement.whyConsider.items[1].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Automate expiration tracking for short shelf-life items
+            {{ foodWasteManagement.whyConsider.items[1].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Track expiration dates, automate markdowns, and assist associates to
-            enhance their daily tasks, reducing waste and boosting
-            profitability.
+            {{ foodWasteManagement.whyConsider.items[1].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-15 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/orange-170x170-c-default.png"
+            :src="foodWasteManagement.whyConsider.items[2].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Improve inventory for fruits & vegetables
+            {{ foodWasteManagement.whyConsider.items[2].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Utilize dynamic inventory management and real-time monitoring to
-            enhance stock rotation, ordering accuracy, product freshness, and
-            operational efficiency.
+            {{ foodWasteManagement.whyConsider.items[2].description }}
           </p>
         </div>
       </div>
@@ -123,7 +110,9 @@
   <section class="mds-section">
     <div class="mds-container">
       <div class="mds-section-content">
-        <h2 class="mds-m-bottom-lg mds-font-size-4xl">Key figures</h2>
+        <h2 class="mds-m-bottom-lg mds-font-size-4xl">
+          {{ foodWasteManagement.keyFigures.header }}
+        </h2>
         <div
           class="mds-grid mds-grid-size-2 mds-gap-column-6xl mds-gap-row-4xl mds-m-top-6xl"
         >
@@ -134,7 +123,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/5-50x50-c-default.png"
+                  :src="foodWasteManagement.keyFigures.figures[0].icon"
                   alt=""
                 />
               </div>
@@ -145,9 +134,7 @@
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Increase profit by 21%* and reduce category waste by 56%* with
-                self-learning bake plans, real-time monitoring, and agile
-                pricing for daily prepared foods.
+                {{ foodWasteManagement.keyFigures.figures[0].descriptionOne }}
               </p>
             </div>
           </div>
@@ -158,7 +145,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/7-50x50-c-default.png"
+                  :src="foodWasteManagement.keyFigures.figures[1].icon"
                   alt=""
                 />
               </div>
@@ -167,14 +154,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Streamline processes & recover value
+                {{ foodWasteManagement.keyFigures.figures[1].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Achieve up to a 78% reduction in time spent by associates on
-                shelf-life tracking and automated markdowns, while recovering
-                50% to 80% of the products’ value.
+                {{ foodWasteManagement.keyFigures.figures[1].descriptionOne }}
               </p>
             </div>
           </div>
@@ -185,7 +170,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/6-50x50-c-default.png"
+                  :src="foodWasteManagement.keyFigures.figures[2].icon"
                   alt=""
                 />
               </div>
@@ -194,13 +179,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Reduce waste & enhance freshness
+                {{ foodWasteManagement.keyFigures.figures[2].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Achieve up to 15% reduction in food waste through real-time
-                shelf-life tracking and automated markdowns.
+                {{ foodWasteManagement.keyFigures.figures[2].descriptionOne }}
               </p>
             </div>
           </div>
@@ -211,7 +195,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-50x50-c-default.png"
+                  :src="foodWasteManagement.keyFigures.figures[3].icon"
                   alt=""
                 />
               </div>
@@ -220,14 +204,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Optimize staff time & operational efficency
+                {{ foodWasteManagement.keyFigures.figures[3].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Free up staff for customer service by minimizing manual stock
-                management and ensure product freshness with real-time
-                inventory.
+                {{ foodWasteManagement.keyFigures.figures[3].descriptionOne }}
               </p>
             </div>
           </div>
@@ -235,7 +217,7 @@
       </div>
       <div class="mds-section-content">
         <h2 class="mds-m-bottom-lg mds-width-65 mds-font-size-4xl">
-          What Food Waste Management can do for your store
+          {{ foodWasteManagement.wasteManagementDetails.header }}
         </h2>
         <div class="mds-flex mds-flex-column">
           <div
@@ -244,13 +226,17 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/mink-mingle-qZ5lPCPvdXE-unsplash-scaled-1-1540x1020-c-default.jpg"
+                :src="
+                  foodWasteManagement.wasteManagementDetails.sections[0].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Daily-prepared foods
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  foodWasteManagement.wasteManagementDetails.sections[0].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-300"
@@ -258,22 +244,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Forecast production, automate planning, and control
-                    execution to maintain stock and avoid extra bakes.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[0]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Use agile pricing to boost near-expiry sales and communicate
-                    discounts.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[0]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Help associates add expiring items to surprise bags, saving
-                    time and reducing waste.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[0]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -283,8 +275,12 @@
             class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-m-top-lg">
-                Short shelf-life
+              <h2
+                class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-m-top-lg"
+              >
+                {{
+                  foodWasteManagement.wasteManagementDetails.sections[1].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-300"
@@ -292,21 +288,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track expiration dates in real-time to prioritize and
-                    encourage shoppers to buy expiring items first.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[1]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Automate markdown, surprise bag, or donation recommendations
-                    based on shelf life.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[1]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Use AI to optimize discounts and boost profitability.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[1]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -314,7 +317,9 @@
             <div class="mds-section-image mds-self-center mds-p-top-2xl">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2376025055-1540x1020-c-default.jpg"
+                :src="
+                  foodWasteManagement.wasteManagementDetails.sections[1].image
+                "
                 alt=""
               />
             </div>
@@ -325,13 +330,17 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_27_27_20.Still005-1540x1020-c-default.png"
+                :src="
+                  foodWasteManagement.wasteManagementDetails.sections[2].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none mds-m-bottom-7xl">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl">
-                Fruits & vegetables
+              <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500">
+                {{
+                  foodWasteManagement.wasteManagementDetails.sections[2].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-300"
@@ -339,22 +348,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Use AI for dynamic forecasting to optimize fruit and veg
-                    orders, preventing stockouts and overstocking.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[2]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Monitor stock levels in real-time to ensure timely
-                    restocking and better product freshness.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[2]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track inventory discrepancies and shrinkage to reduce stock
-                    inconsistencies and product loss.
+                    {{
+                      foodWasteManagement.wasteManagementDetails.sections[2]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -367,7 +382,12 @@
   <AppEnquiry />
   <AppFooterHelp />
 </template>
+
 <script setup>
+import { ref } from "vue";
 import AppEnquiry from "@/components/AppEnquiry.vue";
 import AppFooterHelp from "@/components/AppFooterHelp.vue";
+import AppData from "@/assets/data/app-data.json";
+
+const foodWasteManagement = ref(AppData.allSolutions.foodWasteManagement || {});
 </script>

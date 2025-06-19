@@ -7,27 +7,23 @@
             class="mds-m-bottom-lg mds-font-size-mds-2 mds-text-transform-uppercase mds-p-top-4xl-sm"
           >
             <img
-              src="https://www.vusion.com/wp-content/uploads/2024/12/Vusion_Solutions_Black_Category-Performance.png"
+              :src="categoryOptimization.categoryOptimization.labelImage"
               alt=""
             />
           </div>
-          <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-            Category Optimization
+          <h2
+            class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+          >
+            {{ categoryOptimization.categoryOptimization.header }}
           </h2>
           <p
             class="mds-font-size-base-2 mds-font-weight-600 mds-line-height-xl"
           >
-            VusionGroup’s Category Optimization empowers retailers to enhance
-            decision-making processes related to assortment, merchandising,
-            promotions, and inventory, helping both retailers and CPGs save time
-            and boost performance.
+            {{ categoryOptimization.categoryOptimization.description }}
           </p>
         </div>
         <div class="mds-section-image mds-self-center">
-          <img
-            src="https://www.vusion.com/wp-content/uploads/2025/01/2-1.png"
-            alt=""
-          />
+          <img :src="categoryOptimization.categoryOptimization.image" alt="" />
         </div>
       </div>
       <div class="mds-m-top-4xl mds-p-bottom-7xl">
@@ -38,23 +34,20 @@
             class="mds-p-vertical-6xl mds-p-left-6xl mds-p-right-2xl mob-p-left-xl"
           >
             <h2 class="mds-m-bottom-lg mds-font-size-4xl">
-              Our unique expertise in Category Optimization
+              {{ categoryOptimization.categoryOptimization.expertise.header }}
             </h2>
             <p
               class="mds-font-size-base-2 mds-font-weight-400 mds-line-height-xl"
             >
-              VusionGroup’s Category Optimization analyzes transactional,
-              loyalty card, supply chain, and external data to generate a
-              comprehensive view of product consumption and performance to
-              uncover optimization opportunities, model predictive scenarios,
-              and provide actionable recommendations to elevate product
-              categories.
+              {{
+                categoryOptimization.categoryOptimization.expertise.description
+              }}
             </p>
           </div>
-          <div class="">
+          <div>
             <img
               class="mds-height-100"
-              src="https://www.vusion.com/wp-content/uploads/2024/12/SES-18-scaled-1-1440x1440-c-default.jpg"
+              :src="categoryOptimization.categoryOptimization.expertise.image"
               alt=""
             />
           </div>
@@ -67,63 +60,59 @@
   >
     <div class="mds-container">
       <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-width-80">
-        Why consider Category Optimization?
+        {{ categoryOptimization.whyConsider.header }}
       </h2>
       <div class="mds-grid mds-grid-size-4 mds-m-vertical-6xl">
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/shelves-170x170-c-default.png"
+            :src="categoryOptimization.whyConsider.items[0].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Build your assortments effectively
+            {{ categoryOptimization.whyConsider.items[0].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Leverage shopper data to efficiently and quickly refine product
-            selection and maximize category performance.
+            {{ categoryOptimization.whyConsider.items[0].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/trend-170x170-c-default.png"
+            :src="categoryOptimization.whyConsider.items[1].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Maximize your sales potential
+            {{ categoryOptimization.whyConsider.items[1].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Use AI to customize planograms per store, boosting sales by
-            enhancing local relevance.
+            {{ categoryOptimization.whyConsider.items[1].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/euro-170x170-c-default.png"
+            :src="categoryOptimization.whyConsider.items[2].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Construct effective pricing & promotions strategies
+            {{ categoryOptimization.whyConsider.items[2].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Implement flexible pricing adjustments to optimize profitability and
-            reduce ineffective promotions.
+            {{ categoryOptimization.whyConsider.items[2].description }}
           </p>
         </div>
         <div class="mds-flex mds-flex-column mds-gap-around-lg">
           <img
             class="mds-width-20 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2024/12/stopwatch-170x170-c-default.png"
+            :src="categoryOptimization.whyConsider.items[3].icon"
             alt=""
           />
           <h4 class="mds-font-size-lg mds-font-weight-600">
-            Monitor inventory proactively
+            {{ categoryOptimization.whyConsider.items[3].title }}
           </h4>
           <p class="mds-font-size-base mds-font-weight-400 mds-line-height-xl">
-            Monitor inventory in real-time to avoid stock issues and improve
-            product availability.
+            {{ categoryOptimization.whyConsider.items[3].description }}
           </p>
         </div>
       </div>
@@ -132,7 +121,9 @@
   <section class="mds-section">
     <div class="mds-container">
       <div class="mds-section-content">
-        <h2 class="mds-m-bottom-lg mds-font-size-4xl">Key figures</h2>
+        <h2 class="mds-m-bottom-lg mds-font-size-4xl">
+          {{ categoryOptimization.keyFigures.header }}
+        </h2>
         <div
           class="mds-grid mds-grid-size-2 mds-gap-column-6xl mds-gap-row-4xl mds-m-top-6xl"
         >
@@ -143,7 +134,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/7-1-50x50-c-default.png"
+                  :src="categoryOptimization.keyFigures.figures[0].icon"
                   alt=""
                 />
               </div>
@@ -152,14 +143,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Plan assortments efficiently
+                {{ categoryOptimization.keyFigures.figures[0].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Achieve a 50% time reduction in assortment planning, up to +5%
-                margin impact on processed categories, and an average +3-point
-                increase in sales share.
+                {{ categoryOptimization.keyFigures.figures[0].descriptionOne }}
               </p>
             </div>
           </div>
@@ -170,7 +159,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/6-1-50x50-c-default.png"
+                  :src="categoryOptimization.keyFigures.figures[1].icon"
                   alt=""
                 />
               </div>
@@ -179,14 +168,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Streamline merchandising efforts
+                {{ categoryOptimization.keyFigures.figures[1].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Reduce merchandising time by 30%, boost sales by +0.3% with
-                tailored placements, and achieve +80% planogram compliance, with
-                each point adding +0.02% to sales.
+                {{ categoryOptimization.keyFigures.figures[1].descriptionOne }}
               </p>
             </div>
           </div>
@@ -197,7 +184,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/5-1-50x50-c-default.png"
+                  :src="categoryOptimization.keyFigures.figures[2].icon"
                   alt=""
                 />
               </div>
@@ -206,13 +193,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Optimize pricing & promotions
+                {{ categoryOptimization.keyFigures.figures[2].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Boost sales by 0.5% with flexible pricing, increase promotional
-                sales by 3%, and improve margins by 0.75 points.
+                {{ categoryOptimization.keyFigures.figures[2].descriptionOne }}
               </p>
             </div>
           </div>
@@ -223,7 +209,7 @@
               >
                 <img
                   class="mds-width-50"
-                  src="https://www.vusion.com/wp-content/uploads/2024/12/Icones-Pages-Solutions-6-50x50-c-default.png"
+                  :src="categoryOptimization.keyFigures.figures[3].icon"
                   alt=""
                 />
               </div>
@@ -232,13 +218,12 @@
               class="mds-flex mds-flex-column mds-gap-around-lg mds-width-85"
             >
               <h4 class="mds-font-size-lg mds-font-weight-600">
-                Manage inventory proactively
+                {{ categoryOptimization.keyFigures.figures[3].title }}
               </h4>
               <p
                 class="mds-font-size-base mds-font-weight-400 mds-line-height-xl mds-width-90"
               >
-                Save time on inventory management and reduce losses by
-                identifying out-of-stock causes.
+                {{ categoryOptimization.keyFigures.figures[3].descriptionOne }}
               </p>
             </div>
           </div>
@@ -246,7 +231,7 @@
       </div>
       <div class="mds-section-content">
         <h2 class="mds-m-bottom-lg mds-width-65 mds-font-size-4xl">
-          What Category Optimization can do for your store
+          {{ categoryOptimization.optimizationDetails.header }}
         </h2>
         <div class="mds-flex mds-flex-column">
           <div
@@ -255,13 +240,19 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/Grocery-shopping-with-cart-1540x1020-c-default.jpeg"
+                :src="
+                  categoryOptimization.optimizationDetails.sections[0].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-                Assortment optimization
+              <h2
+                class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+              >
+                {{
+                  categoryOptimization.optimizationDetails.sections[0].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -269,19 +260,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Optimize category clustering to meet consumer needs.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[0]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Tailor assortments by store for optimal performance.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[0]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track in-store assortment effectiveness for sales impact.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[0]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -291,8 +291,12 @@
             class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-                Merchandising optimization
+              <h2
+                class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+              >
+                {{
+                  categoryOptimization.optimizationDetails.sections[1].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -300,19 +304,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Develop category-specific merchandising strategies.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[1]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track in-store merchandising performance.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[1]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Pinpoint consumer demand within categories.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[1]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -320,7 +333,9 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/SES-05-scaled-1-1540x1020-c-default.jpg"
+                :src="
+                  categoryOptimization.optimizationDetails.sections[1].image
+                "
                 alt=""
               />
             </div>
@@ -331,13 +346,19 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/Imagotag-Belsize_001.00_24_43_07.Still013-1540x1020-c-default.png"
+                :src="
+                  categoryOptimization.optimizationDetails.sections[2].image
+                "
                 alt=""
               />
             </div>
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-                Pricing & promotions optimization
+              <h2
+                class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+              >
+                {{
+                  categoryOptimization.optimizationDetails.sections[2].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -345,20 +366,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Automate promotional selections to achieve your goals.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[2]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Anticipate promo-driven demand and adjust selection with
-                    suppliers.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[2]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Track and assess the promotional impact on category growth.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[2]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -368,8 +397,12 @@
             class="mds-grid mds-grid-size-2 mds-gap-around-7xl mds-m-vertical-7xl"
           >
             <div class="mds-section-content mds-p-around-none">
-              <h2 class="mds-m-bottom-lg mds-font-size-5xl mds-width-70">
-                Inventory & availability optimization
+              <h2
+                class="mds-m-bottom-lg mds-font-size-4xl mds-font-weight-500 mds-width-70"
+              >
+                {{
+                  categoryOptimization.optimizationDetails.sections[3].header
+                }}
               </h2>
               <div
                 class="mds-flex mds-flex-column mds-m-top-5xl mds-gap-around-xl mds-p-bottom-2xl mds-height-px-200"
@@ -377,20 +410,28 @@
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Identify out-of-stock causes and assess lost revenue.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[3]
+                        .items[0].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Monitor product availability across channels, minimizing
-                    revenue losses.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[3]
+                        .items[1].description
+                    }}
                   </p>
                 </div>
                 <div class="mds-flex mds-items-center mds-gap-around-xl">
                   <i class="pi pi-check mds-font-size-xl"></i>
                   <p class="mds-font-weight-600 mds-font-size-lg">
-                    Forecast inventory needs to prevent stock imbalances.
+                    {{
+                      categoryOptimization.optimizationDetails.sections[3]
+                        .items[2].description
+                    }}
                   </p>
                 </div>
               </div>
@@ -398,7 +439,9 @@
             <div class="mds-section-image mds-self-center">
               <img
                 class="mds-border-radius-base"
-                src="https://www.vusion.com/wp-content/uploads/2024/12/shutterstock_2472031145-1540x1020-c-default.jpg"
+                :src="
+                  categoryOptimization.optimizationDetails.sections[3].image
+                "
                 alt=""
               />
             </div>
@@ -410,7 +453,14 @@
   <AppEnquiry />
   <AppFooterHelp />
 </template>
+
 <script setup>
+import { ref } from "vue";
 import AppEnquiry from "@/components/AppEnquiry.vue";
 import AppFooterHelp from "@/components/AppFooterHelp.vue";
+import AppData from "@/assets/data/app-data.json";
+
+const categoryOptimization = ref(
+  AppData.allSolutions.categoryOptimization || {}
+);
 </script>
