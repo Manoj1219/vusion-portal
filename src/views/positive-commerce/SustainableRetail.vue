@@ -189,7 +189,11 @@
     </div>
     <div class="mds-flex mds-flex-column mds-p-top-4xl">
       <div class="mds-grid mds-grid-size-2 mds-m-vertical-2xl">
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
+        <div
+          class="mds-flex mds-items-start mds-gap-around-sm"
+          v-for="block in SustainableRetail.FeaturesTwo.eachBlockInfo"
+          :key="block.id"
+        >
           <svg
             viewBox="0 0 29 35"
             fill="none"
@@ -204,128 +208,8 @@
               stroke-miterlimit="22.93"
             ></path>
           </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            Ultra-Energy-efficient solutions with battery-less IoT in the coming
-            years
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            Our color e-paper technology for ESLs displays with minimal energy
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            Our R&D focuses on low-energy systems with more than 40% of our
-            patents related to energy savings topics
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            Serverless/ infraless solutions avoid any additional infrastructure
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            We leverage your physical store to create micro-fulfillment centers
-            and potentially avoid building order-picking warehouses
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            Our technologies are hosted on Microsoft’s Azure cloud, which has
-            committed to powering 100% of its data centers with renewable
-            electricity by 2025
-          </p>
-        </div>
-        <div class="mds-flex mds-items-start mds-gap-around-sm">
-          <svg
-            viewBox="0 0 29 35"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="pi pi-check mds-font-size-2xl"
-            width="30px"
-          >
-            <path
-              d="M4.4 16.693l5.817 8.336L23.072 6.371"
-              stroke="currentColor"
-              stroke-width="4"
-              stroke-miterlimit="22.93"
-            ></path>
-          </svg>
-          <p class="mds-font-size-base-2 mds-width-90">
-            We are committed to decreasing our carbon intensity by 40% by 2027
-            vs.2022
+          <p class="mds-font-size-base-2 mds-width-80">
+            {{ block.description }}
           </p>
         </div>
       </div>
@@ -377,7 +261,7 @@
           <div class="mds-section-image mds-self-center mds-p-around-lg">
             <img
               class="mds-border-radius-base"
-              src="https://www.vusion.com/wp-content/uploads/2023/10/image-1515-1540x1020-c-default.png"
+              :src="SustainableRetail.FoodWaste.image"
               alt=""
             />
           </div>
@@ -385,19 +269,14 @@
             <span
               class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
             >
-              Food waste reduction
+              {{ SustainableRetail.FoodWaste.subtitle }}
             </span>
             <h2 class="defaultHeaderFont mds-m-bottom-lg mds-font-size-3xsl">
-              Reducing food waste
+              {{ SustainableRetail.FoodWaste.header }}
             </h2>
 
             <p class="mds-font-weight-400 mds-font-size-base">
-              In partnership with Smartway, we developed Smartdetection Flash
-              Evo, an award-winning solution for detecting products with short
-              expiry dates in stores. Flashing labels signal soon-to-be expired
-              products, and in less than 4 minutes, more than 500 products can
-              be checked and discounted, eliminating hours spent in aisles
-              identifying and removing soon-to-be-expired products.
+              {{ SustainableRetail.FoodWaste.description }}
             </p>
           </div>
         </div>
@@ -451,29 +330,29 @@
             <span
               class="mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
             >
-              Reduce, reuse, recycle
+              {{ SustainableRetail.Recycling.subtitle }}
             </span>
             <h2
               class="defaultHeaderFont mds-m-bottom-lg mds-font-size-3xsl mds-width-70"
             >
-              Recycling ESLs and reducing carbon footprint
+              {{ SustainableRetail.Recycling.header }}
             </h2>
 
             <p class="mds-font-weight-400 mds-font-size-base mds-width-85">
               Our
-              <a href="" class="text-underline"> electronic shelf labels </a>
-              are eco-designed to be repaired, reconditioned, and refurbished or
-              recycled. Recycled ESLs are carefully inspected to recover
-              components that can be reused for repairs in “second life” labels.
-              We also decreased the volume of packaging used in the shipment of
-              our products, saving on a yearly basis 212,152 kg of cardboard in
-              2023 compared to 2021.
+              <a
+                href="/sesimagotag/electronic-shelf-labels"
+                class="text-underline"
+              >
+                electronic shelf labels
+              </a>
+              {{ SustainableRetail.Recycling.description }}
             </p>
           </div>
           <div class="mds-section-image mds-self-center mds-p-around-lg">
             <img
               class="mds-border-radius-base"
-              src="https://www.vusion.com/wp-content/uploads/2023/10/image-1516-1-1540x1020-c-default.png"
+              :src="SustainableRetail.Recycling.image"
               alt=""
             />
           </div>

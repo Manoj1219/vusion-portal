@@ -58,7 +58,7 @@
             </p>
           </div>
           <p
-            class="mds-font-size-base mds-font-weight-500 mds-line-height-xl mds-p-right-2xl mds-p-left-5xl"
+            class="mds-font-size-base-2 mds-font-weight-400 mds-line-height-xl mds-p-right-2xl mds-p-left-5xl mds-width-75"
           >
             {{ mission.description }}
           </p>
@@ -72,7 +72,7 @@
         <div class="mds-width-15">
           <img
             class="mds-width-50 mds-m-bottom-lg"
-            src="https://www.vusion.com/wp-content/uploads/2023/11/globe-dark.svg"
+            :src="positiveCommerceData.ourCommitments.image"
             alt=""
           />
         </div>
@@ -80,99 +80,52 @@
           <span
             class="mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
           >
-            Our Commitments
+            {{ positiveCommerceData.ourCommitments.label }}
           </span>
         </div>
         <h1 class="subHeader mds-m-bottom-lg mds-width-70">
-          We’re committed to making a positive impact on commerce
+          {{ positiveCommerceData.ourCommitments.header }}
         </h1>
       </div>
       <div class="mds-grid mds-grid-size-2 mds-gap-column-2xl">
         <div
           class="mds-border-around mds-background-contactBadge mds-border-radius-base mds-m-top-3xl mds-overflow-hidden"
+          v-for="commitment in positiveCommerceData.ourCommitments.list"
+          :key="commitment.id"
         >
           <div class="insights-content insights-content-image mds-p-around-3xl">
             <h3
               class="mds-font-size-2xl mds-font-weight-500 mds-m-bottom-lg truncate"
             >
-              Learn how we’re driving sustainable retail
+              {{ commitment.header }}
             </h3>
             <p
               class="insights-intro mds-font-weight-300 mds-font-size-base mds-m-bottom-2xl"
             >
-              We're reducing waste and improving efficiency to enable more
-              sustainable stores.
+              {{ commitment.description }}
             </p>
             <a
-              href="https://www.vusion.com/positive-commerce/sustainable-retail/"
+              :href="commitment.link.href"
               class="router-link-active mds-button mds-button-primary_outlineWhiteBtn"
             >
-              Learn more
+              {{ commitment.link.text }}
             </a>
             <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
             <p
               class="mds-flex mds-item-center mds-gap-column-lg mds-font-size-base-2 mds-line-height-xl mds-m-vertical-xl"
+              v-for="link in commitment.additionalLinks"
+              :key="link.href"
             >
-              <img
-                src="https://www.vusion.com/wp-content/uploads/2023/11/ESG-icon.svg"
-              />
-              <a
-                class="anchor-underline"
-                href="https://www.vusion.com/standard-terms-conditions-and-warranty-conditions/"
-                >Explore our ESG Executive Summary 2023</a
-              >
+              <img :src="link.icon" alt="" />
+              <a class="anchor-underline" :href="link.href">{{ link.text }}</a>
             </p>
             <p
-              class="mds-flex mds-item-center mds-gap-column-lg mds-font-size-base-2 mds-line-height-xl mds-m-vertical-xl"
-            >
-              <img
-                src="https://www.vusion.com/wp-content/uploads/2023/11/ESG-icon.svg"
-              />
-              <a
-                class="anchor-underline"
-                href="https://www.vusion.com/standard-terms-conditions-and-warranty-conditions/"
-                >Explore our ESG report</a
-              >
-            </p>
+              class="mds-height-px-125"
+              v-if="commitment.additionalLinks.length === 0"
+            ></p>
           </div>
           <div class="insights-image">
-            <img
-              width="100%"
-              src="https://www.vusion.com/wp-content/uploads/2023/10/Insights_FPO_IMG_2-400x0-c-default.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div
-          class="mds-border-around mds-background-contactBadge mds-border-radius-base mds-m-top-3xl mds-overflow-hidden"
-        >
-          <div class="insights-content insights-content-image mds-p-around-3xl">
-            <h3
-              class="mds-font-size-2xl mds-font-weight-500 mds-m-bottom-lg truncate"
-            >
-              See how we’re creating positive social impact
-            </h3>
-            <p
-              class="insights-intro mds-font-weight-300 mds-font-size-base mds-m-bottom-2xl"
-            >
-              We’re making stores more sustainable to benefit people and their
-              local communities.
-            </p>
-            <a
-              href="/products"
-              class="router-link-active mds-button mds-button-primary_outlineWhiteBtn"
-            >
-              Learn more
-            </a>
-            <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
-            <p class="mds-height-px-125">&nbsp;</p>
-          </div>
-          <div class="insights-image">
-            <img
-              width="100%"
-              src="https://www.vusion.com/wp-content/uploads/2023/10/Stocksy_comp_4632429-2-400x0-c-default.jpg"
-              alt=""
-            />
+            <img width="100%" :src="commitment.image" alt="" />
           </div>
         </div>
       </div>
@@ -183,14 +136,14 @@
       <div
         class="mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase mds-letter-spacing-1 mds-font-weight-500"
       >
-        RELATED INSIGHTS
+        {{ positiveCommerceData.relatedInsights.label }}
       </div>
       <h2 class="mds-m-bottom-lg mds-font-size-4xl mds-width-60">
-        Learn how positive commerce solutions can impact your business
+        {{ positiveCommerceData.relatedInsights.header }}
       </h2>
       <div class="mds-m-top-6xl">
         <a
-          href="https://www.vusion.com/insights/driving-performance-sustainability-in-e-commerce-with-store-digitalization/"
+          :href="positiveCommerceData.relatedInsights.featuredInsight.href"
           class="mds-m-top-6xl mds-m-bottom-2xl"
         >
           <div class="mds-mobile-flex mds-height-px-500">
@@ -200,23 +153,41 @@
               <div
                 class="mds-letter-spacing-1 mds-font-weight-400 mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase"
               >
-                Announcements
+                {{
+                  positiveCommerceData.relatedInsights.featuredInsight.category
+                }}
               </div>
               <h3 class="mds-font-size-xl mds-font-weight-500 mds-m-bottom-lg">
-                Driving Performance & Sustainability in e-Commerce with Store
-                Digitalization
+                {{
+                  positiveCommerceData.relatedInsights.featuredInsight.header
+                }}
               </h3>
               <p
                 class="insights-intro mds-font-weight-400 mds-font-size-base mds-m-bottom-5xl"
+                v-if="
+                  positiveCommerceData.relatedInsights.featuredInsight
+                    .description
+                "
               >
-                &nbsp;
+                {{
+                  positiveCommerceData.relatedInsights.featuredInsight
+                    .description
+                }}
               </p>
+              <p
+                class="insights-intro mds-font-weight-400 mds-font-size-base mds-m-bottom-5xl"
+                v-else
+              ></p>
               <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
-              <div class="insights-meta">April 23, 2024 | 4 min read</div>
+              <div class="insights-meta">
+                {{ positiveCommerceData.relatedInsights.featuredInsight.meta }}
+              </div>
             </div>
             <div class="mds-width-70">
               <img
-                src="https://www.vusion.com/wp-content/uploads/2024/04/Capture-decran-2024-04-18-a-15.04.19-393x262-c-default.png"
+                :src="
+                  positiveCommerceData.relatedInsights.featuredInsight.image
+                "
                 class="mds-width-100 mds-height-100"
                 alt=""
               />
@@ -225,79 +196,37 @@
         </a>
         <div class="mds-grid mds-grid-size-3 mds-gap_column-lg">
           <a
-            href="https://www.vusion.com/insights/prathibha-rajashekhar-svp-automation-innovation-walmart-us-interview-at-nrf2024/"
+            v-for="insight in positiveCommerceData.relatedInsights.list"
+            :key="insight.id"
+            :href="insight.href"
             class="mds-flex-column"
           >
             <div class="insights-content insights-content-image">
               <div
                 class="mds-letter-spacing-1 mds-font-weight-400 mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase"
               >
-                Customer success story
+                {{ insight.category }}
               </div>
               <h3
                 class="mds-font-size-xl mds-font-weight-500 mds-m-bottom-lg truncate"
               >
-                Reduced food waste, enhanced operational efficiency: how
-                Kavanagh’s in Belsize Park saves 1 ton of CO2 eq. per month with
-                VusionGroup and Smartway?
-              </h3>
-              <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
-              <div class="insights-meta">March 12, 2024 | 3 min read</div>
-            </div>
-            <div class="insights-image">
-              <img
-                src="https://www.vusion.com/wp-content/uploads/2023/10/Imagotag-Belsize_001.00_27_06_13.Still002-393x262-c-default.png"
-                alt=""
-              />
-            </div>
-          </a>
-          <a
-            href="https://www.vusion.com/insights/ses-imagotag-achieves-ecovadis-platinum-sustainability-rating-for-the-second-consecutive-year/"
-          >
-            <div class="insights-content">
-              <div
-                class="mds-letter-spacing-1 mds-font-weight-400 mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase"
-              >
-                Announcements
-              </div>
-              <h3
-                class="mds-font-size-xl mds-font-weight-500 mds-m-bottom-lg truncate"
-              >
-                Prathibha Rajashekhar, SVP Automation & Innovation Walmart US,
-                interview at NRF2024
+                {{ insight.header }}
               </h3>
               <p
                 class="insights-intro mds-font-weight-300 mds-font-size-base mds-m-bottom-5xl"
+                v-if="insight.description"
               >
-                At NRF2024, we had the privilege of hosting Omni Talk Retail’s
-                Anne Mezzenga and Chris Walton on our booth as they interviewed
-                retail executives throughout the show. Among them, Prathibha
+                {{ insight.description }}
               </p>
-              <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
-              <div class="insights-meta">January 22, 2024 | 2 min read</div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="insights-content">
-              <div
-                class="mds-letter-spacing-1 mds-font-weight-400 mds-m-bottom-lg mds-font-size-md-2 mds-text-transform-uppercase"
-              >
-                Announcements
-              </div>
-              <h3 class="mds-font-size-xl mds-font-weight-500 mds-m-bottom-lg">
-                SES-imagotag achieves EcoVadis Platinum sustainability rating
-                for the second consecutive year
-              </h3>
               <p
-                class="insights-intro mds-font-weight-400 mds-font-size-base mds-m-bottom-5xl"
-              >
-                The leading provider of business sustainability ratings EcoVadis
-                has once again awarded SES-imagotag the Platinum rating for its
-                high commitment to sustainability, placing it in the top 1% of
-                the
-              </p>
+                class="insights-intro mds-font-weight-300 mds-font-size-base mds-m-bottom-5xl"
+                v-else
+              ></p>
               <div class="mds-border-top mds-m-top-3xl mds-p-bottom-md"></div>
-              <div class="insights-meta">December 14, 2023 | 3 min read</div>
+              <div class="insights-meta">{{ insight.meta }}</div>
+            </div>
+            <div class="insights-image" v-if="insight.image">
+              <img :src="insight.image" alt="" />
             </div>
           </a>
         </div>

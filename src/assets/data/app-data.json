@@ -520,6 +520,89 @@
         }
       ]
     },
+    "ourCommitments": {
+      "label": "Our Commitments",
+      "header": "We’re committed to making a positive impact on commerce",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/11/globe-dark.svg",
+      "list": [
+        {
+          "id": 1,
+          "header": "Learn how we’re driving sustainable retail",
+          "description": "We're reducing waste and improving efficiency to enable more sustainable stores.",
+          "link": {
+            "text": "Learn more",
+            "href": "https://www.vusion.com/positive-commerce/sustainable-retail/"
+          },
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Insights_FPO_IMG_2-400x0-c-default.png",
+          "additionalLinks": [
+            {
+              "text": "Explore our ESG Executive Summary 2023",
+              "href": "https://www.vusion.com/standard-terms-conditions-and-warranty-conditions/",
+              "icon": "https://www.vusion.com/wp-content/uploads/2023/11/ESG-icon.svg"
+            },
+            {
+              "text": "Explore our ESG report",
+              "href": "https://www.vusion.com/standard-terms-conditions-and-warranty-conditions/",
+              "icon": "https://www.vusion.com/wp-content/uploads/2023/11/ESG-icon.svg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "header": "See how we’re creating positive social impact",
+          "description": "We’re making stores more sustainable to benefit people and their local communities.",
+          "link": {
+            "text": "Learn more",
+            "href": "/products"
+          },
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Stocksy_comp_4632429-2-400x0-c-default.jpg",
+          "additionalLinks": []
+        }
+      ]
+    },
+    "relatedInsights": {
+      "label": "Related Insights",
+      "header": "Learn how positive commerce solutions can impact your business",
+      "featuredInsight": {
+        "id": 1,
+        "category": "Featured",
+        "header": "Driving Performance & Sustainability in e-Commerce with Store Digitalization",
+        "description": "",
+        "href": "https://www.vusion.com/insights/driving-performance-sustainability-in-e-commerce-with-store-digitalization/",
+        "image": "https://www.vusion.com/wp-content/uploads/2024/04/Capture-decran-2024-04-18-a-15.04.19-393x262-c-default.png",
+        "meta": "April 23, 2024 | 4 min read"
+      },
+      "list": [
+        {
+          "id": 2,
+          "category": "Customer success story",
+          "header": "Reduced food waste, enhanced operational efficiency: how Kavanagh’s in Belsize Park saves 1 ton of CO2 eq. per month with VusionGroup and Smartway?",
+          "description": "",
+          "href": "https://www.vusion.com/insights/prathibha-rajashekhar-svp-automation-innovation-walmart-us-interview-at-nrf2024/",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Imagotag-Belsize_001.00_27_06_13.Still002-393x262-c-default.png",
+          "meta": "March 12, 2024 | 3 min read"
+        },
+        {
+          "id": 3,
+          "category": "Announcements",
+          "header": "Prathibha Rajashekhar, SVP Automation & Innovation Walmart US, interview at NRF2024",
+          "description": "At NRF2024, we had the privilege of hosting Omni Talk Retail’s Anne Mezzenga and Chris Walton on our booth as they interviewed retail executives throughout the show. Among them, Prathibha",
+          "href": "https://www.vusion.com/insights/ses-imagotag-achieves-ecovadis-platinum-sustainability-rating-for-the-second-consecutive-year/",
+          "image": "",
+          "meta": "January 22, 2024 | 2 min read"
+        },
+        {
+          "id": 4,
+          "category": "Announcements",
+          "header": "SES-imagotag achieves EcoVadis Platinum sustainability rating for the second consecutive year",
+          "description": "The leading provider of business sustainability ratings EcoVadis has once again awarded SES-imagotag the Platinum rating for its high commitment to sustainability, placing it in the top 1% of the",
+          "href": "#",
+          "image": "",
+          "meta": "December 14, 2023 | 3 min read"
+        }
+      ]
+    },
+
     "SustainableRetail": {
       "intro": {
         "subHeader": "Postitive commerce",
@@ -621,7 +704,37 @@
       "FeaturesTwo": {
         "subtitle": "Carbon reduction",
         "header": "How our solutions work to avoid GHG emissions and decarbonize retail",
-        "image": "https://www.vusion.com/wp-content/uploads/2024/01/MicrosoftTeams-image-72-1540x1020-c-default.jpg"
+        "image": "https://www.vusion.com/wp-content/uploads/2024/01/MicrosoftTeams-image-72-1540x1020-c-default.jpg",
+        "eachBlockInfo": [
+          {
+            "id": "1",
+            "description": "Ultra-Energy-efficient solutions with battery-less IoT in the coming years"
+          },
+          {
+            "id": "2",
+            "description": "Our color e-paper technology for ESLs displays with minimal energy"
+          },
+          {
+            "id": "3",
+            "description": "Our R&D focuses on low-energy systems with more than 40% of our patents related to energy savings topics"
+          },
+          {
+            "id": "4",
+            "description": "Serverless/ infraless solutions avoid any additional infrastructure"
+          },
+          {
+            "id": "5",
+            "description": " We leverage your physical store to create micro-fulfillment centers and potentially avoid building order-picking warehouses"
+          },
+          {
+            "id": "6",
+            "description": "Our technologies are hosted on Microsoft’s Azure cloud, which has committed to powering 100% of its data centers with renewable electricity by 2025"
+          },
+          {
+            "id": "7",
+            "description": "We are committed to decreasing our carbon intensity by 40% by 2027 vs.2022"
+          }
+        ]
       },
       "OurCustomer": {
         "subtitle": "Our Customers",
@@ -638,6 +751,18 @@
         "position": "SVP Business Development of Wasteless — Sell More, Waste Less",
         "link": "https://player.vimeo.com/progressive_redirect/playback/782982324/rendition/1080p/file.mp4?loc=external&log_user=0&signature=57e5aff0b54780928d5dca275c036168883c36381937cf0457ce670b511b57fc",
         "image": "https://www.vusion.com/wp-content/uploads/2023/10/IMG-FPO-1-1-1440x1440-c-default.png"
+      },
+      "FoodWaste": {
+        "subtitle": "Food waste reduction",
+        "header": "Reducing food waste",
+        "description": "In partnership with Smartway, we developed Smartdetection Flash Evo, an award-winning solution for detecting products with short expiry dates in stores. Flashing labels signal soon-to-be expired products, and in less than 4 minutes, more than 500 products can be checked and discounted, eliminating hours spent in aisles identifying and removing soon-to-be-expired products.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/image-1515-1540x1020-c-default.png"
+      },
+      "Recycling": {
+        "subtitle": "Reduce, reuse, recycle",
+        "header": "Recycling ESLs and reducing carbon footprint",
+        "description": " are eco-designed to be repaired, reconditioned, and refurbished or recycled. Recycled ESLs are carefully inspected to recover components that can be reused for repairs in “second life” labels. We also decreased the volume of packaging used in the shipment of our products, saving on a yearly basis 212,152 kg of cardboard in 2023 compared to 2021.",
+        "image": "https://www.vusion.com/wp-content/uploads/2023/10/image-1516-1-1540x1020-c-default.png"
       },
       "Podcast": {
         "subtitle": "Our ESG Report",
@@ -2664,6 +2789,37 @@
       "description": "With Bluetooth-LE standards at its core, VusionOX is the backbone engineered for scalability, designed for upgradability and proven to integrate with over 120,000 devices in a single-store setup.",
       "image": "https://www.vusion.com/wp-content/uploads/2023/12/VusionOX-Logo-L3-1440x1440-c-default.png"
     },
+    "hero": {
+      "video": {
+        "src": "https://player.vimeo.com/progressive_redirect/playback/883266366/rendition/720p/file.mp4?loc=external&log_user=0&signature=a8f4996ca4525c6d9d74276c20a39726a695502a028dd5325c1ce380493baeb1#t=0.001"
+      },
+      "header": "We are VusionGroup.",
+      "button": {
+        "text": "Search All Jobs",
+        "href": "https://careers.smartrecruiters.com/VusionGroupSA/all-job-offers"
+      }
+    },
+    "overview": {
+      "header": "Ready for whatever comes next.",
+      "paragraphs": [
+        {
+          "text": "VusionGroup is a fast-growing, fast-paced retail tech company.",
+          "class": "mds-font-size-base-2 mds-font-weight-300 mds-m-top-md mds-line-height-xl mds-width-60"
+        },
+        {
+          "text": "We invent technologies that create a positive impact on society by enabling sustainable and human-centered commerce.",
+          "class": "mds-font-size-base-2 mds-font-weight-600 mds-m-top-md mds-line-height-xl mds-width-70"
+        },
+        {
+          "text": "When we bring together innovative, global talent and put the power of an IoT and data solutions leader behind great ideas, we see what happens: technologies emerge, partnerships forge, experiences improve, and communities thrive.",
+          "class": "mds-font-size-base-2 mds-font-weight-400 mds-m-top-lg mds-line-height-xl mds-width-70"
+        },
+        {
+          "text": "We believe entrepreneurship is a calling—and our start-up spirit will empower your ambition.",
+          "class": "mds-font-size-base-2 mds-m-top-md mds-line-height-xl mds-width-70"
+        }
+      ]
+    },
     "videos": [
       {
         "poster": "https://www.vusion.com/wp-content/uploads/2024/01/career-V4.png",
@@ -2693,6 +2849,289 @@
       "header": "Vusion OX enables a unified retail IoT ecosystem.",
       "description": "Vusion-Enabled IoT devices benefit from a plug-n-play bridge to the Vusion IoT platform, scalability for high density areas, enhanced security for pricing information and data integration.",
       "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_L2_Vusion_Live_Hero@2x-1540x1020-c-default.png"
+    },
+    "careerPaths": {
+      "label": "Explore Career Paths",
+      "header": "We accelerate.<br/>  We shape our own careers.",
+      "descriptions": [
+        "Experience the freedom to shape the future of your career.",
+        "Take advantage of e-learning programs, workshops, and seminars. Explore global mobility and internal opportunities to grow your career.",
+        "If you enjoy taking on new challenges and doing what’s right in everything you say and do — find what’s next for you at VusionGroup."
+      ],
+      "list": [
+        {
+          "id": 1,
+          "category": "See our job offers",
+          "header": "Software, cloud, data & hardware engineering",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/software-and-hardware-engineering",
+          "image": "https://www.vusion.com/wp-content/uploads/2024/01/LEA170423C13574-800x0-c-default.jpg"
+        },
+        {
+          "id": 2,
+          "category": "See our job offers",
+          "header": "Sales & account management",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/sales-and-account-management",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/career-paths-2-800x0-c-default.jpg"
+        },
+        {
+          "id": 3,
+          "category": "See our job offers",
+          "header": "Corporate functions (HR, finance, legal, marketing)",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/corporate-functions",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/career-paths-3-800x0-c-default.jpg"
+        },
+        {
+          "id": 4,
+          "category": "See our job offers",
+          "header": "Technical customer support",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/technical-customer-support",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/12/Sans-titre-3-800x0-c-default.png"
+        },
+        {
+          "id": 5,
+          "category": "See our job offers",
+          "header": "Supply chain & manufacturing",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/supply-chain-and-manufacturing",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/career-paths-6-800x0-c-default.jpg"
+        },
+        {
+          "id": 6,
+          "category": "See our job offers",
+          "header": "Project management",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/project-management",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/career-paths-5-800x0-c-default.jpg"
+        }
+      ]
+    },
+    "visualize": {
+      "header": "We visualize.<br/> We make it happen.",
+      "description": "We are innovators, entrepreneurs, and doers with a global mindset. We are an international team curious about the world. Cultural diversity is part of our DNA. It is a tremendous strength as we work together to serve retailers everywhere. By thinking big and working as one team, we will build the largest retail IoT platform and continue to make a positive impact on the planet.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/LEA170423C0346-1540x1020-c-default.jpg"
+    },
+    "impact": {
+      "header": "We impact.<br/> We help communities thrive.",
+      "descriptions": [
+        "Our mission is to transform physical stores into high-value digital assets.",
+        "You are the key to our success: agile thinkers, tech makers, and change agents who dream about the future of retail—who aren’t afraid to take risks, fail, and learn from mistakes.",
+        "No matter your role at VusionGroup, you will reinvent and reimagine modern commerce—sustainably and ethically."
+      ],
+      "links": [
+        {
+          "text": "Read our commitment to gender equality",
+          "href": "https://www.vusion.com/insights/ses-imagotag-to-further-strengthen-commitment-to-gender-equality-in-signing-un-womens-empowerment-principles/"
+        },
+        {
+          "text": "Learn more about ESG",
+          "href": "https://www.vusion.com/positive-commerce/"
+        }
+      ]
+    },
+    "glance": {
+      "header": "VusionGroup at a glance.",
+      "list": [
+        {
+          "id": 1,
+          "value": "1000",
+          "description": "employees",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Employees_Icon-1.svg"
+        },
+        {
+          "id": 2,
+          "value": "24+",
+          "description": "languages spoken",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Languages_Icon-1.svg"
+        },
+        {
+          "id": 3,
+          "value": "59+",
+          "description": "nationalities",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Nationalities_Icon-1.svg"
+        },
+        {
+          "id": 4,
+          "value": "+34%",
+          "description": "of employees are women",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Women_Icon-1.svg"
+        },
+        {
+          "id": 5,
+          "value": "25",
+          "description": "offices in 18 countries",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Offices_Icon-1.svg"
+        },
+        {
+          "id": 6,
+          "value": "50,000",
+          "description": "stores in 60+ countries",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Stores_Icon-1.svg"
+        }
+      ]
+    },
+    "lead": {
+      "header": "We lead.<br/> We don’t stop.",
+      "description": "Now, more than ever, digitalization is top of mind for retailers and brands. As the global leader in Electronic Shelf Labels (ESL) and digital solutions for physical commerce, we consider the customer first in every decision. We bring physical and digital retail together to enable next-gen stores.",
+      "link": {
+        "text": "Explore what we do",
+        "href": "https://www.weforum.org/stories/2022/09/retail-stores-into-ecommerce-centres-avoid-carbon-emissions/"
+      },
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/LEA170423C0150-1540x1020-c-default.jpg",
+      "eslLink": {
+        "text": "Electronic Shelf Labels (ESL)",
+        "href": "/sesimagotag/electronic-shelf-labels"
+      }
+    },
+    "instagram": {
+      "header": "See us in action on Instagram.",
+      "list": [
+        {
+          "id": 1,
+          "header": "Integration day in Paris for our newest employees from all over the world.",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/software-and-hardware-engineering",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/careers-cards-1-800x0-c-default.jpg"
+        },
+        {
+          "id": 2,
+          "header": "A truly global onboarding day with newcomers from Europe, Asia and the Americas!",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/sales-and-account-management",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/careers-cards-2-800x0-c-default.jpg"
+        },
+        {
+          "id": 3,
+          "header": "There is no Sales, without administration.",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/corporate-functions",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/11/careers-cards-3-800x0-c-default.jpg"
+        }
+      ],
+      "button": {
+        "text": "Follow us on Instagram",
+        "href": "https://www.vusion.com/insights/ses-imagotag-to-further-strengthen-commitment-to-gender-equality-in-signing-un-womens-empowerment-principles/"
+      }
+    },
+    "hiringProcess": {
+      "header": "How we hire",
+      "list": [
+        {
+          "id": 1,
+          "description": "Take the next step and submit your application along with your resume or CV.",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/1.svg"
+        },
+        {
+          "id": 2,
+          "description": "From there, a Talent Acquisition team member will review it.",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/2.svg"
+        },
+        {
+          "id": 3,
+          "description": "If your background is a match for a current job opening, we will email you.",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/3.svg"
+        },
+        {
+          "id": 4,
+          "description": "Please know, we take time to review and consider everyone who applies.",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/4.svg"
+        }
+      ]
+    },
+    "callToAction": {
+      "header": "Are you ready for what’s next?",
+      "description": "Join us and develop the future of retail.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/LEA170423C12985-1440x1440-c-default.jpg",
+      "buttons": [
+        {
+          "text": "Search all jobs",
+          "href": "https://careers.smartrecruiters.com/VusionGroupSA/all-job-offers"
+        },
+        {
+          "text": "Read Our HR Data Privacy Policy",
+          "href": "https://www.vusion.com/hr-data-privacy-policy/"
+        }
+      ]
+    },
+    "techStack": {
+      "subHeader": "build with our tech",
+      "header": "We invent. <br/> We pave the way.",
+      "description": "We are VusionGroup, the leading IoT cloud platform. Our engineers push the boundaries of technology to help retailers transform their physical stores into data-driven, connected shopping experiences. Teaming up with our world-class engineering and product teams, we relentlessly strive to meet and exceed the dynamic needs of our customers. With an eye on tomorrow, and fuelled by the transformative potential of data, our mission is to continuously disrupt retail—leveraging the power scaled IoT Management, Computer Vision, AI, Predictive Analytics, and beyond.",
+      "list": [
+        {
+          "id": 1,
+          "header": "Back-end: Java, NodeJS"
+        },
+        {
+          "id": 2,
+          "header": "Front-end: Angular 12 and 14, typescript/CSS"
+        },
+        {
+          "id": 3,
+          "header": "Cloud: Azure stack (service Bus, VSTS for QA), GCP"
+        },
+        {
+          "id": 4,
+          "header": "Database: elasticsearch, MongoDB, CosmoDB"
+        },
+        {
+          "id": 5,
+          "header": "Dockers: Azure Kubernetes"
+        }
+      ]
+    },
+    "benefits": {
+      "header": "We trust. We feel supported.",
+      "descriptions": [
+        "VusionGroup is a place where people feel safe, happy, and respected. People treat others as they would like to be treated. And, as an organization, there are programs in place to support you.",
+        "Our benefits are designed for whatever comes next in your life."
+      ],
+      "list": [
+        {
+          "id": 1,
+          "header": "Competitive compensation",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Compensation_Icon.svg"
+        },
+        {
+          "id": 2,
+          "header": "Shareholder equity",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Shareholder_Icon.svg"
+        },
+        {
+          "id": 3,
+          "header": "Hybrid work",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Hybrid_Icon.svg"
+        },
+        {
+          "id": 4,
+          "header": "Schedule flexibility",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Schedule_Flexibility_Icon.svg"
+        },
+        {
+          "id": 5,
+          "header": "Work-life balance",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Work_Life_Balance_Icon.svg"
+        },
+        {
+          "id": 6,
+          "header": "Health & wellness benefits",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Health_and_Wellness_Icon.svg"
+        },
+        {
+          "id": 7,
+          "header": "Highest social standards",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Social_Icon.svg"
+        },
+        {
+          "id": 8,
+          "header": "Family-first benefits",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Family_First_Icon.svg"
+        },
+        {
+          "id": 9,
+          "header": "Learning & development",
+          "image": "https://www.vusion.com/wp-content/uploads/2023/10/Vusion_Learning_Development_Icon.svg"
+        }
+      ]
+    },
+    "listen": {
+      "header": "We listen. <br/> We respect one another.",
+      "description": "VusionGroup is large enough to offer stability, yet human enough to know you and your work. Here, you’ll be part of a globally distributed team that builds trust-based relationships. Your co-workers are intellectually curious, committed, and collaborative. The work is fast-paced, challenging, and ambitious. It will take agility and flexibility to keep up with our pace of change. You will move confidently in and out of autonomous and team work. Each day, you will feel valued for your contributions and make a positive impact.",
+      "image": "https://www.vusion.com/wp-content/uploads/2023/10/LEA170423C0068-1540x1020-c-default.jpg"
     }
   }
 }
