@@ -2123,6 +2123,36 @@
       }
     },
     "MemoryPulse": {
+      "hero": {
+        "label": "Pulse Retail Intelligence",
+        "header": "Optimize store performance",
+        "description": "Increase sales and reduce waste with retail AI.",
+        "image": {
+          "src": "https://www.vusion.com/wp-content/uploads/2023/11/header-V3-1440x1440-c-default.jpg"
+        }
+      },
+      "analytics": {
+        "label": "High-performance retail analytics",
+        "header": "Get actionable insights for store improvements",
+        "description": "Our Pulse platform is an AI-powered analytics solution that helps identify inefficiencies and make recommendations on practical ways to improve the bottom line for retailers. Pulse analyzes data from the aisles, point of sale (POS) information, and third-party sources to reduce waste, improve inventory turnover, and optimize store workflows.",
+        "features": [
+          {
+            "id": 1,
+            "header": "Reduce inventory waste",
+            "description": "Identify waste issues and get tailored recommendations on how to reduce waste for individual products."
+          },
+          {
+            "id": 2,
+            "header": "Set competitive pricing",
+            "description": "Compare prices against competitors and automatically display promotional messaging on the shelf to inform shoppers when your price is better."
+          },
+          {
+            "id": 3,
+            "header": "Make your data work harder",
+            "description": "Uncover the real value of data-driven choices by optimizing assortment, streamlining operations, and positively impacting the bottom line."
+          }
+        ]
+      },
       "testimonials": {
         "logos": [
           {
@@ -2164,6 +2194,104 @@
             "id": 8,
             "image": "https://www.vusion.com/wp-content/uploads/2023/12/wayfair-logos-id-rIpy3sc-0x80-c-default.png",
             "alt": "Wayfair logo"
+          }
+        ]
+      },
+      "benefits": {
+        "label": "Pulse Benefits",
+        "header": "How the Pulse family of products works in-store",
+        "description": "Software systems work together and easily integrate with your existing ERP to provide insights that optimize store performance.",
+        "image": {
+          "src": "https://www.vusion.com/wp-content/uploads/2023/11/Pulse_Information-1440x1440-c-default.png",
+          "alt": ""
+        },
+        "features": [
+          {
+            "id": 1,
+            "header": "Get custom analysis and reporting",
+            "description": "Tailor monitoring and reporting to your business needs. Measure sales performance and easily identify issues and priorities.",
+            "icon": "https://www.vusion.com/wp-content/uploads/2023/11/Pulse_Get_custom_analysis_and_Reporting-50x50-c-default.png"
+          },
+          {
+            "id": 2,
+            "header": "Make evidence-based decisions",
+            "description": "Inform better decision-making with AI recommendations and simulate product or pricing models to see estimates on their ROI impact.",
+            "icon": "https://www.vusion.com/wp-content/uploads/2023/11/Pulse_Make_evidence-based_decisions-50x50-c-default.png"
+          },
+          {
+            "id": 3,
+            "header": "Measure impact immediately",
+            "description": "Harness the power of your data from IoT devices on the shop floor and trigger actions in the aisles for immediate impact on store performance.",
+            "icon": "https://www.vusion.com/wp-content/uploads/2023/11/Pulse_Measure_impact_Immediately%E2%80%AF-50x50-c-default.png"
+          },
+          {
+            "id": 4,
+            "header": "Drill down into sales data",
+            "description": "Get a complete view of your store sales information with a dashboard that displays sales, margin, and baskets data as well as waste, refunds, and voids.",
+            "icon": "https://www.vusion.com/wp-content/uploads/2023/11/Pulse_-Drill_down_into_sales_data%E2%80%AF-50x50-c-default.png"
+          }
+        ]
+      },
+      "efficiency": {
+        "label": "Efficiency",
+        "header": "Ground your decision-making with trusted insights to boost efficiencies",
+        "description": [
+          "Manage store sales: Highlight products where inventory management can be improved.",
+          "Improve pricing: Identify products where price can be increased or where costs have increased.",
+          "Notify associates of actions: Display subtle messages to floor staff on your ESL to indicate an issue is present with a product and needs action.",
+          "Measure promotions: Measure promotions and sales activity across multiple stores.",
+          "Manage your store strategically: Understand store, category, or product performance and compare with previous trends."
+        ],
+        "image": {
+          "src": "https://www.vusion.com/wp-content/uploads/2023/11/manage-products-stocks-1540x1020-c-default.png",
+          "alt": ""
+        }
+      },
+      "roi": {
+        "label": "ROI",
+        "header": "See Pulse’s ROI impact",
+        "description": [
+          "2% Increase in sales on categories by improving assortment choice",
+          "2% increase on sales thanks to merchandising",
+          "20% uplift on products with competitor messaging",
+          "97% sell-through in new store",
+          "Up to 10 M€ monetization revenues",
+          "2% Increase in sales on categories operating the collaborative model"
+        ],
+        "image": {
+          "src": "https://www.vusion.com/wp-content/uploads/2023/12/Video02_01_BWRY__FullColour_Figma_Sub_00004-scaled-1540x1020-c-default.jpg",
+          "alt": ""
+        }
+      },
+      "relatedInsights": {
+        "label": "Related Insights",
+        "insights": [
+          {
+            "id": 1,
+            "category": "Announcements",
+            "header": "Finding profit in the data – SES-imagotag launches its latest version of Pulse, a solution to optimize stores with AI-driven analytics",
+            "meta": "June 28, 2023 | 7 min read",
+            "href": "#",
+            "image": {
+              "src": "https://www.vusion.com/wp-content/uploads/2023/06/pulse-393x262-c-default.png",
+              "alt": ""
+            }
+          },
+          {
+            "id": 2,
+            "category": "Customer success story",
+            "header": "MPK Garages selects SES-imagotag for the digitization and trading analytics of 30 stores across the UK",
+            "intro": "SES-imagotag (Euronext: SESL, FR0010282822), the global leader in digital solutions for physical retail, today announced that it has been selected to roll-out its cutting-edge technology in the stores of MPK",
+            "meta": "June 22, 2022 | 4 min read",
+            "href": "#"
+          },
+          {
+            "id": 3,
+            "category": "Announcements",
+            "header": "SES-imagotag completes the acquisition of Irish data analytics start-up MarketHub with founder Roy Horgan to join SES-imagotag’s executive team",
+            "intro": "SES-imagotag, (Euronext: SESL, FR0010282822) the global leader in IoT solutions and smart labels for physical retail, deepens its investment into intelligent retail by completing the 100% acquisition of Irish data",
+            "meta": "January 5, 2022 | 3 min read",
+            "href": "#"
           }
         ]
       }
